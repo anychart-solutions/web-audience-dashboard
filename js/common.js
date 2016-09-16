@@ -208,7 +208,7 @@
             chart.title(title);
             chart.padding('0px');
             chart.tooltip().textFormatter(function () {
-                return 'Users: ' + this.value + '\n' + 'Percent Value: '
+                return label_text + ': ' + this.value + '\n' + 'Percent Value: '
             });
 
             // set chart labels settings
