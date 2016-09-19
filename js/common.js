@@ -39,13 +39,13 @@
         // create chart - Audience Location
         createMap(data['location'], 'audience-location', 'Audience location');
         // create chart - Age Category
-        createPieChart(data['age_info'], 'age-category', 'Visit by age category', 'Users');
+        createPieChart(data['age_info'], 'age-category', 'Visit by age category');
         // create chart - Blog Visitors
         createStockChart_1(data['visitors']['blog_visitors'], 'blog-visitors', 'Blog Visitors');
         // create chart - Device Category
-        createPieChart(data['device_info'], 'device-category', 'Visit by device category', 'Visitors');
+        createPieChart(data['device_info'], 'device-category', 'Visit by device category');
         // create chart - Viewer's mobile devices
-        createPieChart(data['device_info']['mobile'], 'mobile-devices', 'Viewer\'s mobile devices', 'Visitors');
+        createPieChart(data['device_info']['mobile'], 'mobile-devices', 'Viewer\'s mobile devices');
 
         // create table - How is your blog found
         createDataTable(data['visitors']['blog_visitors']['blog_url'], $blog_found);
@@ -108,6 +108,7 @@
         function createMap(data, container, title) {
             var map;
             var data_map = [];
+            var world_map = anychart.maps.world.features;
             var count = data['values'].reduce(function (a, b) {
                 return a + b;
             });
@@ -119,6 +120,15 @@
                         'value': data['values'][i]
                     }
                 );
+            }
+
+            for (var j = 0; j < world_map.length; j++) {
+                if (data['names'].indexOf(world_map[j].properties.id) === -1) {
+                    data_map.push({
+                        'id': world_map[j].properties.id,
+                        'value': 0
+                    });
+                }
             }
 
             map = anychart.map();
@@ -143,14 +153,16 @@
             });
 
             var scale = anychart.scales.ordinalColor([
-                {less: 5},
-                {from: 6, to: 9},
-                {from: 10, to: 15},
-                {from: 16, to: 21},
-                {greater: 21}
+                {less: 0},
+                {from: 1, to: 10},
+                {from: 10, to: 20},
+                {from: 20, to: 40},
+                {from: 40, to: 75},
+                {greater: 75}
             ]);
             scale.colors(
                 [
+                    '#A5B3B3',
                     '#4fc3f7',
                     '#039be5',
                     '#0288d1',
@@ -172,7 +184,11 @@
                 } else if (isFinite(range.start)) {
                     name = '> ' + range.start;
                 } else {
-                    name = '< ' + range.end;
+                    if (range.end === 0) {
+                        name = range.end;
+                    } else {
+                        name = '< ' + range.end;
+                    }
                 }
                 return name
             });
@@ -182,7 +198,7 @@
             map.draw();
         }
 
-        function createPieChart(data, container, title, label_text) {
+        function createPieChart(data, container, title) {
             var chart;
             var data_chart = [];
             var count = data['values'].reduce(function (a, b) {
@@ -208,7 +224,7 @@
             chart.title(title);
             chart.padding('0px');
             chart.tooltip().textFormatter(function () {
-                return label_text + ': ' + this.value + '\n' + 'Percent Value: '
+                return 'Visitors: ' + this.value + '\n' + 'Percent Value: '
             });
 
             // set chart labels settings
@@ -232,7 +248,7 @@
 
             // set chart label settings
             var label_2 = chart.label(1);
-            label_2.text('<span style="20px; color: #bbb;">' + label_text + '</span>');
+            label_2.text('<span style="20px; color: #bbb;">' + 'Visitors' + '</span>');
             label_2.position("center");
             label_2.anchor("center");
             label_2.offsetY("15px");
@@ -454,7 +470,7 @@
             if (data[i]['age']) {
                 for (j = 0; j < age_categories.length; j++) {
                     var tmp = age_categories_values[j][1] === 'x' ? (+data[i]['age'] + 1) : age_categories_values[j][1];
-                    if (age_categories_values[j][0] <= data[i]['age'] && tmp >= data[i]['age'] && data[i]['unique'] === 'true') {
+                    if (age_categories_values[j][0] <= data[i]['age'] && tmp >= data[i]['age']) {
                         age_values[j] += 1;
                         break;
                     }
@@ -469,10 +485,10 @@
         for (i = 0; i < data.length; i++) {
             index = date_categories.indexOf(data[i]['date']);
             if (index !== -1) {
+                visitors[index]++;
                 if (data[i]['unique'] === 'true') {
                     unique_visitors[index]++;
                 }
-                visitors[index]++;
             }
             index = location_categories.indexOf(data[i]['location']);
             if (index !== -1) {

@@ -46,7 +46,7 @@ function visitors_data() {
             "unique": "true",
             "url": "company",
             "device": "Google Pixel C",
-            "location": "GP",
+            "location": "AU",
             "from": "ECMA Script company",
             "keywords": "resources"
         },
@@ -56,7 +56,7 @@ function visitors_data() {
             "unique": "false",
             "url": "company",
             "device": "Chrome",
-            "location": "SO",
+            "location": "CN",
             "from": "ECMA Script company",
             "keywords": "service"
         },
@@ -96,7 +96,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Ipad",
-            "location": "AI",
+            "location": "AU",
             "from": "Pan Pacific",
             "keywords": "public"
         },
@@ -126,7 +126,7 @@ function visitors_data() {
             "unique": "true",
             "url": "products",
             "device": "Safari",
-            "location": "SM",
+            "location": "AU",
             "from": "ACME Corporation",
             "keywords": "customer"
         },
@@ -146,7 +146,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Samsung Galaxy S6",
-            "location": "Co",
+            "location": "AU",
             "from": "Pan Pacific",
             "keywords": "development"
         },
@@ -176,7 +176,7 @@ function visitors_data() {
             "unique": "true",
             "url": "download",
             "device": "Chrome",
-            "location": "Co",
+            "location": "AU",
             "from": "Ajax Corporation",
             "keywords": "public"
         },
@@ -196,7 +196,7 @@ function visitors_data() {
             "unique": "true",
             "url": "download",
             "device": "Iphone",
-            "location": "VI",
+            "location": "AU",
             "from": "bing",
             "keywords": "public"
         },
@@ -216,7 +216,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Customer Service",
             "device": "Mozilla",
-            "location": "LC",
+            "location": "AU",
             "from": "bing",
             "keywords": "advertising"
         },
@@ -226,7 +226,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Finances",
             "device": "Mozilla",
-            "location": "MH",
+            "location": "AU",
             "from": "yandex",
             "keywords": "service"
         },
@@ -236,7 +236,7 @@ function visitors_data() {
             "unique": "false",
             "url": "contact",
             "device": "Apple TV 4th Gen",
-            "location": "VC",
+            "location": "AU",
             "from": "yandex",
             "keywords": "legal"
         },
@@ -346,7 +346,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Nexus 6P",
-            "location": "FM",
+            "location": "AU",
             "from": "ACME Corporation",
             "keywords": "service"
         },
@@ -356,7 +356,7 @@ function visitors_data() {
             "unique": "true",
             "url": "products",
             "device": "Chrome",
-            "location": "Pr",
+            "location": "AU",
             "from": "ECMA Script company",
             "keywords": "resources"
         },
@@ -396,7 +396,7 @@ function visitors_data() {
             "unique": "false",
             "url": "features",
             "device": "Mozilla",
-            "location": "PM",
+            "location": "US",
             "from": "Ajax Corporation",
             "keywords": "public"
         },
@@ -416,7 +416,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Payroll",
             "device": "Safari",
-            "location": "YT",
+            "location": "US",
             "from": "yandex",
             "keywords": "development"
         },
@@ -446,7 +446,7 @@ function visitors_data() {
             "unique": "false",
             "url": "search",
             "device": "Chrome",
-            "location": "GD",
+            "location": "US",
             "from": "google",
             "keywords": "media"
         },
@@ -486,7 +486,7 @@ function visitors_data() {
             "unique": "false",
             "url": "company",
             "device": "Iphone",
-            "location": "SO",
+            "location": "CN",
             "from": "unknown",
             "keywords": "marketing"
         },
@@ -516,7 +516,7 @@ function visitors_data() {
             "unique": "false",
             "url": "features",
             "device": "Ipad",
-            "location": "WS",
+            "location": "US",
             "from": "ACME Corporation",
             "keywords": "advertising"
         },
@@ -546,7 +546,7 @@ function visitors_data() {
             "unique": "true",
             "url": "customers",
             "device": "Chrome",
-            "location": "SO",
+            "location": "CN",
             "from": "yandex",
             "keywords": "quality"
         },
@@ -596,7 +596,7 @@ function visitors_data() {
             "unique": "false",
             "url": "features",
             "device": "Mozilla",
-            "location": "TO",
+            "location": "US",
             "from": "google",
             "keywords": "payroll"
         },
@@ -606,7 +606,7 @@ function visitors_data() {
             "unique": "true",
             "url": "features",
             "device": "Safari",
-            "location": "SM",
+            "location": "AU",
             "from": "Morley Group",
             "keywords": "finances"
         },
@@ -636,7 +636,7 @@ function visitors_data() {
             "unique": "false",
             "url": "search",
             "device": "Mozilla",
-            "location": "MF",
+            "location": "US",
             "from": "unknown",
             "keywords": "resources"
         },
@@ -656,7 +656,7 @@ function visitors_data() {
             "unique": "false",
             "url": "company",
             "device": "Ipad",
-            "location": "Pr",
+            "location": "AU",
             "from": "ECMA Script company",
             "keywords": "marketing"
         },
@@ -666,7 +666,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Chrome",
-            "location": "VC",
+            "location": "AU",
             "from": "Pan Pacific",
             "keywords": "accounting"
         },
@@ -716,7 +716,7 @@ function visitors_data() {
             "unique": "false",
             "url": "contact",
             "device": "Chrome",
-            "location": "Co",
+            "location": "AU",
             "from": "unknown",
             "keywords": "customer"
         },
@@ -726,7 +726,7 @@ function visitors_data() {
             "unique": "true",
             "url": "download",
             "device": "Chrome",
-            "location": "KM",
+            "location": "US",
             "from": "ECMA Script company",
             "keywords": "service"
         },
@@ -736,7 +736,7 @@ function visitors_data() {
             "unique": "true",
             "url": "support",
             "device": "Amazon Kindle Fire HDX 7",
-            "location": "VU",
+            "location": "US",
             "from": "bing",
             "keywords": "service"
         },
@@ -756,7 +756,7 @@ function visitors_data() {
             "unique": "true",
             "url": "partners",
             "device": "Microsoft Lumia 950",
-            "location": "LI",
+            "location": "US",
             "from": "ACME Corporation",
             "keywords": "resources"
         },
@@ -776,7 +776,7 @@ function visitors_data() {
             "unique": "false",
             "url": "support",
             "device": "Edge",
-            "location": "SH",
+            "location": "US",
             "from": "ECMA Script company",
             "keywords": "finances"
         },
@@ -786,7 +786,7 @@ function visitors_data() {
             "unique": "false",
             "url": "support",
             "device": "Safari",
-            "location": "RE",
+            "location": "US",
             "from": "ECMA Script company",
             "keywords": "service"
         },
@@ -806,7 +806,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Tech Support",
             "device": "Mozilla",
-            "location": "HM",
+            "location": "US",
             "from": "Morley Group",
             "keywords": "development"
         },
@@ -826,7 +826,7 @@ function visitors_data() {
             "unique": "false",
             "url": "contact",
             "device": "Opera",
-            "location": "MS",
+            "location": "RU",
             "from": "google",
             "keywords": "legal"
         },
@@ -856,7 +856,7 @@ function visitors_data() {
             "unique": "true",
             "url": "roadmap",
             "device": "Edge",
-            "location": "BS",
+            "location": "RU",
             "from": "Pan Pacific",
             "keywords": "customer"
         },
@@ -876,7 +876,7 @@ function visitors_data() {
             "unique": "true",
             "url": "products",
             "device": "Edge",
-            "location": "SM",
+            "location": "AU",
             "from": "ACME Corporation",
             "keywords": "accounting"
         },
@@ -966,7 +966,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Advertising",
             "device": "Edge",
-            "location": "GP",
+            "location": "AU",
             "from": "bing",
             "keywords": "payroll"
         },
@@ -986,7 +986,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Samsung Galaxy S6",
-            "location": "SG",
+            "location": "RU",
             "from": "yandex",
             "keywords": "quality"
         },
@@ -1036,7 +1036,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Human Resources",
             "device": "Mozilla",
-            "location": "KY",
+            "location": "RU",
             "from": "bing",
             "keywords": "legal"
         },
@@ -1066,7 +1066,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog",
             "device": "Amazon Kindle Fire HDX 7",
-            "location": "AQ",
+            "location": "RU",
             "from": "yandex",
             "keywords": "payroll"
         },
@@ -1086,7 +1086,7 @@ function visitors_data() {
             "unique": "false",
             "url": "customers",
             "device": "Safari",
-            "location": "Pr",
+            "location": "AU",
             "from": "unknown",
             "keywords": "development"
         },
@@ -1106,7 +1106,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Chrome",
-            "location": "FO",
+            "location": "RU",
             "from": "yandex",
             "keywords": "development"
         },
@@ -1126,7 +1126,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Payroll",
             "device": "Opera",
-            "location": "BQ",
+            "location": "RU",
             "from": "yandex",
             "keywords": "public"
         },
@@ -1136,7 +1136,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Chrome",
-            "location": "TK",
+            "location": "RU",
             "from": "Ajax Corporation",
             "keywords": "customer"
         },
@@ -1146,7 +1146,7 @@ function visitors_data() {
             "unique": "true",
             "url": "products",
             "device": "Edge",
-            "location": "IM",
+            "location": "RU",
             "from": "Pan Pacific",
             "keywords": "payroll"
         },
@@ -1186,7 +1186,7 @@ function visitors_data() {
             "unique": "false",
             "url": "company",
             "device": "Samsung Galaxy S6",
-            "location": "DM",
+            "location": "RU",
             "from": "Morley Group",
             "keywords": "development"
         },
@@ -1206,7 +1206,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Opera",
-            "location": "BB",
+            "location": "RU",
             "from": "Pan Pacific",
             "keywords": "marketing"
         },
@@ -1226,7 +1226,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Opera",
-            "location": "AX",
+            "location": "RU",
             "from": "google",
             "keywords": "support"
         },
@@ -1276,7 +1276,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Samsung Galaxy S6",
-            "location": "AS",
+            "location": "RU",
             "from": "ACME Corporation",
             "keywords": "management"
         },
@@ -1286,7 +1286,7 @@ function visitors_data() {
             "unique": "false",
             "url": "roadmap",
             "device": "Opera",
-            "location": "WF",
+            "location": "RU",
             "from": "unknown",
             "keywords": "media"
         },
@@ -1326,7 +1326,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Research and Development",
             "device": "Samsung Galaxy Tab A",
-            "location": "TC",
+            "location": "RU",
             "from": "ACME Corporation",
             "keywords": "finances"
         },
@@ -1346,7 +1346,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Public Relations",
             "device": "Chrome",
-            "location": "HK",
+            "location": "US",
             "from": "bing",
             "keywords": "development"
         },
@@ -1376,7 +1376,7 @@ function visitors_data() {
             "unique": "false",
             "url": "features",
             "device": "Mozilla",
-            "location": "BV",
+            "location": "US",
             "from": "bing",
             "keywords": "public"
         },
@@ -1406,7 +1406,7 @@ function visitors_data() {
             "unique": "true",
             "url": "features",
             "device": "Chrome",
-            "location": "CW",
+            "location": "US",
             "from": "ACME Corporation",
             "keywords": "management"
         },
@@ -1436,7 +1436,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Google Pixel C",
-            "location": "GM",
+            "location": "US",
             "from": "ACME Corporation",
             "keywords": "customer"
         },
@@ -1476,7 +1476,7 @@ function visitors_data() {
             "unique": "false",
             "url": "customers",
             "device": "Ipad",
-            "location": "CK",
+            "location": "AU",
             "from": "Pan Pacific",
             "keywords": "quality"
         },
@@ -1486,7 +1486,7 @@ function visitors_data() {
             "unique": "false",
             "url": "partners",
             "device": "Samsung Galaxy S6",
-            "location": "KI",
+            "location": "AU",
             "from": "Morley Group",
             "keywords": "public"
         },
@@ -1496,7 +1496,7 @@ function visitors_data() {
             "unique": "false",
             "url": "search",
             "device": "Chrome",
-            "location": "SM",
+            "location": "AU",
             "from": "bing",
             "keywords": "quality"
         },
@@ -1556,7 +1556,7 @@ function visitors_data() {
             "unique": "false",
             "url": "download",
             "device": "Iphone",
-            "location": "WF",
+            "location": "RU",
             "from": "ACME Corporation",
             "keywords": "accounting"
         },
@@ -1576,7 +1576,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Payroll",
             "device": "Chrome",
-            "location": "CV",
+            "location": "CA",
             "from": "google",
             "keywords": "legal"
         },
@@ -1636,7 +1636,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog",
             "device": "Chrome",
-            "location": "SH",
+            "location": "US",
             "from": "Morley Group",
             "keywords": "legal"
         },
@@ -1756,7 +1756,7 @@ function visitors_data() {
             "unique": "true",
             "url": "support",
             "device": "Safari",
-            "location": "MU",
+            "location": "CA",
             "from": "ACME Corporation",
             "keywords": "public"
         },
@@ -1766,7 +1766,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Accounting",
             "device": "Samsung Galaxy S6 Edge Plus",
-            "location": "AG",
+            "location": "CA",
             "from": "Ajax Corporation",
             "keywords": "legal"
         },
@@ -1786,7 +1786,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Finances",
             "device": "LG G Pad 7.0",
-            "location": "IM",
+            "location": "RU",
             "from": "ECMA Script company",
             "keywords": "quality"
         },
@@ -1856,7 +1856,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Edge",
-            "location": "MV",
+            "location": "CA",
             "from": "unknown",
             "keywords": "management"
         },
@@ -1886,7 +1886,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Customer Relations",
             "device": "Samsung Galaxy Tab A",
-            "location": "SG",
+            "location": "RU",
             "from": "unknown",
             "keywords": "resources"
         },
@@ -1926,7 +1926,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Public Relations",
             "device": "Mozilla",
-            "location": "Co",
+            "location": "AU",
             "from": "google",
             "keywords": "development"
         },
@@ -1946,7 +1946,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Advertising",
             "device": "Chrome",
-            "location": "Pr",
+            "location": "AU",
             "from": "unknown",
             "keywords": "customer"
         },
@@ -2016,7 +2016,7 @@ function visitors_data() {
             "unique": "false",
             "url": "features",
             "device": "Microsoft Lumia 950",
-            "location": "Co",
+            "location": "AU",
             "from": "unknown",
             "keywords": "legal"
         },
@@ -2066,7 +2066,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Human Resources",
             "device": "Chrome",
-            "location": "MT",
+            "location": "CA",
             "from": "Pan Pacific",
             "keywords": "advertising"
         },
@@ -2086,7 +2086,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Tech Support",
             "device": "Chrome",
-            "location": "PW",
+            "location": "CA",
             "from": "Pan Pacific",
             "keywords": "support"
         },
@@ -2136,7 +2136,7 @@ function visitors_data() {
             "unique": "true",
             "url": "partners",
             "device": "Samsung Galaxy S6",
-            "location": "CW",
+            "location": "US",
             "from": "Pan Pacific",
             "keywords": "public"
         },
@@ -2156,7 +2156,7 @@ function visitors_data() {
             "unique": "true",
             "url": "roadmap",
             "device": "Sony Xperia Z5",
-            "location": "MO",
+            "location": "CA",
             "from": "bing",
             "keywords": "accounting"
         },
@@ -2196,7 +2196,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Public Relations",
             "device": "Mozilla",
-            "location": "KM",
+            "location": "US",
             "from": "ACME Corporation",
             "keywords": "customer"
         },
@@ -2226,7 +2226,7 @@ function visitors_data() {
             "unique": "false",
             "url": "partners",
             "device": "Chrome",
-            "location": "DM",
+            "location": "RU",
             "from": "bing",
             "keywords": "advertising"
         },
@@ -2236,7 +2236,7 @@ function visitors_data() {
             "unique": "true",
             "url": "customers",
             "device": "Nvidia Shield Tablet",
-            "location": "TO",
+            "location": "US",
             "from": "ACME Corporation",
             "keywords": "finances"
         },
@@ -2246,7 +2246,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Edge",
-            "location": "BV",
+            "location": "US",
             "from": "ACME Corporation",
             "keywords": "quality"
         },
@@ -2256,7 +2256,7 @@ function visitors_data() {
             "unique": "false",
             "url": "roadmap",
             "device": "Chrome",
-            "location": "SX",
+            "location": "CA",
             "from": "yandex",
             "keywords": "resources"
         },
@@ -2276,7 +2276,7 @@ function visitors_data() {
             "unique": "false",
             "url": "partners",
             "device": "Edge",
-            "location": "Pr",
+            "location": "AU",
             "from": "yandex",
             "keywords": "finances"
         },
@@ -2286,7 +2286,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog",
             "device": "Samsung Galaxy Tab A",
-            "location": "ZM",
+            "location": "CN",
             "from": "Pan Pacific",
             "keywords": "resources"
         },
@@ -2316,7 +2316,7 @@ function visitors_data() {
             "unique": "false",
             "url": "customers",
             "device": "HTC One M9",
-            "location": "UM",
+            "location": "FR",
             "from": "yandex",
             "keywords": "payroll"
         },
@@ -2396,7 +2396,7 @@ function visitors_data() {
             "unique": "true",
             "url": "search",
             "device": "Chrome",
-            "location": "TC",
+            "location": "RU",
             "from": "bing",
             "keywords": "customer"
         },
@@ -2426,7 +2426,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Mozilla",
-            "location": "TO",
+            "location": "US",
             "from": "ACME Corporation",
             "keywords": "resources"
         },
@@ -2516,7 +2516,7 @@ function visitors_data() {
             "unique": "false",
             "url": "contact",
             "device": "Nexus 6P",
-            "location": "BH",
+            "location": "FR",
             "from": "yandex",
             "keywords": "finances"
         },
@@ -2526,7 +2526,7 @@ function visitors_data() {
             "unique": "false",
             "url": "customers",
             "device": "Safari",
-            "location": "TO",
+            "location": "US",
             "from": "yandex",
             "keywords": "management"
         },
@@ -2546,7 +2546,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Edge",
-            "location": "MF",
+            "location": "US",
             "from": "yandex",
             "keywords": "media"
         },
@@ -2556,7 +2556,7 @@ function visitors_data() {
             "unique": "false",
             "url": "company",
             "device": "Iphone",
-            "location": "TK",
+            "location": "RU",
             "from": "ECMA Script company",
             "keywords": "service"
         },
@@ -2566,7 +2566,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Opera",
-            "location": "MU",
+            "location": "CA",
             "from": "yandex",
             "keywords": "service"
         },
@@ -2586,7 +2586,7 @@ function visitors_data() {
             "unique": "true",
             "url": "features",
             "device": "Chrome",
-            "location": "SM",
+            "location": "AU",
             "from": "ACME Corporation",
             "keywords": "development"
         },
@@ -2696,7 +2696,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Opera",
-            "location": "PN",
+            "location": "FR",
             "from": "Ajax Corporation",
             "keywords": "development"
         },
@@ -2736,7 +2736,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Finances",
             "device": "Iphone",
-            "location": "PN",
+            "location": "FR",
             "from": "Pan Pacific",
             "keywords": "marketing"
         },
@@ -2786,7 +2786,7 @@ function visitors_data() {
             "unique": "false",
             "url": "support",
             "device": "Chrome",
-            "location": "LC",
+            "location": "AU",
             "from": "unknown",
             "keywords": "support"
         },
@@ -2816,7 +2816,7 @@ function visitors_data() {
             "unique": "false",
             "url": "search",
             "device": "Mozilla",
-            "location": "BQ",
+            "location": "RU",
             "from": "google",
             "keywords": "management"
         },
@@ -2886,7 +2886,7 @@ function visitors_data() {
             "unique": "false",
             "url": "features",
             "device": "Safari",
-            "location": "AS",
+            "location": "RU",
             "from": "google",
             "keywords": "media"
         },
@@ -2896,7 +2896,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Edge",
-            "location": "PF",
+            "location": "FR",
             "from": "ACME Corporation",
             "keywords": "customer"
         },
@@ -2936,7 +2936,7 @@ function visitors_data() {
             "unique": "false",
             "url": "download",
             "device": "Chrome",
-            "location": "CK",
+            "location": "AU",
             "from": "yandex",
             "keywords": "resources"
         },
@@ -2946,7 +2946,7 @@ function visitors_data() {
             "unique": "false",
             "url": "roadmap",
             "device": "Chrome",
-            "location": "JM",
+            "location": "FR",
             "from": "ECMA Script company",
             "keywords": "public"
         },
@@ -2986,7 +2986,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog",
             "device": "Apple TV 4th Gen",
-            "location": "VU",
+            "location": "US",
             "from": "Pan Pacific",
             "keywords": "resources"
         },
@@ -3007,7 +3007,7 @@ function visitors_data() {
             "unique": "false",
             "url": "partners",
             "device": "Samsung Galaxy Tab A",
-            "location": "TO",
+            "location": "US",
             "from": "bing",
             "keywords": "legal"
         },
@@ -3027,7 +3027,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Legal Department",
             "device": "Safari",
-            "location": "GS",
+            "location": "FR",
             "from": "Ajax Corporation",
             "keywords": "service"
         },
@@ -3047,7 +3047,7 @@ function visitors_data() {
             "unique": "true",
             "url": "roadmap",
             "device": "Safari",
-            "location": "BH",
+            "location": "FR",
             "from": "Pan Pacific",
             "keywords": "finances"
         },
@@ -3097,7 +3097,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Mozilla",
-            "location": "FM",
+            "location": "AU",
             "from": "ECMA Script company",
             "keywords": "accounting"
         },
@@ -3137,7 +3137,7 @@ function visitors_data() {
             "unique": "true",
             "url": "company",
             "device": "Chrome",
-            "location": "CX",
+            "location": "FR",
             "from": "ECMA Script company",
             "keywords": "advertising"
         },
@@ -3237,7 +3237,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog",
             "device": "Edge",
-            "location": "CW",
+            "location": "US",
             "from": "unknown",
             "keywords": "customer"
         },
@@ -3257,7 +3257,7 @@ function visitors_data() {
             "unique": "false",
             "url": "search",
             "device": "Chrome",
-            "location": "KY",
+            "location": "RU",
             "from": "Pan Pacific",
             "keywords": "media"
         },
@@ -3267,7 +3267,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Human Resources",
             "device": "Ipad",
-            "location": "MU",
+            "location": "CA",
             "from": "ACME Corporation",
             "keywords": "public"
         },
@@ -3307,7 +3307,7 @@ function visitors_data() {
             "unique": "true",
             "url": "products",
             "device": "Samsung Galaxy S6 Edge Plus",
-            "location": "HK",
+            "location": "US",
             "from": "Ajax Corporation",
             "keywords": "resources"
         },
@@ -3367,7 +3367,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog",
             "device": "Chrome",
-            "location": "NF",
+            "location": "FR",
             "from": "google",
             "keywords": "support"
         },
@@ -3377,7 +3377,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Accounting",
             "device": "Amazon Kindle Fire HDX 7",
-            "location": "GI",
+            "location": "FR",
             "from": "Pan Pacific",
             "keywords": "finances"
         },
@@ -3427,7 +3427,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Legal Department",
             "device": "Chrome",
-            "location": "Co",
+            "location": "AU",
             "from": "ECMA Script company",
             "keywords": "accounting"
         },
@@ -3477,7 +3477,7 @@ function visitors_data() {
             "unique": "true",
             "url": "products",
             "device": "Chrome",
-            "location": "AG",
+            "location": "CA",
             "from": "yandex",
             "keywords": "advertising"
         },
@@ -3517,7 +3517,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Chrome",
-            "location": "RE",
+            "location": "US",
             "from": "ECMA Script company",
             "keywords": "advertising"
         },
@@ -3577,7 +3577,7 @@ function visitors_data() {
             "unique": "true",
             "url": "customers",
             "device": "Amazon Kindle Fire HDX 7",
-            "location": "MO",
+            "location": "CA",
             "from": "bing",
             "keywords": "customer"
         },
@@ -3587,7 +3587,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Public Relations",
             "device": "Iphone",
-            "location": "GF",
+            "location": "DE",
             "from": "google",
             "keywords": "legal"
         },
@@ -3627,7 +3627,7 @@ function visitors_data() {
             "unique": "true",
             "url": "search",
             "device": "Apple TV 4th Gen",
-            "location": "Pr",
+            "location": "AU",
             "from": "Morley Group",
             "keywords": "customer"
         },
@@ -3637,7 +3637,7 @@ function visitors_data() {
             "unique": "false",
             "url": "contact",
             "device": "Safari",
-            "location": "NF",
+            "location": "FR",
             "from": "Pan Pacific",
             "keywords": "management"
         },
@@ -3657,7 +3657,7 @@ function visitors_data() {
             "unique": "false",
             "url": "features",
             "device": "Edge",
-            "location": "TT",
+            "location": "DE",
             "from": "Ajax Corporation",
             "keywords": "customer"
         },
@@ -3717,7 +3717,7 @@ function visitors_data() {
             "unique": "false",
             "url": "features",
             "device": "HTC One M9",
-            "location": "NR",
+            "location": "DE",
             "from": "google",
             "keywords": "public"
         },
@@ -3777,7 +3777,7 @@ function visitors_data() {
             "unique": "false",
             "url": "partners",
             "device": "Samsung Galaxy S6",
-            "location": "GD",
+            "location": "US",
             "from": "unknown",
             "keywords": "resources"
         },
@@ -3797,7 +3797,7 @@ function visitors_data() {
             "unique": "false",
             "url": "support",
             "device": "Ipad",
-            "location": "WF",
+            "location": "RU",
             "from": "unknown",
             "keywords": "legal"
         },
@@ -3807,7 +3807,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Payroll",
             "device": "Chrome",
-            "location": "WF",
+            "location": "RU",
             "from": "bing",
             "keywords": "management"
         },
@@ -3827,7 +3827,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Public Relations",
             "device": "Mozilla",
-            "location": "NU",
+            "location": "DE",
             "from": "Morley Group",
             "keywords": "payroll"
         },
@@ -3867,7 +3867,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog",
             "device": "Edge",
-            "location": "KN",
+            "location": "DE",
             "from": "google",
             "keywords": "development"
         },
@@ -3877,7 +3877,7 @@ function visitors_data() {
             "unique": "false",
             "url": "partners",
             "device": "Google Pixel C",
-            "location": "SM",
+            "location": "AU",
             "from": "Pan Pacific",
             "keywords": "public"
         },
@@ -3897,7 +3897,7 @@ function visitors_data() {
             "unique": "false",
             "url": "customers",
             "device": "Samsung Galaxy S6 Edge Plus",
-            "location": "CW",
+            "location": "US",
             "from": "ECMA Script company",
             "keywords": "payroll"
         },
@@ -3907,7 +3907,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Media Relations",
             "device": "Safari",
-            "location": "TC",
+            "location": "RU",
             "from": "unknown",
             "keywords": "management"
         },
@@ -3937,7 +3937,7 @@ function visitors_data() {
             "unique": "true",
             "url": "products",
             "device": "Chrome",
-            "location": "CX",
+            "location": "FR",
             "from": "Pan Pacific",
             "keywords": "media"
         },
@@ -4188,7 +4188,7 @@ function visitors_data() {
             "unique": "false",
             "url": "search",
             "device": "Edge",
-            "location": "VU",
+            "location": "US",
             "from": "Pan Pacific",
             "keywords": "development"
         },
@@ -4248,7 +4248,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Quality Assurance",
             "device": "Chrome",
-            "location": "SJ",
+            "location": "GL",
             "from": "yandex",
             "keywords": "service"
         },
@@ -4258,7 +4258,7 @@ function visitors_data() {
             "unique": "false",
             "url": "search",
             "device": "Mozilla",
-            "location": "SH",
+            "location": "US",
             "from": "unknown",
             "keywords": "marketing"
         },
@@ -4288,7 +4288,7 @@ function visitors_data() {
             "unique": "false",
             "url": "contact",
             "device": "Opera",
-            "location": "ST",
+            "location": "GL",
             "from": "Pan Pacific",
             "keywords": "advertising"
         },
@@ -4298,7 +4298,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Accounting",
             "device": "Chrome",
-            "location": "NF",
+            "location": "FR",
             "from": "bing",
             "keywords": "media"
         },
@@ -4308,7 +4308,7 @@ function visitors_data() {
             "unique": "false",
             "url": "customers",
             "device": "Nexus 6P",
-            "location": "FM",
+            "location": "AU",
             "from": "bing",
             "keywords": "service"
         },
@@ -4328,7 +4328,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Samsung Galaxy Tab A",
-            "location": "ST",
+            "location": "GL",
             "from": "ACME Corporation",
             "keywords": "development"
         },
@@ -4348,7 +4348,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Tech Support",
             "device": "Safari",
-            "location": "KM",
+            "location": "US",
             "from": "google",
             "keywords": "management"
         },
@@ -4438,7 +4438,7 @@ function visitors_data() {
             "unique": "false",
             "url": "roadmap",
             "device": "Opera",
-            "location": "FO",
+            "location": "RU",
             "from": "unknown",
             "keywords": "media"
         },
@@ -4458,7 +4458,7 @@ function visitors_data() {
             "unique": "false",
             "url": "partners",
             "device": "Nvidia Shield Tablet",
-            "location": "Co",
+            "location": "AU",
             "from": "unknown",
             "keywords": "payroll"
         },
@@ -4518,7 +4518,7 @@ function visitors_data() {
             "unique": "false",
             "url": "partners",
             "device": "Mozilla",
-            "location": "MQ",
+            "location": "GL",
             "from": "google",
             "keywords": "service"
         },
@@ -4538,7 +4538,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog",
             "device": "Amazon Kindle Fire HDX 7",
-            "location": "SG",
+            "location": "RU",
             "from": "yandex",
             "keywords": "legal"
         },
@@ -4558,7 +4558,7 @@ function visitors_data() {
             "unique": "false",
             "url": "support",
             "device": "Chrome",
-            "location": "Co",
+            "location": "AU",
             "from": "Ajax Corporation",
             "keywords": "finances"
         },
@@ -4588,7 +4588,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Safari",
-            "location": "VG",
+            "location": "GL",
             "from": "Pan Pacific",
             "keywords": "accounting"
         },
@@ -4668,7 +4668,7 @@ function visitors_data() {
             "unique": "false",
             "url": "features",
             "device": "Chrome",
-            "location": "BM",
+            "location": "GL",
             "from": "Morley Group",
             "keywords": "support"
         },
@@ -4678,7 +4678,7 @@ function visitors_data() {
             "unique": "false",
             "url": "features",
             "device": "Chrome",
-            "location": "LC",
+            "location": "AU",
             "from": "Ajax Corporation",
             "keywords": "resources"
         },
@@ -4688,7 +4688,7 @@ function visitors_data() {
             "unique": "false",
             "url": "download",
             "device": "Chrome",
-            "location": "GI",
+            "location": "FR",
             "from": "Morley Group",
             "keywords": "accounting"
         },
@@ -4718,7 +4718,7 @@ function visitors_data() {
             "unique": "false",
             "url": "partners",
             "device": "Apple TV 4th Gen",
-            "location": "VA",
+            "location": "GL",
             "from": "google",
             "keywords": "management"
         },
@@ -4758,7 +4758,7 @@ function visitors_data() {
             "unique": "true",
             "url": "customers",
             "device": "Iphone",
-            "location": "TV",
+            "location": "IS",
             "from": "ACME Corporation",
             "keywords": "quality"
         },
@@ -4808,7 +4808,7 @@ function visitors_data() {
             "unique": "true",
             "url": "customers",
             "device": "Chrome",
-            "location": "NR",
+            "location": "DE",
             "from": "Morley Group",
             "keywords": "service"
         },
@@ -4828,7 +4828,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "HTC One M9",
-            "location": "SC",
+            "location": "IS",
             "from": "unknown",
             "keywords": "marketing"
         },
@@ -4858,7 +4858,7 @@ function visitors_data() {
             "unique": "true",
             "url": "products",
             "device": "Samsung Galaxy Tab A",
-            "location": "GG",
+            "location": "IS",
             "from": "yandex",
             "keywords": "public"
         },
@@ -4878,7 +4878,7 @@ function visitors_data() {
             "unique": "false",
             "url": "customers",
             "device": "Ipad",
-            "location": "VG",
+            "location": "GL",
             "from": "yandex",
             "keywords": "marketing"
         },
@@ -4958,7 +4958,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog",
             "device": "Mozilla",
-            "location": "Co",
+            "location": "AU",
             "from": "bing",
             "keywords": "media"
         },
@@ -4968,7 +4968,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Media Relations",
             "device": "Nexus 6P",
-            "location": "Co",
+            "location": "AU",
             "from": "Ajax Corporation",
             "keywords": "development"
         },
@@ -5059,7 +5059,7 @@ function visitors_data() {
             "unique": "true",
             "url": "pricing",
             "device": "Samsung Galaxy S6",
-            "location": "ST",
+            "location": "GL",
             "from": "Morley Group",
             "keywords": "quality"
         },
@@ -5069,7 +5069,7 @@ function visitors_data() {
             "unique": "false",
             "url": "customers",
             "device": "Nvidia Shield Tablet",
-            "location": "KN",
+            "location": "DE",
             "from": "google",
             "keywords": "support"
         },
@@ -5079,7 +5079,7 @@ function visitors_data() {
             "unique": "true",
             "url": "download",
             "device": "Amazon Kindle Fire HDX 7",
-            "location": "CW",
+            "location": "US",
             "from": "google",
             "keywords": "legal"
         },
@@ -5109,7 +5109,7 @@ function visitors_data() {
             "unique": "true",
             "url": "partners",
             "device": "Ipad",
-            "location": "SH",
+            "location": "US",
             "from": "unknown",
             "keywords": "marketing"
         },
@@ -5119,7 +5119,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Human Resources",
             "device": "Chrome",
-            "location": "BM",
+            "location": "GL",
             "from": "unknown",
             "keywords": "finances"
         },
@@ -5139,7 +5139,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Chrome",
-            "location": "ST",
+            "location": "GL",
             "from": "Pan Pacific",
             "keywords": "media"
         },
@@ -5179,7 +5179,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Accounting",
             "device": "Chrome",
-            "location": "KN",
+            "location": "DE",
             "from": "ACME Corporation",
             "keywords": "marketing"
         },
@@ -5219,7 +5219,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Human Resources",
             "device": "Ipad",
-            "location": "PW",
+            "location": "CA",
             "from": "unknown",
             "keywords": "finances"
         },
@@ -5229,7 +5229,7 @@ function visitors_data() {
             "unique": "false",
             "url": "contact",
             "device": "LG G Pad 7.0",
-            "location": "CC",
+            "location": "IS",
             "from": "bing",
             "keywords": "advertising"
         },
@@ -5289,7 +5289,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Research and Development",
             "device": "Chrome",
-            "location": "VG",
+            "location": "GL",
             "from": "ECMA Script company",
             "keywords": "advertising"
         },
@@ -5309,7 +5309,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Human Resources",
             "device": "Safari",
-            "location": "JM",
+            "location": "FR",
             "from": "Morley Group",
             "keywords": "finances"
         },
@@ -5319,7 +5319,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Edge",
-            "location": "MU",
+            "location": "CA",
             "from": "google",
             "keywords": "finances"
         },
@@ -5329,7 +5329,7 @@ function visitors_data() {
             "unique": "true",
             "url": "download",
             "device": "Chrome",
-            "location": "GM",
+            "location": "US",
             "from": "yandex",
             "keywords": "management"
         },
@@ -5359,7 +5359,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog",
             "device": "Safari",
-            "location": "GM",
+            "location": "US",
             "from": "unknown",
             "keywords": "management"
         },
@@ -5369,7 +5369,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Amazon Kindle Fire HDX 7",
-            "location": "DM",
+            "location": "RU",
             "from": "ECMA Script company",
             "keywords": "management"
         },
@@ -5389,7 +5389,7 @@ function visitors_data() {
             "unique": "true",
             "url": "search",
             "device": "Safari",
-            "location": "AQ",
+            "location": "RU",
             "from": "yandex",
             "keywords": "support"
         },
@@ -5409,7 +5409,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Sony Xperia Z5",
-            "location": "Co",
+            "location": "AU",
             "from": "yandex",
             "keywords": "public"
         },
@@ -5459,7 +5459,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Payroll",
             "device": "Samsung Galaxy S6 Edge Plus",
-            "location": "AX",
+            "location": "RU",
             "from": "Pan Pacific",
             "keywords": "support"
         },
@@ -5469,7 +5469,7 @@ function visitors_data() {
             "unique": "false",
             "url": "support",
             "device": "Mozilla",
-            "location": "WS",
+            "location": "US",
             "from": "yandex",
             "keywords": "support"
         },
@@ -5609,7 +5609,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Customer Relations",
             "device": "Amazon Kindle Fire HDX 7",
-            "location": "AS",
+            "location": "RU",
             "from": "yandex",
             "keywords": "development"
         },
@@ -5639,7 +5639,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Accounting",
             "device": "Chrome",
-            "location": "GI",
+            "location": "FR",
             "from": "google",
             "keywords": "media"
         },
@@ -5649,7 +5649,7 @@ function visitors_data() {
             "unique": "true",
             "url": "support",
             "device": "Mozilla",
-            "location": "GF",
+            "location": "DE",
             "from": "google",
             "keywords": "marketing"
         },
@@ -5659,7 +5659,7 @@ function visitors_data() {
             "unique": "false",
             "url": "customers",
             "device": "Samsung Galaxy S6",
-            "location": "CX",
+            "location": "FR",
             "from": "unknown",
             "keywords": "service"
         },
@@ -5689,7 +5689,7 @@ function visitors_data() {
             "unique": "false",
             "url": "support",
             "device": "Opera",
-            "location": "MP",
+            "location": "IS",
             "from": "Ajax Corporation",
             "keywords": "quality"
         },
@@ -5729,7 +5729,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Quality Assurance",
             "device": "Samsung Galaxy S6",
-            "location": "VG",
+            "location": "GL",
             "from": "Ajax Corporation",
             "keywords": "legal"
         },
@@ -5759,7 +5759,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Mozilla",
-            "location": "MF",
+            "location": "US",
             "from": "google",
             "keywords": "finances"
         },
@@ -5779,7 +5779,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Customer Relations",
             "device": "Chrome",
-            "location": "NF",
+            "location": "FR",
             "from": "yandex",
             "keywords": "accounting"
         },
@@ -5799,7 +5799,7 @@ function visitors_data() {
             "unique": "false",
             "url": "contact",
             "device": "Mozilla",
-            "location": "MV",
+            "location": "CA",
             "from": "yandex",
             "keywords": "resources"
         },
@@ -5809,7 +5809,7 @@ function visitors_data() {
             "unique": "false",
             "url": "customers",
             "device": "Edge",
-            "location": "VI",
+            "location": "AU",
             "from": "bing",
             "keywords": "public"
         },
@@ -5829,7 +5829,7 @@ function visitors_data() {
             "unique": "true",
             "url": "contact",
             "device": "Mozilla",
-            "location": "TO",
+            "location": "US",
             "from": "Pan Pacific",
             "keywords": "development"
         },
@@ -5849,7 +5849,7 @@ function visitors_data() {
             "unique": "false",
             "url": "search",
             "device": "Chrome",
-            "location": "FK",
+            "location": "IS",
             "from": "google",
             "keywords": "development"
         },
@@ -5859,7 +5859,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Sony Xperia Z4 Tablet",
-            "location": "AS",
+            "location": "RU",
             "from": "ACME Corporation",
             "keywords": "quality"
         },
@@ -5879,7 +5879,7 @@ function visitors_data() {
             "unique": "true",
             "url": "contact",
             "device": "Apple TV 4th Gen",
-            "location": "AQ",
+            "location": "RU",
             "from": "bing",
             "keywords": "quality"
         },
@@ -5889,7 +5889,7 @@ function visitors_data() {
             "unique": "true",
             "url": "pricing",
             "device": "Chrome",
-            "location": "MU",
+            "location": "CA",
             "from": "ACME Corporation",
             "keywords": "resources"
         },
@@ -5909,7 +5909,7 @@ function visitors_data() {
             "unique": "false",
             "url": "download",
             "device": "HTC One M9",
-            "location": "Co",
+            "location": "AU",
             "from": "unknown",
             "keywords": "payroll"
         },
@@ -5919,7 +5919,7 @@ function visitors_data() {
             "unique": "false",
             "url": "customers",
             "device": "Samsung Galaxy Tab A",
-            "location": "Pr",
+            "location": "AU",
             "from": "yandex",
             "keywords": "public"
         },
@@ -5949,7 +5949,7 @@ function visitors_data() {
             "unique": "true",
             "url": "products",
             "device": "Edge",
-            "location": "BQ",
+            "location": "RU",
             "from": "unknown",
             "keywords": "resources"
         },
@@ -5969,7 +5969,7 @@ function visitors_data() {
             "unique": "false",
             "url": "roadmap",
             "device": "Ipad",
-            "location": "VU",
+            "location": "US",
             "from": "ECMA Script company",
             "keywords": "customer"
         },
@@ -5979,7 +5979,7 @@ function visitors_data() {
             "unique": "true",
             "url": "products",
             "device": "Opera",
-            "location": "AI",
+            "location": "AU",
             "from": "ACME Corporation",
             "keywords": "public"
         },
@@ -5999,7 +5999,7 @@ function visitors_data() {
             "unique": "false",
             "url": "company",
             "device": "Samsung Galaxy Tab A",
-            "location": "MC",
+            "location": "IS",
             "from": "Pan Pacific",
             "keywords": "development"
         },
@@ -6010,7 +6010,7 @@ function visitors_data() {
             "unique": "false",
             "url": "roadmap",
             "device": "Mozilla",
-            "location": "KN",
+            "location": "DE",
             "from": "yandex",
             "keywords": "marketing"
         },
@@ -6040,7 +6040,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Sales and Marketing",
             "device": "Mozilla",
-            "location": "TC",
+            "location": "RU",
             "from": "bing",
             "keywords": "management"
         },
@@ -6050,7 +6050,7 @@ function visitors_data() {
             "unique": "false",
             "url": "support",
             "device": "Edge",
-            "location": "MC",
+            "location": "IS",
             "from": "ACME Corporation",
             "keywords": "management"
         },
@@ -6060,7 +6060,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Payroll",
             "device": "Chrome",
-            "location": "DM",
+            "location": "RU",
             "from": "unknown",
             "keywords": "accounting"
         },
@@ -6070,7 +6070,7 @@ function visitors_data() {
             "unique": "false",
             "url": "company",
             "device": "Google Pixel C",
-            "location": "IO",
+            "location": "IS",
             "from": "Morley Group",
             "keywords": "accounting"
         },
@@ -6100,7 +6100,7 @@ function visitors_data() {
             "unique": "true",
             "url": "pricing",
             "device": "Chrome",
-            "location": "CC",
+            "location": "IS",
             "from": "Pan Pacific",
             "keywords": "accounting"
         },
@@ -6120,7 +6120,7 @@ function visitors_data() {
             "unique": "true",
             "url": "partners",
             "device": "Chrome",
-            "location": "AX",
+            "location": "RU",
             "from": "unknown",
             "keywords": "legal"
         },
@@ -6130,7 +6130,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog",
             "device": "Chrome",
-            "location": "NR",
+            "location": "DE",
             "from": "Morley Group",
             "keywords": "media"
         },
@@ -6140,7 +6140,7 @@ function visitors_data() {
             "unique": "false",
             "url": "customers",
             "device": "Chrome",
-            "location": "TV",
+            "location": "IS",
             "from": "unknown",
             "keywords": "quality"
         },
@@ -6170,7 +6170,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Customer Service",
             "device": "Edge",
-            "location": "HK",
+            "location": "US",
             "from": "yandex",
             "keywords": "public"
         },
@@ -6210,7 +6210,7 @@ function visitors_data() {
             "unique": "false",
             "url": "company",
             "device": "Ipad",
-            "location": "MH",
+            "location": "AU",
             "from": "yandex",
             "keywords": "service"
         },
@@ -6250,7 +6250,7 @@ function visitors_data() {
             "unique": "true",
             "url": "download",
             "device": "Ipad",
-            "location": "GF",
+            "location": "DE",
             "from": "bing",
             "keywords": "advertising"
         },
@@ -6280,7 +6280,7 @@ function visitors_data() {
             "unique": "true",
             "url": "company",
             "device": "Mozilla",
-            "location": "AW",
+            "location": "IS",
             "from": "Morley Group",
             "keywords": "resources"
         },
@@ -6330,7 +6330,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Legal Department",
             "device": "Opera",
-            "location": "TT",
+            "location": "DE",
             "from": "ECMA Script company",
             "keywords": "development"
         },
@@ -6360,7 +6360,7 @@ function visitors_data() {
             "unique": "false",
             "url": "download",
             "device": "Google Pixel C",
-            "location": "SG",
+            "location": "RU",
             "from": "ECMA Script company",
             "keywords": "management"
         },
@@ -6400,7 +6400,7 @@ function visitors_data() {
             "unique": "false",
             "url": "customers",
             "device": "Google Pixel C",
-            "location": "AX",
+            "location": "RU",
             "from": "unknown",
             "keywords": "payroll"
         },
@@ -6430,7 +6430,7 @@ function visitors_data() {
             "unique": "false",
             "url": "support",
             "device": "Apple TV 4th Gen",
-            "location": "BQ",
+            "location": "RU",
             "from": "unknown",
             "keywords": "quality"
         },
@@ -6440,7 +6440,7 @@ function visitors_data() {
             "unique": "true",
             "url": "contact",
             "device": "Samsung Galaxy Tab A",
-            "location": "GP",
+            "location": "AU",
             "from": "bing",
             "keywords": "payroll"
         },
@@ -6460,7 +6460,7 @@ function visitors_data() {
             "unique": "true",
             "url": "contact",
             "device": "Chrome",
-            "location": "UM",
+            "location": "FR",
             "from": "yandex",
             "keywords": "service"
         },
@@ -6500,7 +6500,7 @@ function visitors_data() {
             "unique": "true",
             "url": "customers",
             "device": "Edge",
-            "location": "Co",
+            "location": "AU",
             "from": "Ajax Corporation",
             "keywords": "management"
         },
@@ -6550,7 +6550,7 @@ function visitors_data() {
             "unique": "true",
             "url": "roadmap",
             "device": "Ipad",
-            "location": "MQ",
+            "location": "GL",
             "from": "bing",
             "keywords": "service"
         },
@@ -6570,7 +6570,7 @@ function visitors_data() {
             "unique": "false",
             "url": "download",
             "device": "Safari",
-            "location": "BL",
+            "location": "IS",
             "from": "yandex",
             "keywords": "accounting"
         },
@@ -6610,7 +6610,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Samsung Galaxy Tab A",
-            "location": "CW",
+            "location": "US",
             "from": "ECMA Script company",
             "keywords": "resources"
         },
@@ -6650,7 +6650,7 @@ function visitors_data() {
             "unique": "true",
             "url": "features",
             "device": "Nvidia Shield Tablet",
-            "location": "GG",
+            "location": "IS",
             "from": "unknown",
             "keywords": "development"
         },
@@ -6670,7 +6670,7 @@ function visitors_data() {
             "unique": "false",
             "url": "roadmap",
             "device": "Apple TV 4th Gen",
-            "location": "Pr",
+            "location": "AU",
             "from": "google",
             "keywords": "marketing"
         },
@@ -6730,7 +6730,7 @@ function visitors_data() {
             "unique": "true",
             "url": "pricing",
             "device": "Mozilla",
-            "location": "NR",
+            "location": "DE",
             "from": "Ajax Corporation",
             "keywords": "media"
         },
@@ -6760,7 +6760,7 @@ function visitors_data() {
             "unique": "true",
             "url": "roadmap",
             "device": "Chrome",
-            "location": "VA",
+            "location": "GL",
             "from": "yandex",
             "keywords": "public"
         },
@@ -6790,7 +6790,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Mozilla",
-            "location": "KY",
+            "location": "RU",
             "from": "google",
             "keywords": "advertising"
         },
@@ -6800,7 +6800,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Research and Development",
             "device": "Nvidia Shield Tablet",
-            "location": "MT",
+            "location": "CA",
             "from": "Pan Pacific",
             "keywords": "public"
         },
@@ -6810,7 +6810,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Customer Service",
             "device": "Chrome",
-            "location": "SG",
+            "location": "RU",
             "from": "unknown",
             "keywords": "quality"
         },
@@ -6850,7 +6850,7 @@ function visitors_data() {
             "unique": "true",
             "url": "support",
             "device": "Safari",
-            "location": "MV",
+            "location": "CA",
             "from": "yandex",
             "keywords": "resources"
         },
@@ -7051,7 +7051,7 @@ function visitors_data() {
             "unique": "true",
             "url": "products",
             "device": "Opera",
-            "location": "PW",
+            "location": "CA",
             "from": "google",
             "keywords": "quality"
         },
@@ -7071,7 +7071,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Sales and Marketing",
             "device": "Nvidia Shield Tablet",
-            "location": "BS",
+            "location": "RU",
             "from": "ECMA Script company",
             "keywords": "media"
         },
@@ -7091,7 +7091,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Customer Service",
             "device": "Apple TV 4th Gen",
-            "location": "TO",
+            "location": "US",
             "from": "unknown",
             "keywords": "advertising"
         },
@@ -7111,7 +7111,7 @@ function visitors_data() {
             "unique": "false",
             "url": "contact",
             "device": "Google Pixel C",
-            "location": "CV",
+            "location": "CA",
             "from": "Ajax Corporation",
             "keywords": "support"
         },
@@ -7121,7 +7121,7 @@ function visitors_data() {
             "unique": "true",
             "url": "pricing",
             "device": "Samsung Galaxy S6",
-            "location": "Co",
+            "location": "AU",
             "from": "Pan Pacific",
             "keywords": "resources"
         },
@@ -7151,7 +7151,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Research and Development",
             "device": "Chrome",
-            "location": "FM",
+            "location": "AU",
             "from": "unknown",
             "keywords": "media"
         },
@@ -7161,7 +7161,7 @@ function visitors_data() {
             "unique": "false",
             "url": "download",
             "device": "Microsoft Lumia 950",
-            "location": "SG",
+            "location": "RU",
             "from": "Ajax Corporation",
             "keywords": "media"
         },
@@ -7181,7 +7181,7 @@ function visitors_data() {
             "unique": "true",
             "url": "roadmap",
             "device": "Chrome",
-            "location": "CC",
+            "location": "IS",
             "from": "ACME Corporation",
             "keywords": "development"
         },
@@ -7201,7 +7201,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Samsung Galaxy S6",
-            "location": "TT",
+            "location": "DE",
             "from": "Pan Pacific",
             "keywords": "public"
         },
@@ -7211,7 +7211,7 @@ function visitors_data() {
             "unique": "false",
             "url": "customers",
             "device": "Google Pixel C",
-            "location": "NR",
+            "location": "DE",
             "from": "yandex",
             "keywords": "customer"
         },
@@ -7221,7 +7221,7 @@ function visitors_data() {
             "unique": "false",
             "url": "company",
             "device": "Safari",
-            "location": "KY",
+            "location": "RU",
             "from": "Pan Pacific",
             "keywords": "service"
         },
@@ -7241,7 +7241,7 @@ function visitors_data() {
             "unique": "false",
             "url": "contact",
             "device": "Mozilla",
-            "location": "AI",
+            "location": "AU",
             "from": "Pan Pacific",
             "keywords": "management"
         },
@@ -7291,7 +7291,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Payroll",
             "device": "Safari",
-            "location": "GM",
+            "location": "US",
             "from": "Pan Pacific",
             "keywords": "legal"
         },
@@ -7311,7 +7311,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Finances",
             "device": "Safari",
-            "location": "KN",
+            "location": "DE",
             "from": "ECMA Script company",
             "keywords": "development"
         },
@@ -7361,7 +7361,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Legal Department",
             "device": "HTC One M9",
-            "location": "AI",
+            "location": "AU",
             "from": "yandex",
             "keywords": "resources"
         },
@@ -7371,7 +7371,7 @@ function visitors_data() {
             "unique": "false",
             "url": "features",
             "device": "Safari",
-            "location": "MV",
+            "location": "CA",
             "from": "Morley Group",
             "keywords": "advertising"
         },
@@ -7401,7 +7401,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Chrome",
-            "location": "GI",
+            "location": "FR",
             "from": "ACME Corporation",
             "keywords": "management"
         },
@@ -7411,7 +7411,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Samsung Galaxy S6",
-            "location": "BV",
+            "location": "US",
             "from": "Ajax Corporation",
             "keywords": "marketing"
         },
@@ -7431,7 +7431,7 @@ function visitors_data() {
             "unique": "false",
             "url": "support",
             "device": "Edge",
-            "location": "GP",
+            "location": "AU",
             "from": "unknown",
             "keywords": "resources"
         },
@@ -7451,7 +7451,7 @@ function visitors_data() {
             "unique": "false",
             "url": "customers",
             "device": "Chrome",
-            "location": "NR",
+            "location": "DE",
             "from": "Ajax Corporation",
             "keywords": "support"
         },
@@ -7461,7 +7461,7 @@ function visitors_data() {
             "unique": "true",
             "url": "pricing",
             "device": "Mozilla",
-            "location": "CC",
+            "location": "IS",
             "from": "yandex",
             "keywords": "media"
         },
@@ -7471,7 +7471,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Finances",
             "device": "Microsoft Lumia 950",
-            "location": "SM",
+            "location": "AU",
             "from": "Morley Group",
             "keywords": "finances"
         },
@@ -7481,7 +7481,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Advertising",
             "device": "Chrome",
-            "location": "GM",
+            "location": "US",
             "from": "ACME Corporation",
             "keywords": "management"
         },
@@ -7501,7 +7501,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Public Relations",
             "device": "Chrome",
-            "location": "WF",
+            "location": "RU",
             "from": "bing",
             "keywords": "development"
         },
@@ -7511,7 +7511,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Tech Support",
             "device": "Chrome",
-            "location": "RE",
+            "location": "US",
             "from": "ECMA Script company",
             "keywords": "management"
         },
@@ -7541,7 +7541,7 @@ function visitors_data() {
             "unique": "false",
             "url": "company",
             "device": "Chrome",
-            "location": "TC",
+            "location": "RU",
             "from": "ECMA Script company",
             "keywords": "service"
         },
@@ -7571,7 +7571,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Public Relations",
             "device": "Apple TV 4th Gen",
-            "location": "Co",
+            "location": "AU",
             "from": "ACME Corporation",
             "keywords": "resources"
         },
@@ -7611,7 +7611,7 @@ function visitors_data() {
             "unique": "false",
             "url": "roadmap",
             "device": "Sony Xperia Z4 Tablet",
-            "location": "CK",
+            "location": "AU",
             "from": "ECMA Script company",
             "keywords": "resources"
         },
@@ -7631,7 +7631,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Customer Relations",
             "device": "Safari",
-            "location": "BQ",
+            "location": "RU",
             "from": "Morley Group",
             "keywords": "customer"
         },
@@ -7641,7 +7641,7 @@ function visitors_data() {
             "unique": "false",
             "url": "contact",
             "device": "Mozilla",
-            "location": "LU",
+            "location": "NZ",
             "from": "bing",
             "keywords": "accounting"
         },
@@ -7651,7 +7651,7 @@ function visitors_data() {
             "unique": "false",
             "url": "contact",
             "device": "Apple TV 4th Gen",
-            "location": "VC",
+            "location": "AU",
             "from": "Pan Pacific",
             "keywords": "development"
         },
@@ -7691,7 +7691,7 @@ function visitors_data() {
             "unique": "false",
             "url": "partners",
             "device": "Chrome",
-            "location": "SC",
+            "location": "IS",
             "from": "google",
             "keywords": "finances"
         },
@@ -7711,7 +7711,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Sony Xperia Z5",
-            "location": "BL",
+            "location": "IS",
             "from": "Ajax Corporation",
             "keywords": "payroll"
         },
@@ -7751,7 +7751,7 @@ function visitors_data() {
             "unique": "false",
             "url": "download",
             "device": "Chrome",
-            "location": "TV",
+            "location": "IS",
             "from": "bing",
             "keywords": "marketing"
         },
@@ -7781,7 +7781,7 @@ function visitors_data() {
             "unique": "false",
             "url": "features",
             "device": "Edge",
-            "location": "FK",
+            "location": "IS",
             "from": "Morley Group",
             "keywords": "development"
         },
@@ -7801,7 +7801,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Media Relations",
             "device": "Chrome",
-            "location": "BS",
+            "location": "RU",
             "from": "google",
             "keywords": "development"
         },
@@ -7831,7 +7831,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Payroll",
             "device": "Chrome",
-            "location": "LU",
+            "location": "NZ",
             "from": "Ajax Corporation",
             "keywords": "finances"
         },
@@ -7901,7 +7901,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Chrome",
-            "location": "CW",
+            "location": "US",
             "from": "Ajax Corporation",
             "keywords": "advertising"
         },
@@ -7921,7 +7921,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Safari",
-            "location": "BB",
+            "location": "RU",
             "from": "yandex",
             "keywords": "customer"
         },
@@ -7931,7 +7931,7 @@ function visitors_data() {
             "unique": "true",
             "url": "partners",
             "device": "Chrome",
-            "location": "AI",
+            "location": "AU",
             "from": "Morley Group",
             "keywords": "legal"
         },
@@ -7961,7 +7961,7 @@ function visitors_data() {
             "unique": "false",
             "url": "features",
             "device": "Mozilla",
-            "location": "NR",
+            "location": "DE",
             "from": "ECMA Script company",
             "keywords": "legal"
         },
@@ -8001,7 +8001,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Chrome",
-            "location": "GG",
+            "location": "IS",
             "from": "Pan Pacific",
             "keywords": "legal"
         },
@@ -8062,7 +8062,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Sales and Marketing",
             "device": "LG G Pad 7.0",
-            "location": "MH",
+            "location": "AU",
             "from": "ACME Corporation",
             "keywords": "media"
         },
@@ -8072,7 +8072,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Mozilla",
-            "location": "DM",
+            "location": "RU",
             "from": "unknown",
             "keywords": "media"
         },
@@ -8092,7 +8092,7 @@ function visitors_data() {
             "unique": "true",
             "url": "search",
             "device": "Safari",
-            "location": "SM",
+            "location": "AU",
             "from": "unknown",
             "keywords": "support"
         },
@@ -8132,7 +8132,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Safari",
-            "location": "MC",
+            "location": "IS",
             "from": "Morley Group",
             "keywords": "management"
         },
@@ -8162,7 +8162,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Finances",
             "device": "Safari",
-            "location": "JE",
+            "location": "NZ",
             "from": "ECMA Script company",
             "keywords": "accounting"
         },
@@ -8172,7 +8172,7 @@ function visitors_data() {
             "unique": "false",
             "url": "company",
             "device": "Samsung Galaxy Tab A",
-            "location": "FK",
+            "location": "IS",
             "from": "ACME Corporation",
             "keywords": "marketing"
         },
@@ -8202,7 +8202,7 @@ function visitors_data() {
             "unique": "false",
             "url": "company",
             "device": "Chrome",
-            "location": "KY",
+            "location": "RU",
             "from": "Ajax Corporation",
             "keywords": "legal"
         },
@@ -8232,7 +8232,7 @@ function visitors_data() {
             "unique": "true",
             "url": "company",
             "device": "Iphone",
-            "location": "AQ",
+            "location": "RU",
             "from": "Ajax Corporation",
             "keywords": "marketing"
         },
@@ -8242,7 +8242,7 @@ function visitors_data() {
             "unique": "false",
             "url": "support",
             "device": "Apple TV 4th Gen",
-            "location": "HM",
+            "location": "US",
             "from": "Pan Pacific",
             "keywords": "service"
         },
@@ -8272,7 +8272,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Iphone",
-            "location": "PM",
+            "location": "US",
             "from": "google",
             "keywords": "advertising"
         },
@@ -8302,7 +8302,7 @@ function visitors_data() {
             "unique": "true",
             "url": "search",
             "device": "Chrome",
-            "location": "HK",
+            "location": "US",
             "from": "google",
             "keywords": "resources"
         },
@@ -8312,7 +8312,7 @@ function visitors_data() {
             "unique": "true",
             "url": "pricing",
             "device": "Apple TV 4th Gen",
-            "location": "MO",
+            "location": "CA",
             "from": "google",
             "keywords": "advertising"
         },
@@ -8342,7 +8342,7 @@ function visitors_data() {
             "unique": "false",
             "url": "features",
             "device": "Apple TV 4th Gen",
-            "location": "LU",
+            "location": "NZ",
             "from": "Morley Group",
             "keywords": "public"
         },
@@ -8372,7 +8372,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Safari",
-            "location": "MU",
+            "location": "CA",
             "from": "ECMA Script company",
             "keywords": "management"
         },
@@ -8392,7 +8392,7 @@ function visitors_data() {
             "unique": "true",
             "url": "download",
             "device": "Edge",
-            "location": "CV",
+            "location": "CA",
             "from": "bing",
             "keywords": "public"
         },
@@ -8412,7 +8412,7 @@ function visitors_data() {
             "unique": "true",
             "url": "contact",
             "device": "Samsung Galaxy S6",
-            "location": "FK",
+            "location": "IS",
             "from": "Morley Group",
             "keywords": "marketing"
         },
@@ -8432,7 +8432,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Payroll",
             "device": "Edge",
-            "location": "TV",
+            "location": "IS",
             "from": "ACME Corporation",
             "keywords": "marketing"
         },
@@ -8452,7 +8452,7 @@ function visitors_data() {
             "unique": "true",
             "url": "company",
             "device": "LG G Pad 7.0",
-            "location": "Co",
+            "location": "RU",
             "from": "Pan Pacific",
             "keywords": "service"
         },
@@ -8482,7 +8482,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Research and Development",
             "device": "Safari",
-            "location": "Co",
+            "location": "RU",
             "from": "google",
             "keywords": "support"
         },
@@ -8492,7 +8492,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Media Relations",
             "device": "Edge",
-            "location": "YT",
+            "location": "US",
             "from": "yandex",
             "keywords": "media"
         },
@@ -8512,7 +8512,7 @@ function visitors_data() {
             "unique": "true",
             "url": "download",
             "device": "Safari",
-            "location": "KN",
+            "location": "DE",
             "from": "Ajax Corporation",
             "keywords": "accounting"
         },
@@ -8532,7 +8532,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Media Relations",
             "device": "LG G Pad 7.0",
-            "location": "PM",
+            "location": "US",
             "from": "ACME Corporation",
             "keywords": "finances"
         },
@@ -8572,7 +8572,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Payroll",
             "device": "Amazon Kindle Fire HDX 7",
-            "location": "MV",
+            "location": "CA",
             "from": "Morley Group",
             "keywords": "public"
         },
@@ -8612,7 +8612,7 @@ function visitors_data() {
             "unique": "false",
             "url": "features",
             "device": "Mozilla",
-            "location": "MT",
+            "location": "CA",
             "from": "yandex",
             "keywords": "service"
         },
@@ -8622,7 +8622,7 @@ function visitors_data() {
             "unique": "false",
             "url": "roadmap",
             "device": "Ipad",
-            "location": "VI",
+            "location": "RU",
             "from": "google",
             "keywords": "media"
         },
@@ -8632,7 +8632,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Customer Service",
             "device": "Iphone",
-            "location": "CW",
+            "location": "US",
             "from": "unknown",
             "keywords": "public"
         },
@@ -8642,7 +8642,7 @@ function visitors_data() {
             "unique": "false",
             "url": "contact",
             "device": "Chrome",
-            "location": "LC",
+            "location": "US",
             "from": "ACME Corporation",
             "keywords": "advertising"
         },
@@ -8672,7 +8672,7 @@ function visitors_data() {
             "unique": "true",
             "url": "roadmap",
             "device": "Edge",
-            "location": "AQ",
+            "location": "RU",
             "from": "google",
             "keywords": "management"
         },
@@ -8692,7 +8692,7 @@ function visitors_data() {
             "unique": "true",
             "url": "partners",
             "device": "Safari",
-            "location": "LI",
+            "location": "US",
             "from": "unknown",
             "keywords": "media"
         },
@@ -8702,7 +8702,7 @@ function visitors_data() {
             "unique": "false",
             "url": "download",
             "device": "Edge",
-            "location": "MT",
+            "location": "CA",
             "from": "Pan Pacific",
             "keywords": "media"
         },
@@ -8752,7 +8752,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "LG G Pad 7.0",
-            "location": "MP",
+            "location": "IS",
             "from": "google",
             "keywords": "advertising"
         },
@@ -8762,7 +8762,7 @@ function visitors_data() {
             "unique": "true",
             "url": "features",
             "device": "Ipad",
-            "location": "KN",
+            "location": "DE",
             "from": "Ajax Corporation",
             "keywords": "support"
         },
@@ -8782,7 +8782,7 @@ function visitors_data() {
             "unique": "true",
             "url": "features",
             "device": "Amazon Kindle Fire HDX 7",
-            "location": "Co",
+            "location": "NZ",
             "from": "google",
             "keywords": "resources"
         },
@@ -8812,7 +8812,7 @@ function visitors_data() {
             "unique": "false",
             "url": "contact",
             "device": "Chrome",
-            "location": "IO",
+            "location": "IS",
             "from": "ECMA Script company",
             "keywords": "legal"
         },
@@ -8822,7 +8822,7 @@ function visitors_data() {
             "unique": "false",
             "url": "features",
             "device": "Chrome",
-            "location": "CW",
+            "location": "US",
             "from": "Ajax Corporation",
             "keywords": "management"
         },
@@ -8832,7 +8832,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Research and Development",
             "device": "Nexus 6P",
-            "location": "IO",
+            "location": "IS",
             "from": "Ajax Corporation",
             "keywords": "management"
         },
@@ -8872,7 +8872,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Samsung Galaxy Tab A",
-            "location": "BB",
+            "location": "RU",
             "from": "Ajax Corporation",
             "keywords": "quality"
         },
@@ -8882,7 +8882,7 @@ function visitors_data() {
             "unique": "false",
             "url": "roadmap",
             "device": "Samsung Galaxy Tab A",
-            "location": "KN",
+            "location": "DE",
             "from": "Morley Group",
             "keywords": "public"
         },
@@ -8892,7 +8892,7 @@ function visitors_data() {
             "unique": "false",
             "url": "products",
             "device": "Ipad",
-            "location": "JM",
+            "location": "FR",
             "from": "yandex",
             "keywords": "quality"
         },
@@ -8932,7 +8932,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Customer Service",
             "device": "Amazon Kindle Fire HDX 7",
-            "location": "WS",
+            "location": "US",
             "from": "bing",
             "keywords": "development"
         },
@@ -8972,7 +8972,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Finances",
             "device": "Opera",
-            "location": "BH",
+            "location": "FR",
             "from": "ACME Corporation",
             "keywords": "accounting"
         },
@@ -9053,7 +9053,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Customer Relations",
             "device": "Iphone",
-            "location": "NR",
+            "location": "DE",
             "from": "Pan Pacific",
             "keywords": "media"
         },
@@ -9083,7 +9083,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Legal Department",
             "device": "Google Pixel C",
-            "location": "MV",
+            "location": "CA",
             "from": "yandex",
             "keywords": "accounting"
         },
@@ -9093,7 +9093,7 @@ function visitors_data() {
             "unique": "false",
             "url": "support",
             "device": "Chrome",
-            "location": "CX",
+            "location": "FR",
             "from": "yandex",
             "keywords": "public"
         },
@@ -9123,7 +9123,7 @@ function visitors_data() {
             "unique": "false",
             "url": "partners",
             "device": "HTC One M9",
-            "location": "HM",
+            "location": "US",
             "from": "yandex",
             "keywords": "quality"
         },
@@ -9183,7 +9183,7 @@ function visitors_data() {
             "unique": "true",
             "url": "products",
             "device": "Nvidia Shield Tablet",
-            "location": "GF",
+            "location": "DE",
             "from": "Morley Group",
             "keywords": "finances"
         },
@@ -9193,7 +9193,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Asset Management",
             "device": "Edge",
-            "location": "Co",
+            "location": "NZ",
             "from": "Ajax Corporation",
             "keywords": "support"
         },
@@ -9203,7 +9203,7 @@ function visitors_data() {
             "unique": "true",
             "url": "roadmap",
             "device": "Edge",
-            "location": "SO",
+            "location": "CN",
             "from": "unknown",
             "keywords": "management"
         },
@@ -9223,7 +9223,7 @@ function visitors_data() {
             "unique": "false",
             "url": "company",
             "device": "Google Pixel C",
-            "location": "BM",
+            "location": "GL",
             "from": "Pan Pacific",
             "keywords": "resources"
         },
@@ -9273,7 +9273,7 @@ function visitors_data() {
             "unique": "true",
             "url": "features",
             "device": "Apple TV 4th Gen",
-            "location": "HM",
+            "location": "US",
             "from": "Morley Group",
             "keywords": "resources"
         },
@@ -9293,7 +9293,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Research and Development",
             "device": "Google Pixel C",
-            "location": "CK",
+            "location": "NZ",
             "from": "ACME Corporation",
             "keywords": "development"
         },
@@ -9393,7 +9393,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Samsung Galaxy S6",
-            "location": "MF",
+            "location": "US",
             "from": "bing",
             "keywords": "finances"
         },
@@ -9403,7 +9403,7 @@ function visitors_data() {
             "unique": "false",
             "url": "download",
             "device": "Edge",
-            "location": "RE",
+            "location": "US",
             "from": "Pan Pacific",
             "keywords": "quality"
         },
@@ -9423,7 +9423,7 @@ function visitors_data() {
             "unique": "true",
             "url": "pricing",
             "device": "Edge",
-            "location": "MS",
+            "location": "RU",
             "from": "Ajax Corporation",
             "keywords": "payroll"
         },
@@ -9433,7 +9433,7 @@ function visitors_data() {
             "unique": "true",
             "url": "customers",
             "device": "Nexus 6P",
-            "location": "AG",
+            "location": "CA",
             "from": "Pan Pacific",
             "keywords": "support"
         },
@@ -9453,7 +9453,7 @@ function visitors_data() {
             "unique": "false",
             "url": "contact",
             "device": "Chrome",
-            "location": "PN",
+            "location": "FR",
             "from": "yandex",
             "keywords": "management"
         },
@@ -9513,7 +9513,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Quality Assurance",
             "device": "Chrome",
-            "location": "IO",
+            "location": "IS",
             "from": "bing",
             "keywords": "customer"
         },
@@ -9543,7 +9543,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Finances",
             "device": "Mozilla",
-            "location": "RE",
+            "location": "US",
             "from": "unknown",
             "keywords": "legal"
         },
@@ -9643,7 +9643,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Tech Support",
             "device": "Mozilla",
-            "location": "WF",
+            "location": "RU",
             "from": "Morley Group",
             "keywords": "management"
         },
@@ -9653,7 +9653,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Advertising",
             "device": "HTC One M9",
-            "location": "AI",
+            "location": "NZ",
             "from": "ECMA Script company",
             "keywords": "resources"
         },
@@ -9673,7 +9673,7 @@ function visitors_data() {
             "unique": "false",
             "url": "features",
             "device": "Nvidia Shield Tablet",
-            "location": "GI",
+            "location": "FR",
             "from": "Ajax Corporation",
             "keywords": "media"
         },
@@ -9703,7 +9703,7 @@ function visitors_data() {
             "unique": "false",
             "url": "contact",
             "device": "Chrome",
-            "location": "PW",
+            "location": "CA",
             "from": "google",
             "keywords": "public"
         },
@@ -9723,7 +9723,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Advertising",
             "device": "Mozilla",
-            "location": "Co",
+            "location": "NZ",
             "from": "Morley Group",
             "keywords": "service"
         },
@@ -9733,7 +9733,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Ipad",
-            "location": "SO",
+            "location": "CN",
             "from": "Morley Group",
             "keywords": "customer"
         },
@@ -9753,7 +9753,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Microsoft Lumia 950",
-            "location": "MO",
+            "location": "CA",
             "from": "Ajax Corporation",
             "keywords": "quality"
         },
@@ -9793,7 +9793,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Legal Department",
             "device": "Chrome",
-            "location": "MC",
+            "location": "IS",
             "from": "bing",
             "keywords": "development"
         },
@@ -9803,7 +9803,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Public Relations",
             "device": "Google Pixel C",
-            "location": "VC",
+            "location": "AU",
             "from": "unknown",
             "keywords": "marketing"
         },
@@ -9823,7 +9823,7 @@ function visitors_data() {
             "unique": "true",
             "url": "customers",
             "device": "Edge",
-            "location": "WS",
+            "location": "US",
             "from": "unknown",
             "keywords": "media"
         },
@@ -9833,7 +9833,7 @@ function visitors_data() {
             "unique": "false",
             "url": "download",
             "device": "Amazon Kindle Fire HDX 7",
-            "location": "MP",
+            "location": "IS",
             "from": "Pan Pacific",
             "keywords": "management"
         },
@@ -9883,7 +9883,7 @@ function visitors_data() {
             "unique": "true",
             "url": "customers",
             "device": "Chrome",
-            "location": "AU",
+            "location": "NZ",
             "from": "Pan Pacific",
             "keywords": "payroll"
         },
@@ -10003,7 +10003,7 @@ function visitors_data() {
             "unique": "false",
             "url": "search",
             "device": "Chrome",
-            "location": "SG",
+            "location": "RU",
             "from": "unknown",
             "keywords": "legal"
         },
@@ -10024,7 +10024,7 @@ function visitors_data() {
             "unique": "false",
             "url": "download",
             "device": "Chrome",
-            "location": "IO",
+            "location": "IS",
             "from": "yandex",
             "keywords": "public"
         },
@@ -10034,7 +10034,7 @@ function visitors_data() {
             "unique": "false",
             "url": "search",
             "device": "Mozilla",
-            "location": "GI",
+            "location": "FR",
             "from": "ECMA Script company",
             "keywords": "marketing"
         },
@@ -10054,7 +10054,7 @@ function visitors_data() {
             "unique": "false",
             "url": "download",
             "device": "Safari",
-            "location": "VA",
+            "location": "GL",
             "from": "ACME Corporation",
             "keywords": "advertising"
         },
@@ -10074,7 +10074,7 @@ function visitors_data() {
             "unique": "false",
             "url": "contact",
             "device": "Chrome",
-            "location": "Pr",
+            "location": "AU",
             "from": "google",
             "keywords": "service"
         },
@@ -10094,7 +10094,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Research and Development",
             "device": "Chrome",
-            "location": "Pr",
+            "location": "AU",
             "from": "Morley Group",
             "keywords": "support"
         },
@@ -10104,7 +10104,7 @@ function visitors_data() {
             "unique": "false",
             "url": "customers",
             "device": "Amazon Kindle Fire HDX 7",
-            "location": "LI",
+            "location": "US",
             "from": "bing",
             "keywords": "customer"
         },
@@ -10124,7 +10124,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Accounting",
             "device": "Safari",
-            "location": "CC",
+            "location": "IS",
             "from": "ECMA Script company",
             "keywords": "finances"
         },
@@ -10164,7 +10164,7 @@ function visitors_data() {
             "unique": "false",
             "url": "search",
             "device": "Safari",
-            "location": "Co",
+            "location": "AU",
             "from": "Pan Pacific",
             "keywords": "accounting"
         },
@@ -10294,7 +10294,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Quality Assurance",
             "device": "Nexus 6P",
-            "location": "Co",
+            "location": "AU",
             "from": "Ajax Corporation",
             "keywords": "payroll"
         },
@@ -10304,7 +10304,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog",
             "device": "Mozilla",
-            "location": "MH",
+            "location": "AU",
             "from": "Pan Pacific",
             "keywords": "media"
         },
@@ -10324,7 +10324,7 @@ function visitors_data() {
             "unique": "true",
             "url": "pricing",
             "device": "Opera",
-            "location": "SC",
+            "location": "IS",
             "from": "Pan Pacific",
             "keywords": "development"
         },
@@ -10334,7 +10334,7 @@ function visitors_data() {
             "unique": "true",
             "url": "support",
             "device": "Mozilla",
-            "location": "TO",
+            "location": "US",
             "from": "google",
             "keywords": "accounting"
         },
@@ -10354,7 +10354,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Accounting",
             "device": "Apple TV 4th Gen",
-            "location": "DM",
+            "location": "RU",
             "from": "unknown",
             "keywords": "service"
         },
@@ -10374,7 +10374,7 @@ function visitors_data() {
             "unique": "false",
             "url": "roadmap",
             "device": "Mozilla",
-            "location": "SM",
+            "location": "AU",
             "from": "google",
             "keywords": "public"
         },
@@ -10384,7 +10384,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Media Relations",
             "device": "Safari",
-            "location": "CK",
+            "location": "AU",
             "from": "unknown",
             "keywords": "resources"
         },
@@ -10394,7 +10394,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Sales and Marketing",
             "device": "Mozilla",
-            "location": "MT",
+            "location": "CA",
             "from": "google",
             "keywords": "advertising"
         },
@@ -10404,7 +10404,7 @@ function visitors_data() {
             "unique": "false",
             "url": "contact",
             "device": "Safari",
-            "location": "IM",
+            "location": "RU",
             "from": "ECMA Script company",
             "keywords": "customer"
         },
@@ -10414,7 +10414,7 @@ function visitors_data() {
             "unique": "true",
             "url": "support",
             "device": "Mozilla",
-            "location": "TC",
+            "location": "RU",
             "from": "ACME Corporation",
             "keywords": "resources"
         },
@@ -10454,7 +10454,7 @@ function visitors_data() {
             "unique": "true",
             "url": "customers",
             "device": "Chrome",
-            "location": "MQ",
+            "location": "GL",
             "from": "unknown",
             "keywords": "public"
         },
@@ -10484,7 +10484,7 @@ function visitors_data() {
             "unique": "false",
             "url": "download",
             "device": "LG G Pad 7.0",
-            "location": "Co",
+            "location": "AU",
             "from": "unknown",
             "keywords": "resources"
         },
@@ -10514,7 +10514,7 @@ function visitors_data() {
             "unique": "true",
             "url": "partners",
             "device": "Amazon Kindle Fire HDX 7",
-            "location": "VI",
+            "location": "AU",
             "from": "bing",
             "keywords": "advertising"
         },
@@ -10554,7 +10554,7 @@ function visitors_data() {
             "unique": "true",
             "url": "pricing",
             "device": "Chrome",
-            "location": "VI",
+            "location": "AU",
             "from": "yandex",
             "keywords": "legal"
         },
@@ -10604,7 +10604,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Tech Support",
             "device": "Apple TV 4th Gen",
-            "location": "VC",
+            "location": "AU",
             "from": "Pan Pacific",
             "keywords": "quality"
         },
@@ -10624,7 +10624,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Research and Development",
             "device": "Edge",
-            "location": "WS",
+            "location": "US",
             "from": "bing",
             "keywords": "accounting"
         },
@@ -10644,7 +10644,7 @@ function visitors_data() {
             "unique": "true",
             "url": "pricing",
             "device": "Chrome",
-            "location": "CC",
+            "location": "IS",
             "from": "unknown",
             "keywords": "accounting"
         },
@@ -10674,7 +10674,7 @@ function visitors_data() {
             "unique": "true",
             "url": "download",
             "device": "Safari",
-            "location": "BB",
+            "location": "RU",
             "from": "bing",
             "keywords": "management"
         },
@@ -10704,7 +10704,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Quality Assurance",
             "device": "Ipad",
-            "location": "GD",
+            "location": "US",
             "from": "Pan Pacific",
             "keywords": "payroll"
         },
@@ -10714,7 +10714,7 @@ function visitors_data() {
             "unique": "true",
             "url": "blog/Public Relations",
             "device": "Safari",
-            "location": "BB",
+            "location": "RU",
             "from": "Pan Pacific",
             "keywords": "service"
         },
@@ -10724,7 +10724,7 @@ function visitors_data() {
             "unique": "false",
             "url": "pricing",
             "device": "Chrome",
-            "location": "RE",
+            "location": "US",
             "from": "yandex",
             "keywords": "media"
         },
@@ -10744,7 +10744,7 @@ function visitors_data() {
             "unique": "false",
             "url": "search",
             "device": "Mozilla",
-            "location": "ST",
+            "location": "GL",
             "from": "bing",
             "keywords": "development"
         },
@@ -10764,7 +10764,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Public Relations",
             "device": "Opera",
-            "location": "VA",
+            "location": "GL",
             "from": "unknown",
             "keywords": "management"
         },
@@ -10854,7 +10854,7 @@ function visitors_data() {
             "unique": "false",
             "url": "blog/Legal Department",
             "device": "Edge",
-            "location": "BQ",
+            "location": "RU",
             "from": "ACME Corporation",
             "keywords": "accounting"
         },
@@ -10904,7 +10904,7 @@ function visitors_data() {
             "unique": "false",
             "url": "roadmap",
             "device": "Iphone",
-            "location": "SM",
+            "location": "AU",
             "from": "yandex",
             "keywords": "media"
         },
@@ -10924,7 +10924,7 @@ function visitors_data() {
             "unique": "false",
             "url": "contact",
             "device": "Google Pixel C",
-            "location": "BH",
+            "location": "FR",
             "from": "Ajax Corporation",
             "keywords": "finances"
         },
@@ -10954,7 +10954,7 @@ function visitors_data() {
             "unique": "false",
             "url": "roadmap",
             "device": "Chrome",
-            "location": "VC",
+            "location": "AU",
             "from": "Pan Pacific",
             "keywords": "development"
         },

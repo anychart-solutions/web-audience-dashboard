@@ -1,3 +1,5 @@
+// This library has been modified to the requirements of dashboard
+
 // Device.js
 // (c) 2014 Matthew Hudson
 // Device.js is freely distributable under the MIT license.
