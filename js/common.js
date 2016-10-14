@@ -112,7 +112,7 @@
             var users = chart.plot(0);
             users.line(mapping_blog_users);
             users.legend().itemsTextFormatter(function () {
-                return 'Visitors: ' + (this.value  || 0)+ ' of ' + count
+                return 'Visitors: ' + (this.value || 0) + ' of ' + count
             });
 
             chart.tooltip().titleFormatter(function () {
@@ -385,7 +385,9 @@
         function createDataTable(data, $el) {
             var $tbody = $el.find('tbody');
             // init DataTable
-            var $table = $tbody.parent('table').DataTable({
+            var $table;
+
+            $table = $tbody.parent('table').DataTable({
                 scrollY: '225px',
                 scrollCollapse: true,
                 paging: false,
@@ -848,6 +850,7 @@
 
         $('[data-range="full"]').closest('li').addClass('active');
     });
+
 
     $(window).on('load', function () {
         hidePreloader();
