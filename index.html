@@ -27,6 +27,9 @@
     <!-- DataTable -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css">
 
+    <!-- DateTimePicker -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.15.35/css/bootstrap-datetimepicker.min.css">
+
     <!-- AnyChart UI -->
     <link rel="stylesheet" href="https://cdn.anychart.com/css/7.11.0/anychart-ui.min.css">
     <link rel="stylesheet" href="https://cdn.anychart.com/fonts/2.0.0/anychart.css">
@@ -52,6 +55,73 @@
 </div>
 
 <div class="wrapper">
+    <div class="row">
+        <div class="col-lg-push-4 col-lg-4 col-md-8 col-md-push-2 col-sm-8 col-sm-push-2 col-xs-push-0 col-xs-12">
+            <div class="row">
+                <div class="col-xs-12">
+                    <nav class="navbar navbar-default" id="container-timeline">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                        data-target="#nav-date-time" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">Time Line</a>
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse nav-date-time" id="nav-date-time">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="#" data-range="full">Full Time</a></li>
+                                    <!-- new Date('09 01 2016 00:00:00') === Thu Sep 01 2016 00:00:00 GMT+0800  -->
+                                    <li><a href="#" data-range="today" data-time="09 01 2016 00:00:00">Today</a></li>
+                                    <li><a href="#" data-range="yesterday">Yesterday</a></li>
+                                    <li><a href="#" data-range="week">Week</a></li>
+                                    <li><a href="#" data-range="month">Month</a></li>
+                                    <li><a href="#" data-range="quarter">Quarter</a></li>
+                                    <li><a href="#" data-range="year">Year</a></li>
+                                </ul>
+                            </div><!-- /.navbar-collapse -->
+
+                            <div class="datetimepicker-container">
+                                <div class="row">
+                                    <div class='col-xs-6'>
+                                        <div class="form-group">
+                                            <div class='input-group date' id='datetimepicker_start'>
+                                                <input type='text' placeholder="Start Date Interval"
+                                                       class="form-control"/>
+                                                <span class="input-group-addon">
+                                                    <span class="glyphicon glyphicon-calendar"></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-xs-6'>
+                                        <div class="form-group">
+                                            <div class='input-group date' id='datetimepicker_end'>
+                                                <input type='text' placeholder="End Date Interval"
+                                                       class="form-control"/>
+                                                <span class="input-group-addon">
+                                                    <span class="glyphicon glyphicon-calendar"></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!-- /.container-fluid -->
+                    </nav>
+                </div>
+                <div class="col-xs-12">
+
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="chart_container">
@@ -204,6 +274,8 @@
 <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.12/js/dataTables.bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.15.35/js/bootstrap-datetimepicker.min.js"></script>
 
 <script src="dummy-data.js"></script>
 <script src="js/detect-user-agent.js"></script>

@@ -1,7 +1,7 @@
 function visitors_data() {
     return [
         {
-            "date": "2016-Mar-26",
+            "date": "2016-03-26",
             "age": 45,
             "unique": "false",
             "url": "blog/Sales and Marketing",
@@ -11,7 +11,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Mar-29",
+            "date": "2016-03-29",
             "age": 46,
             "unique": "true",
             "url": "search",
@@ -21,7 +21,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Aug-13",
+            "date": "2016-08-13",
             "age": 25,
             "unique": "false",
             "url": "pricing",
@@ -31,7 +31,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Sep-25",
+            "date": "2015-09-25",
             "age": 34,
             "unique": "false",
             "url": "support",
@@ -41,7 +41,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-May-09",
+            "date": "2016-05-09",
             "age": 35,
             "unique": "true",
             "url": "company",
@@ -51,7 +51,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-May-19",
+            "date": "2016-05-19",
             "age": 44,
             "unique": "false",
             "url": "company",
@@ -61,7 +61,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Aug-13",
+            "date": "2016-08-13",
             "age": 45,
             "unique": "true",
             "url": "blog/Payroll",
@@ -71,7 +71,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jul-09",
+            "date": "2016-07-09",
             "age": 59,
             "unique": "true",
             "url": "products",
@@ -81,7 +81,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Dec-03",
+            "date": "2015-12-03",
             "age": 11,
             "unique": "true",
             "url": "roadmap",
@@ -91,7 +91,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Dec-31",
+            "date": "2015-12-31",
             "age": 66,
             "unique": "false",
             "url": "pricing",
@@ -101,7 +101,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jul-05",
+            "date": "2016-07-05",
             "age": 69,
             "unique": "false",
             "url": "roadmap",
@@ -111,7 +111,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Feb-04",
+            "date": "2016-02-04",
             "age": 55,
             "unique": "false",
             "url": "products",
@@ -121,7 +121,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2015-Oct-29",
+            "date": "2015-10-29",
             "age": 55,
             "unique": "true",
             "url": "products",
@@ -131,7 +131,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jul-17",
+            "date": "2016-07-17",
             "age": 44,
             "unique": "true",
             "url": "pricing",
@@ -141,7 +141,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Apr-10",
+            "date": "2016-04-10",
             "age": 15,
             "unique": "false",
             "url": "pricing",
@@ -151,7 +151,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jul-12",
+            "date": "2016-07-12",
             "age": 59,
             "unique": "false",
             "url": "blog",
@@ -161,7 +161,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-May-29",
+            "date": "2016-05-29",
             "age": 16,
             "unique": "false",
             "url": "roadmap",
@@ -171,7 +171,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2015-Sep-17",
+            "date": "2015-09-17",
             "age": 80,
             "unique": "true",
             "url": "download",
@@ -181,7 +181,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jun-06",
+            "date": "2016-06-06",
             "age": 49,
             "unique": "false",
             "url": "blog/Customer Relations",
@@ -191,7 +191,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jun-08",
+            "date": "2016-06-08",
             "age": 11,
             "unique": "true",
             "url": "download",
@@ -201,7 +201,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Aug-17",
+            "date": "2016-08-17",
             "age": 19,
             "unique": "true",
             "url": "blog/Customer Service",
@@ -211,7 +211,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Feb-13",
+            "date": "2016-02-13",
             "age": 19,
             "unique": "true",
             "url": "blog/Customer Service",
@@ -221,7 +221,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Jan-04",
+            "date": "2016-01-04",
             "age": 31,
             "unique": "true",
             "url": "blog/Finances",
@@ -231,7 +231,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2015-Oct-16",
+            "date": "2015-10-16",
             "age": 36,
             "unique": "false",
             "url": "contact",
@@ -241,7 +241,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Oct-28",
+            "date": "2015-10-28",
             "age": 14,
             "unique": "false",
             "url": "blog/Finances",
@@ -251,7 +251,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Jan-13",
+            "date": "2016-01-13",
             "age": 32,
             "unique": "true",
             "url": "blog/Accounting",
@@ -261,7 +261,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-May-25",
+            "date": "2016-05-25",
             "age": 26,
             "unique": "true",
             "url": "company",
@@ -271,7 +271,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Jun-27",
+            "date": "2016-06-27",
             "age": 71,
             "unique": "false",
             "url": "roadmap",
@@ -281,7 +281,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Jan-24",
+            "date": "2016-01-24",
             "age": 63,
             "unique": "false",
             "url": "blog/Quality Assurance",
@@ -291,7 +291,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2015-Dec-12",
+            "date": "2015-12-12",
             "age": 27,
             "unique": "false",
             "url": "products",
@@ -301,7 +301,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Mar-05",
+            "date": "2016-03-05",
             "age": 24,
             "unique": "false",
             "url": "roadmap",
@@ -311,7 +311,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-May-02",
+            "date": "2016-05-02",
             "age": 70,
             "unique": "true",
             "url": "blog/Advertising",
@@ -321,7 +321,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Dec-05",
+            "date": "2015-12-05",
             "age": 77,
             "unique": "false",
             "url": "products",
@@ -331,7 +331,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2015-Nov-14",
+            "date": "2015-11-14",
             "age": 16,
             "unique": "true",
             "url": "products",
@@ -341,7 +341,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Dec-20",
+            "date": "2015-12-20",
             "age": 72,
             "unique": "false",
             "url": "products",
@@ -351,7 +351,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Mar-12",
+            "date": "2016-03-12",
             "age": 21,
             "unique": "true",
             "url": "products",
@@ -361,7 +361,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Mar-08",
+            "date": "2016-03-08",
             "age": 80,
             "unique": "true",
             "url": "blog/Quality Assurance",
@@ -371,7 +371,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Mar-03",
+            "date": "2016-03-03",
             "age": 16,
             "unique": "true",
             "url": "products",
@@ -381,7 +381,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Mar-12",
+            "date": "2016-03-12",
             "age": 62,
             "unique": "false",
             "url": "products",
@@ -391,7 +391,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Jan-25",
+            "date": "2016-01-25",
             "age": 20,
             "unique": "false",
             "url": "features",
@@ -401,7 +401,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Apr-27",
+            "date": "2016-04-27",
             "age": 11,
             "unique": "true",
             "url": "blog/Advertising",
@@ -411,7 +411,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2015-Oct-02",
+            "date": "2015-10-02",
             "age": 22,
             "unique": "false",
             "url": "blog/Payroll",
@@ -421,7 +421,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2015-Sep-24",
+            "date": "2015-09-24",
             "age": 43,
             "unique": "false",
             "url": "blog/Payroll",
@@ -431,7 +431,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-May-28",
+            "date": "2016-05-28",
             "age": 52,
             "unique": "false",
             "url": "features",
@@ -441,7 +441,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Mar-30",
+            "date": "2016-03-30",
             "age": 27,
             "unique": "false",
             "url": "search",
@@ -451,7 +451,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Jun-19",
+            "date": "2016-06-19",
             "age": 22,
             "unique": "false",
             "url": "blog/Finances",
@@ -461,7 +461,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2015-Oct-14",
+            "date": "2015-10-14",
             "age": 52,
             "unique": "false",
             "url": "blog/Media Relations",
@@ -471,7 +471,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Dec-23",
+            "date": "2015-12-23",
             "age": 59,
             "unique": "true",
             "url": "products",
@@ -481,7 +481,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Feb-14",
+            "date": "2016-02-14",
             "age": 49,
             "unique": "false",
             "url": "company",
@@ -491,7 +491,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jan-08",
+            "date": "2016-01-08",
             "age": 16,
             "unique": "true",
             "url": "download",
@@ -501,7 +501,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Apr-21",
+            "date": "2016-04-21",
             "age": 67,
             "unique": "false",
             "url": "roadmap",
@@ -511,7 +511,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Feb-05",
+            "date": "2016-02-05",
             "age": 45,
             "unique": "false",
             "url": "features",
@@ -521,7 +521,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-May-10",
+            "date": "2016-05-10",
             "age": 22,
             "unique": "true",
             "url": "pricing",
@@ -531,7 +531,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jan-20",
+            "date": "2016-01-20",
             "age": 15,
             "unique": "false",
             "url": "pricing",
@@ -541,7 +541,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Aug-23",
+            "date": "2016-08-23",
             "age": 26,
             "unique": "true",
             "url": "customers",
@@ -551,7 +551,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Aug-19",
+            "date": "2016-08-19",
             "age": 79,
             "unique": "false",
             "url": "products",
@@ -561,7 +561,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Aug-07",
+            "date": "2016-08-07",
             "age": 46,
             "unique": "false",
             "url": "roadmap",
@@ -571,7 +571,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2015-Nov-03",
+            "date": "2015-11-03",
             "age": 37,
             "unique": "true",
             "url": "download",
@@ -581,7 +581,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Apr-03",
+            "date": "2016-04-03",
             "age": 23,
             "unique": "true",
             "url": "search",
@@ -591,7 +591,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2015-Oct-10",
+            "date": "2015-10-10",
             "age": 26,
             "unique": "false",
             "url": "features",
@@ -601,7 +601,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Feb-19",
+            "date": "2016-02-19",
             "age": 25,
             "unique": "true",
             "url": "features",
@@ -611,7 +611,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Feb-12",
+            "date": "2016-02-12",
             "age": 42,
             "unique": "true",
             "url": "support",
@@ -621,7 +621,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2015-Oct-14",
+            "date": "2015-10-14",
             "age": 55,
             "unique": "false",
             "url": "blog/Quality Assurance",
@@ -631,7 +631,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-May-07",
+            "date": "2016-05-07",
             "age": 54,
             "unique": "false",
             "url": "search",
@@ -641,7 +641,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Mar-30",
+            "date": "2016-03-30",
             "age": 71,
             "unique": "false",
             "url": "contact",
@@ -651,7 +651,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2015-Dec-25",
+            "date": "2015-12-25",
             "age": 41,
             "unique": "false",
             "url": "company",
@@ -661,7 +661,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-May-18",
+            "date": "2016-05-18",
             "age": 73,
             "unique": "false",
             "url": "products",
@@ -671,7 +671,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Mar-25",
+            "date": "2016-03-25",
             "age": 65,
             "unique": "true",
             "url": "contact",
@@ -681,7 +681,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Jun-24",
+            "date": "2016-06-24",
             "age": 25,
             "unique": "false",
             "url": "blog/Customer Service",
@@ -691,7 +691,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Mar-01",
+            "date": "2016-03-01",
             "age": 41,
             "unique": "true",
             "url": "blog/Finances",
@@ -701,7 +701,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Feb-16",
+            "date": "2016-02-16",
             "age": 59,
             "unique": "false",
             "url": "partners",
@@ -711,7 +711,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-May-22",
+            "date": "2016-05-22",
             "age": 59,
             "unique": "false",
             "url": "contact",
@@ -721,7 +721,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Apr-18",
+            "date": "2016-04-18",
             "age": 26,
             "unique": "true",
             "url": "download",
@@ -731,7 +731,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2015-Nov-01",
+            "date": "2015-11-01",
             "age": 24,
             "unique": "true",
             "url": "support",
@@ -741,7 +741,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2015-Dec-30",
+            "date": "2015-12-30",
             "age": 31,
             "unique": "false",
             "url": "blog/Legal Department",
@@ -751,7 +751,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2015-Oct-16",
+            "date": "2015-10-16",
             "age": 12,
             "unique": "true",
             "url": "partners",
@@ -761,7 +761,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Nov-07",
+            "date": "2015-11-07",
             "age": 73,
             "unique": "false",
             "url": "blog/Sales and Marketing",
@@ -771,7 +771,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-May-18",
+            "date": "2016-05-18",
             "age": 53,
             "unique": "false",
             "url": "support",
@@ -781,7 +781,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Apr-06",
+            "date": "2016-04-06",
             "age": 37,
             "unique": "false",
             "url": "support",
@@ -791,7 +791,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Apr-14",
+            "date": "2016-04-14",
             "age": 13,
             "unique": "true",
             "url": "blog/Human Resources",
@@ -801,7 +801,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Apr-05",
+            "date": "2016-04-05",
             "age": 40,
             "unique": "false",
             "url": "blog/Tech Support",
@@ -811,7 +811,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2015-Oct-20",
+            "date": "2015-10-20",
             "age": 63,
             "unique": "false",
             "url": "blog/Customer Service",
@@ -821,7 +821,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Mar-13",
+            "date": "2016-03-13",
             "age": 67,
             "unique": "false",
             "url": "contact",
@@ -831,7 +831,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Mar-06",
+            "date": "2016-03-06",
             "age": 25,
             "unique": "true",
             "url": "roadmap",
@@ -841,7 +841,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2015-Dec-22",
+            "date": "2015-12-22",
             "age": 23,
             "unique": "false",
             "url": "search",
@@ -851,7 +851,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Oct-14",
+            "date": "2015-10-14",
             "age": 54,
             "unique": "true",
             "url": "roadmap",
@@ -861,7 +861,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jul-16",
+            "date": "2016-07-16",
             "age": 12,
             "unique": "true",
             "url": "partners",
@@ -871,7 +871,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-May-07",
+            "date": "2016-05-07",
             "age": 50,
             "unique": "true",
             "url": "products",
@@ -881,7 +881,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Jul-05",
+            "date": "2016-07-05",
             "age": 22,
             "unique": "true",
             "url": "pricing",
@@ -891,7 +891,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jul-13",
+            "date": "2016-07-13",
             "age": 20,
             "unique": "false",
             "url": "partners",
@@ -901,7 +901,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2015-Dec-01",
+            "date": "2015-12-01",
             "age": 17,
             "unique": "true",
             "url": "blog/Asset Management",
@@ -911,7 +911,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2015-Dec-25",
+            "date": "2015-12-25",
             "age": 60,
             "unique": "true",
             "url": "search",
@@ -921,7 +921,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2015-Nov-19",
+            "date": "2015-11-19",
             "age": 17,
             "unique": "true",
             "url": "features",
@@ -931,7 +931,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2015-Oct-20",
+            "date": "2015-10-20",
             "age": 41,
             "unique": "false",
             "url": "blog/Customer Relations",
@@ -941,7 +941,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Aug-21",
+            "date": "2016-08-21",
             "age": 73,
             "unique": "false",
             "url": "company",
@@ -951,7 +951,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Dec-20",
+            "date": "2015-12-20",
             "age": 16,
             "unique": "false",
             "url": "roadmap",
@@ -961,7 +961,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Aug-20",
+            "date": "2016-08-20",
             "age": 29,
             "unique": "true",
             "url": "blog/Advertising",
@@ -971,7 +971,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Jan-27",
+            "date": "2016-01-27",
             "age": 49,
             "unique": "false",
             "url": "pricing",
@@ -981,7 +981,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jun-20",
+            "date": "2016-06-20",
             "age": 26,
             "unique": "false",
             "url": "products",
@@ -991,7 +991,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-May-23",
+            "date": "2016-05-23",
             "age": 80,
             "unique": "false",
             "url": "customers",
@@ -1001,7 +1001,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2015-Oct-14",
+            "date": "2015-10-14",
             "age": 25,
             "unique": "true",
             "url": "pricing",
@@ -1011,7 +1011,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Aug-01",
+            "date": "2016-08-01",
             "age": 37,
             "unique": "true",
             "url": "search",
@@ -1021,7 +1021,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Mar-08",
+            "date": "2016-03-08",
             "age": 25,
             "unique": "true",
             "url": "contact",
@@ -1031,7 +1031,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jun-09",
+            "date": "2016-06-09",
             "age": 13,
             "unique": "false",
             "url": "blog/Human Resources",
@@ -1041,7 +1041,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Dec-07",
+            "date": "2015-12-07",
             "age": 34,
             "unique": "true",
             "url": "blog/Payroll",
@@ -1051,7 +1051,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Feb-04",
+            "date": "2016-02-04",
             "age": 32,
             "unique": "false",
             "url": "blog/Quality Assurance",
@@ -1061,7 +1061,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2015-Nov-07",
+            "date": "2015-11-07",
             "age": 49,
             "unique": "false",
             "url": "blog",
@@ -1071,7 +1071,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2015-Dec-18",
+            "date": "2015-12-18",
             "age": 38,
             "unique": "true",
             "url": "search",
@@ -1081,7 +1081,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Jul-12",
+            "date": "2016-07-12",
             "age": 21,
             "unique": "false",
             "url": "customers",
@@ -1091,7 +1091,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jan-14",
+            "date": "2016-01-14",
             "age": 12,
             "unique": "false",
             "url": "blog/Sales and Marketing",
@@ -1101,7 +1101,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jan-26",
+            "date": "2016-01-26",
             "age": 67,
             "unique": "false",
             "url": "pricing",
@@ -1111,7 +1111,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Mar-12",
+            "date": "2016-03-12",
             "age": 20,
             "unique": "false",
             "url": "blog/Finances",
@@ -1121,7 +1121,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-May-13",
+            "date": "2016-05-13",
             "age": 58,
             "unique": "true",
             "url": "blog/Payroll",
@@ -1131,7 +1131,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jan-13",
+            "date": "2016-01-13",
             "age": 70,
             "unique": "false",
             "url": "pricing",
@@ -1141,7 +1141,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-May-21",
+            "date": "2016-05-21",
             "age": 37,
             "unique": "true",
             "url": "products",
@@ -1151,7 +1151,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Aug-30",
+            "date": "2016 08 30 11:30",
             "age": 53,
             "unique": "false",
             "url": "pricing",
@@ -1161,7 +1161,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jan-24",
+            "date": "2016-01-24",
             "age": 65,
             "unique": "false",
             "url": "support",
@@ -1171,7 +1171,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Jan-26",
+            "date": "2016-01-26",
             "age": 25,
             "unique": "false",
             "url": "company",
@@ -1181,7 +1181,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Nov-29",
+            "date": "2015-11-29",
             "age": 62,
             "unique": "false",
             "url": "company",
@@ -1191,7 +1191,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2015-Oct-31",
+            "date": "2015-10-31",
             "age": 70,
             "unique": "true",
             "url": "blog/Human Resources",
@@ -1201,7 +1201,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Dec-15",
+            "date": "2015-12-15",
             "age": 67,
             "unique": "false",
             "url": "products",
@@ -1211,7 +1211,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jun-12",
+            "date": "2016-06-12",
             "age": 80,
             "unique": "false",
             "url": "blog",
@@ -1221,7 +1221,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-May-20",
+            "date": "2016-05-20",
             "age": 66,
             "unique": "false",
             "url": "pricing",
@@ -1231,7 +1231,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Jan-31",
+            "date": "2016-01-31",
             "age": 73,
             "unique": "true",
             "url": "partners",
@@ -1241,7 +1241,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jan-11",
+            "date": "2016-01-11",
             "age": 37,
             "unique": "false",
             "url": "customers",
@@ -1251,7 +1251,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-May-29",
+            "date": "2016-05-29",
             "age": 48,
             "unique": "true",
             "url": "blog/Sales and Marketing",
@@ -1261,7 +1261,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Apr-24",
+            "date": "2016-04-24",
             "age": 55,
             "unique": "false",
             "url": "products",
@@ -1271,7 +1271,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Aug-04",
+            "date": "2016-08-04",
             "age": 34,
             "unique": "false",
             "url": "pricing",
@@ -1281,7 +1281,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Oct-05",
+            "date": "2015-10-05",
             "age": 12,
             "unique": "false",
             "url": "roadmap",
@@ -1291,7 +1291,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Apr-29",
+            "date": "2016-04-29",
             "age": 54,
             "unique": "false",
             "url": "blog/Customer Service",
@@ -1301,7 +1301,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2015-Sep-26",
+            "date": "2015-09-26",
             "age": 38,
             "unique": "true",
             "url": "blog/Customer Service",
@@ -1311,7 +1311,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Aug-05",
+            "date": "2016-08-05",
             "age": 20,
             "unique": "false",
             "url": "contact",
@@ -1321,7 +1321,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jul-28",
+            "date": "2016-07-28",
             "age": 29,
             "unique": "false",
             "url": "blog/Research and Development",
@@ -1331,7 +1331,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2015-Nov-24",
+            "date": "2015-11-24",
             "age": 26,
             "unique": "false",
             "url": "contact",
@@ -1341,7 +1341,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2015-Dec-30",
+            "date": "2015-12-30",
             "age": 22,
             "unique": "false",
             "url": "blog/Public Relations",
@@ -1351,7 +1351,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jan-20",
+            "date": "2016-01-20",
             "age": 70,
             "unique": "false",
             "url": "features",
@@ -1361,7 +1361,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Jul-28",
+            "date": "2016-07-28",
             "age": 25,
             "unique": "false",
             "url": "pricing",
@@ -1371,7 +1371,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-May-24",
+            "date": "2016-05-24",
             "age": 28,
             "unique": "false",
             "url": "features",
@@ -1381,7 +1381,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2015-Oct-05",
+            "date": "2015-10-05",
             "age": 22,
             "unique": "true",
             "url": "features",
@@ -1391,7 +1391,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jul-25",
+            "date": "2016-07-25",
             "age": 16,
             "unique": "false",
             "url": "customers",
@@ -1401,7 +1401,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Oct-12",
+            "date": "2015-10-12",
             "age": 66,
             "unique": "true",
             "url": "features",
@@ -1411,7 +1411,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jan-18",
+            "date": "2016-01-18",
             "age": 29,
             "unique": "true",
             "url": "products",
@@ -1421,7 +1421,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jan-27",
+            "date": "2016-01-27",
             "age": 21,
             "unique": "true",
             "url": "blog/Advertising",
@@ -1431,7 +1431,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Jan-24",
+            "date": "2016-01-24",
             "age": 60,
             "unique": "false",
             "url": "products",
@@ -1441,17 +1441,17 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Aug-30",
+            "date": "2016 08 30 12:55",
             "age": 26,
             "unique": "false",
-            "url": "products",
+            "url": "blog/Payroll",
             "device": "Mozilla",
             "location": "SZ",
             "from": "ACME Corporation",
             "keywords": "support"
         },
         {
-            "date": "2016-Jun-16",
+            "date": "2016-06-16",
             "age": 30,
             "unique": "false",
             "url": "contact",
@@ -1461,7 +1461,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Apr-29",
+            "date": "2016-04-29",
             "age": 46,
             "unique": "false",
             "url": "blog/Customer Relations",
@@ -1471,7 +1471,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jul-20",
+            "date": "2016-07-20",
             "age": 48,
             "unique": "false",
             "url": "customers",
@@ -1481,7 +1481,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2015-Nov-17",
+            "date": "2015-11-17",
             "age": 74,
             "unique": "false",
             "url": "partners",
@@ -1491,7 +1491,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Mar-22",
+            "date": "2016-03-22",
             "age": 14,
             "unique": "false",
             "url": "search",
@@ -1501,7 +1501,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Feb-04",
+            "date": "2016-02-04",
             "age": 43,
             "unique": "false",
             "url": "company",
@@ -1511,7 +1511,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Apr-30",
+            "date": "2016-04-30",
             "age": 30,
             "unique": "false",
             "url": "search",
@@ -1521,7 +1521,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-May-16",
+            "date": "2016-05-16",
             "age": 51,
             "unique": "false",
             "url": "search",
@@ -1531,7 +1531,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Feb-02",
+            "date": "2016-02-02",
             "age": 13,
             "unique": "false",
             "url": "blog/Public Relations",
@@ -1541,7 +1541,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Jan-15",
+            "date": "2016-01-15",
             "age": 27,
             "unique": "false",
             "url": "blog/Sales and Marketing",
@@ -1551,7 +1551,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Apr-08",
+            "date": "2016-04-08",
             "age": 56,
             "unique": "false",
             "url": "download",
@@ -1561,7 +1561,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Oct-24",
+            "date": "2015-10-24",
             "age": 29,
             "unique": "false",
             "url": "blog/Sales and Marketing",
@@ -1571,7 +1571,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Feb-17",
+            "date": "2016-02-17",
             "age": 34,
             "unique": "false",
             "url": "blog/Payroll",
@@ -1581,7 +1581,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Dec-12",
+            "date": "2015-12-12",
             "age": 31,
             "unique": "false",
             "url": "products",
@@ -1591,7 +1591,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Dec-30",
+            "date": "2015-12-30",
             "age": 57,
             "unique": "false",
             "url": "search",
@@ -1601,7 +1601,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Aug-25",
+            "date": "2016-08-25",
             "age": 19,
             "unique": "true",
             "url": "blog/Payroll",
@@ -1611,7 +1611,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Apr-04",
+            "date": "2016-04-04",
             "age": 65,
             "unique": "true",
             "url": "blog/Legal Department",
@@ -1621,7 +1621,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-May-29",
+            "date": "2016-05-29",
             "age": 13,
             "unique": "false",
             "url": "customers",
@@ -1631,7 +1631,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Jan-26",
+            "date": "2016-01-26",
             "age": 70,
             "unique": "true",
             "url": "blog",
@@ -1641,7 +1641,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Nov-22",
+            "date": "2015-11-22",
             "age": 22,
             "unique": "false",
             "url": "roadmap",
@@ -1651,7 +1651,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Apr-09",
+            "date": "2016-04-09",
             "age": 19,
             "unique": "true",
             "url": "blog/Asset Management",
@@ -1661,7 +1661,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Mar-29",
+            "date": "2016-03-29",
             "age": 67,
             "unique": "false",
             "url": "features",
@@ -1671,7 +1671,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-May-16",
+            "date": "2016-05-16",
             "age": 33,
             "unique": "true",
             "url": "features",
@@ -1681,7 +1681,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Jul-28",
+            "date": "2016-07-28",
             "age": 25,
             "unique": "true",
             "url": "products",
@@ -1691,7 +1691,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2015-Dec-29",
+            "date": "2015-12-29",
             "age": 46,
             "unique": "true",
             "url": "company",
@@ -1701,7 +1701,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Aug-03",
+            "date": "2016-08-03",
             "age": 22,
             "unique": "false",
             "url": "products",
@@ -1711,7 +1711,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Mar-29",
+            "date": "2016-03-29",
             "age": 74,
             "unique": "true",
             "url": "products",
@@ -1721,7 +1721,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Dec-24",
+            "date": "2015-12-24",
             "age": 18,
             "unique": "false",
             "url": "roadmap",
@@ -1731,7 +1731,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Aug-17",
+            "date": "2016-08-17",
             "age": 79,
             "unique": "true",
             "url": "blog/Public Relations",
@@ -1741,7 +1741,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jun-05",
+            "date": "2016-06-05",
             "age": 74,
             "unique": "false",
             "url": "blog/Sales and Marketing",
@@ -1751,7 +1751,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jan-15",
+            "date": "2016-01-15",
             "age": 31,
             "unique": "true",
             "url": "support",
@@ -1761,7 +1761,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2015-Sep-14",
+            "date": "2015-09-14",
             "age": 50,
             "unique": "false",
             "url": "blog/Accounting",
@@ -1771,7 +1771,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Jul-27",
+            "date": "2016-07-27",
             "age": 22,
             "unique": "false",
             "url": "blog/Customer Service",
@@ -1781,7 +1781,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Aug-12",
+            "date": "2016-08-12",
             "age": 25,
             "unique": "false",
             "url": "blog/Finances",
@@ -1791,7 +1791,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2015-Nov-14",
+            "date": "2015-11-14",
             "age": 77,
             "unique": "false",
             "url": "contact",
@@ -1801,7 +1801,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Nov-01",
+            "date": "2015-11-01",
             "age": 23,
             "unique": "false",
             "url": "roadmap",
@@ -1811,7 +1811,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Oct-01",
+            "date": "2015-10-01",
             "age": 25,
             "unique": "true",
             "url": "support",
@@ -1821,7 +1821,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Feb-17",
+            "date": "2016-02-17",
             "age": 76,
             "unique": "true",
             "url": "blog",
@@ -1831,7 +1831,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Mar-01",
+            "date": "2016-03-01",
             "age": 22,
             "unique": "false",
             "url": "company",
@@ -1841,7 +1841,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Mar-28",
+            "date": "2016-03-28",
             "age": 29,
             "unique": "false",
             "url": "blog/Media Relations",
@@ -1851,7 +1851,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Jul-24",
+            "date": "2016-07-24",
             "age": 26,
             "unique": "false",
             "url": "pricing",
@@ -1861,7 +1861,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Oct-19",
+            "date": "2015-10-19",
             "age": 18,
             "unique": "true",
             "url": "search",
@@ -1871,7 +1871,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Mar-05",
+            "date": "2016-03-05",
             "age": 23,
             "unique": "true",
             "url": "pricing",
@@ -1881,7 +1881,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jan-19",
+            "date": "2016-01-19",
             "age": 11,
             "unique": "false",
             "url": "blog/Customer Relations",
@@ -1891,7 +1891,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Nov-17",
+            "date": "2015-11-17",
             "age": 29,
             "unique": "false",
             "url": "search",
@@ -1901,7 +1901,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Nov-09",
+            "date": "2015-11-09",
             "age": 75,
             "unique": "false",
             "url": "partners",
@@ -1911,7 +1911,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-May-02",
+            "date": "2016-05-02",
             "age": 16,
             "unique": "false",
             "url": "pricing",
@@ -1921,7 +1921,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jun-13",
+            "date": "2016-06-13",
             "age": 64,
             "unique": "false",
             "url": "blog/Public Relations",
@@ -1931,7 +1931,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jul-19",
+            "date": "2016-07-19",
             "age": 35,
             "unique": "false",
             "url": "support",
@@ -1941,7 +1941,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-May-21",
+            "date": "2016-05-21",
             "age": 16,
             "unique": "false",
             "url": "blog/Advertising",
@@ -1951,7 +1951,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Apr-09",
+            "date": "2016-04-09",
             "age": 49,
             "unique": "false",
             "url": "contact",
@@ -1961,7 +1961,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Jun-04",
+            "date": "2016-06-04",
             "age": 68,
             "unique": "false",
             "url": "blog/Customer Relations",
@@ -1971,7 +1971,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2015-Sep-28",
+            "date": "2015-09-28",
             "age": 23,
             "unique": "true",
             "url": "products",
@@ -1981,7 +1981,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2015-Nov-22",
+            "date": "2015-11-22",
             "age": 45,
             "unique": "false",
             "url": "pricing",
@@ -1991,7 +1991,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2015-Dec-29",
+            "date": "2015-12-29",
             "age": 67,
             "unique": "false",
             "url": "blog/Legal Department",
@@ -2001,7 +2001,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Jan-29",
+            "date": "2016-01-29",
             "age": 29,
             "unique": "false",
             "url": "download",
@@ -2011,7 +2011,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-May-25",
+            "date": "2016-05-25",
             "age": 68,
             "unique": "false",
             "url": "features",
@@ -2021,7 +2021,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Dec-23",
+            "date": "2015-12-23",
             "age": 58,
             "unique": "false",
             "url": "features",
@@ -2031,7 +2031,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jul-02",
+            "date": "2016-07-02",
             "age": 58,
             "unique": "false",
             "url": "partners",
@@ -2041,7 +2041,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2015-Nov-08",
+            "date": "2015-11-08",
             "age": 78,
             "unique": "true",
             "url": "products",
@@ -2051,7 +2051,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Jul-06",
+            "date": "2016-07-06",
             "age": 61,
             "unique": "false",
             "url": "blog",
@@ -2061,7 +2061,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Oct-05",
+            "date": "2015-10-05",
             "age": 27,
             "unique": "false",
             "url": "blog/Human Resources",
@@ -2071,7 +2071,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2015-Dec-01",
+            "date": "2015-12-01",
             "age": 58,
             "unique": "true",
             "url": "blog/Finances",
@@ -2081,7 +2081,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2015-Oct-25",
+            "date": "2015-10-25",
             "age": 35,
             "unique": "false",
             "url": "blog/Tech Support",
@@ -2091,7 +2091,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Nov-12",
+            "date": "2015-11-12",
             "age": 65,
             "unique": "false",
             "url": "roadmap",
@@ -2101,7 +2101,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Jul-03",
+            "date": "2016-07-03",
             "age": 37,
             "unique": "true",
             "url": "contact",
@@ -2111,7 +2111,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2015-Oct-25",
+            "date": "2015-10-25",
             "age": 26,
             "unique": "true",
             "url": "blog/Human Resources",
@@ -2121,7 +2121,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jun-18",
+            "date": "2016-06-18",
             "age": 74,
             "unique": "true",
             "url": "blog/Research and Development",
@@ -2131,7 +2131,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Feb-04",
+            "date": "2016-02-04",
             "age": 25,
             "unique": "true",
             "url": "partners",
@@ -2141,7 +2141,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Aug-05",
+            "date": "2016-08-05",
             "age": 24,
             "unique": "true",
             "url": "blog/Finances",
@@ -2151,7 +2151,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Feb-29",
+            "date": "2016-02-29",
             "age": 14,
             "unique": "true",
             "url": "roadmap",
@@ -2161,7 +2161,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Mar-26",
+            "date": "2016-03-26",
             "age": 29,
             "unique": "true",
             "url": "pricing",
@@ -2171,7 +2171,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jan-14",
+            "date": "2016-01-14",
             "age": 75,
             "unique": "false",
             "url": "partners",
@@ -2181,7 +2181,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Jan-13",
+            "date": "2016-01-13",
             "age": 52,
             "unique": "false",
             "url": "partners",
@@ -2191,7 +2191,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2015-Dec-13",
+            "date": "2015-12-13",
             "age": 45,
             "unique": "false",
             "url": "blog/Public Relations",
@@ -2201,7 +2201,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Apr-08",
+            "date": "2016-04-08",
             "age": 37,
             "unique": "false",
             "url": "products",
@@ -2211,7 +2211,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Apr-12",
+            "date": "2016-04-12",
             "age": 49,
             "unique": "true",
             "url": "pricing",
@@ -2221,7 +2221,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Aug-19",
+            "date": "2016-08-19",
             "age": 52,
             "unique": "false",
             "url": "partners",
@@ -2231,7 +2231,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Jul-24",
+            "date": "2016-07-24",
             "age": 66,
             "unique": "true",
             "url": "customers",
@@ -2241,7 +2241,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Apr-13",
+            "date": "2016-04-13",
             "age": 50,
             "unique": "false",
             "url": "pricing",
@@ -2251,7 +2251,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2015-Dec-14",
+            "date": "2015-12-14",
             "age": 61,
             "unique": "false",
             "url": "roadmap",
@@ -2261,7 +2261,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Feb-10",
+            "date": "2016-02-10",
             "age": 41,
             "unique": "false",
             "url": "company",
@@ -2271,7 +2271,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Oct-06",
+            "date": "2015-10-06",
             "age": 11,
             "unique": "false",
             "url": "partners",
@@ -2281,7 +2281,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-May-09",
+            "date": "2016-05-09",
             "age": 12,
             "unique": "false",
             "url": "blog",
@@ -2291,7 +2291,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jan-01",
+            "date": "2016-01-01",
             "age": 41,
             "unique": "false",
             "url": "download",
@@ -2301,7 +2301,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Dec-16",
+            "date": "2015-12-16",
             "age": 25,
             "unique": "false",
             "url": "search",
@@ -2311,7 +2311,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2015-Nov-10",
+            "date": "2015-11-10",
             "age": 34,
             "unique": "false",
             "url": "customers",
@@ -2321,7 +2321,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Feb-01",
+            "date": "2016-02-01",
             "age": 63,
             "unique": "false",
             "url": "roadmap",
@@ -2331,7 +2331,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Nov-25",
+            "date": "2015-11-25",
             "age": 36,
             "unique": "false",
             "url": "features",
@@ -2341,7 +2341,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2015-Nov-23",
+            "date": "2015-11-23",
             "age": 67,
             "unique": "false",
             "url": "blog/Asset Management",
@@ -2351,7 +2351,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Mar-24",
+            "date": "2016-03-24",
             "age": 79,
             "unique": "false",
             "url": "blog/Advertising",
@@ -2361,7 +2361,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jan-31",
+            "date": "2016-01-31",
             "age": 26,
             "unique": "true",
             "url": "blog/Advertising",
@@ -2371,7 +2371,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Oct-08",
+            "date": "2015-10-08",
             "age": 26,
             "unique": "false",
             "url": "contact",
@@ -2381,7 +2381,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Aug-11",
+            "date": "2016-08-11",
             "age": 20,
             "unique": "true",
             "url": "blog/Tech Support",
@@ -2391,7 +2391,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2015-Nov-30",
+            "date": "2015-11-30",
             "age": 79,
             "unique": "true",
             "url": "search",
@@ -2401,7 +2401,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Mar-29",
+            "date": "2016-03-29",
             "age": 58,
             "unique": "false",
             "url": "customers",
@@ -2411,7 +2411,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Feb-01",
+            "date": "2016-02-01",
             "age": 53,
             "unique": "false",
             "url": "products",
@@ -2421,7 +2421,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Jun-21",
+            "date": "2016-06-21",
             "age": 51,
             "unique": "false",
             "url": "products",
@@ -2431,7 +2431,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jun-24",
+            "date": "2016-06-24",
             "age": 18,
             "unique": "true",
             "url": "support",
@@ -2441,7 +2441,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Apr-19",
+            "date": "2016-04-19",
             "age": 38,
             "unique": "false",
             "url": "products",
@@ -2451,7 +2451,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Aug-30",
+            "date": "2016 08 30 10:45",
             "age": 38,
             "unique": "true",
             "url": "blog/Payroll",
@@ -2461,7 +2461,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Dec-04",
+            "date": "2015-12-04",
             "age": 29,
             "unique": "false",
             "url": "blog/Finances",
@@ -2471,7 +2471,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jan-21",
+            "date": "2016-01-21",
             "age": 45,
             "unique": "true",
             "url": "download",
@@ -2481,7 +2481,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Aug-22",
+            "date": "2016-08-22",
             "age": 30,
             "unique": "false",
             "url": "blog/Finances",
@@ -2491,7 +2491,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Aug-03",
+            "date": "2016-08-03",
             "age": 26,
             "unique": "false",
             "url": "customers",
@@ -2501,7 +2501,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Aug-09",
+            "date": "2016-08-09",
             "age": 40,
             "unique": "true",
             "url": "blog/Customer Service",
@@ -2511,7 +2511,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jul-25",
+            "date": "2016-07-25",
             "age": 19,
             "unique": "false",
             "url": "contact",
@@ -2521,7 +2521,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Aug-08",
+            "date": "2016-08-08",
             "age": 52,
             "unique": "false",
             "url": "customers",
@@ -2531,7 +2531,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Feb-14",
+            "date": "2016-02-14",
             "age": 80,
             "unique": "false",
             "url": "contact",
@@ -2541,7 +2541,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Apr-09",
+            "date": "2016-04-09",
             "age": 53,
             "unique": "false",
             "url": "pricing",
@@ -2551,7 +2551,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-May-01",
+            "date": "2016-05-01",
             "age": 64,
             "unique": "false",
             "url": "company",
@@ -2561,7 +2561,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2015-Sep-29",
+            "date": "2015-09-29",
             "age": 38,
             "unique": "false",
             "url": "products",
@@ -2571,7 +2571,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2015-Dec-19",
+            "date": "2015-12-19",
             "age": 23,
             "unique": "false",
             "url": "blog/Accounting",
@@ -2581,7 +2581,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Feb-02",
+            "date": "2016-02-02",
             "age": 32,
             "unique": "true",
             "url": "features",
@@ -2591,7 +2591,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2015-Oct-18",
+            "date": "2015-10-18",
             "age": 23,
             "unique": "false",
             "url": "features",
@@ -2601,7 +2601,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Jan-25",
+            "date": "2016-01-25",
             "age": 47,
             "unique": "false",
             "url": "partners",
@@ -2611,7 +2611,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Aug-12",
+            "date": "2016-08-12",
             "age": 33,
             "unique": "false",
             "url": "contact",
@@ -2621,7 +2621,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Aug-02",
+            "date": "2016-08-02",
             "age": 68,
             "unique": "false",
             "url": "search",
@@ -2631,7 +2631,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Feb-29",
+            "date": "2016-02-29",
             "age": 46,
             "unique": "false",
             "url": "pricing",
@@ -2641,7 +2641,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Mar-14",
+            "date": "2016-03-14",
             "age": 69,
             "unique": "false",
             "url": "pricing",
@@ -2651,7 +2651,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jan-12",
+            "date": "2016-01-12",
             "age": 17,
             "unique": "false",
             "url": "support",
@@ -2661,7 +2661,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Feb-26",
+            "date": "2016-02-26",
             "age": 17,
             "unique": "false",
             "url": "blog/Accounting",
@@ -2671,7 +2671,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Apr-18",
+            "date": "2016-04-18",
             "age": 12,
             "unique": "false",
             "url": "support",
@@ -2681,7 +2681,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Oct-24",
+            "date": "2015-10-24",
             "age": 67,
             "unique": "false",
             "url": "blog/Finances",
@@ -2691,7 +2691,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jul-21",
+            "date": "2016-07-21",
             "age": 30,
             "unique": "false",
             "url": "products",
@@ -2701,7 +2701,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Mar-24",
+            "date": "2016-03-24",
             "age": 54,
             "unique": "false",
             "url": "pricing",
@@ -2711,7 +2711,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jul-06",
+            "date": "2016-07-06",
             "age": 27,
             "unique": "true",
             "url": "company",
@@ -2721,7 +2721,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Mar-01",
+            "date": "2016-03-01",
             "age": 11,
             "unique": "true",
             "url": "roadmap",
@@ -2731,7 +2731,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Jan-12",
+            "date": "2016-01-12",
             "age": 49,
             "unique": "true",
             "url": "blog/Finances",
@@ -2741,7 +2741,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Feb-13",
+            "date": "2016-02-13",
             "age": 74,
             "unique": "false",
             "url": "pricing",
@@ -2751,7 +2751,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Oct-13",
+            "date": "2015-10-13",
             "age": 18,
             "unique": "false",
             "url": "blog/Human Resources",
@@ -2761,7 +2761,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2015-Oct-04",
+            "date": "2015-10-04",
             "age": 28,
             "unique": "false",
             "url": "download",
@@ -2771,7 +2771,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Aug-11",
+            "date": "2016-08-11",
             "age": 60,
             "unique": "false",
             "url": "products",
@@ -2781,7 +2781,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Nov-14",
+            "date": "2015-11-14",
             "age": 50,
             "unique": "false",
             "url": "support",
@@ -2791,7 +2791,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Jan-08",
+            "date": "2016-01-08",
             "age": 64,
             "unique": "false",
             "url": "products",
@@ -2801,7 +2801,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-May-08",
+            "date": "2016-05-08",
             "age": 44,
             "unique": "false",
             "url": "blog/Customer Relations",
@@ -2811,7 +2811,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2015-Oct-21",
+            "date": "2015-10-21",
             "age": 73,
             "unique": "false",
             "url": "search",
@@ -2821,7 +2821,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Apr-11",
+            "date": "2016-04-11",
             "age": 40,
             "unique": "false",
             "url": "products",
@@ -2831,7 +2831,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-May-13",
+            "date": "2016-05-13",
             "age": 31,
             "unique": "false",
             "url": "search",
@@ -2841,7 +2841,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Dec-23",
+            "date": "2015-12-23",
             "age": 47,
             "unique": "false",
             "url": "products",
@@ -2851,7 +2851,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2015-Nov-11",
+            "date": "2015-11-11",
             "age": 22,
             "unique": "false",
             "url": "products",
@@ -2861,7 +2861,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2015-Dec-19",
+            "date": "2015-12-19",
             "age": 29,
             "unique": "true",
             "url": "blog/Research and Development",
@@ -2871,7 +2871,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Dec-24",
+            "date": "2015-12-24",
             "age": 27,
             "unique": "false",
             "url": "download",
@@ -2881,7 +2881,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Jan-09",
+            "date": "2016-01-09",
             "age": 26,
             "unique": "false",
             "url": "features",
@@ -2891,7 +2891,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2015-Oct-14",
+            "date": "2015-10-14",
             "age": 39,
             "unique": "false",
             "url": "products",
@@ -2901,7 +2901,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jun-15",
+            "date": "2016-06-15",
             "age": 65,
             "unique": "true",
             "url": "products",
@@ -2911,7 +2911,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Oct-15",
+            "date": "2015-10-15",
             "age": 62,
             "unique": "false",
             "url": "blog/Media Relations",
@@ -2921,7 +2921,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2015-Oct-23",
+            "date": "2015-10-23",
             "age": 22,
             "unique": "false",
             "url": "products",
@@ -2931,7 +2931,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Jun-28",
+            "date": "2016-06-28",
             "age": 64,
             "unique": "false",
             "url": "download",
@@ -2941,7 +2941,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Apr-05",
+            "date": "2016-04-05",
             "age": 51,
             "unique": "false",
             "url": "roadmap",
@@ -2951,7 +2951,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Mar-05",
+            "date": "2016-03-05",
             "age": 25,
             "unique": "false",
             "url": "pricing",
@@ -2961,7 +2961,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Jul-21",
+            "date": "2016-07-21",
             "age": 34,
             "unique": "true",
             "url": "products",
@@ -2971,7 +2971,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Nov-25",
+            "date": "2015-11-25",
             "age": 29,
             "unique": "false",
             "url": "pricing",
@@ -2981,7 +2981,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jan-10",
+            "date": "2016-01-10",
             "age": 35,
             "unique": "false",
             "url": "blog",
@@ -2991,7 +2991,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-May-26",
+            "date": "2016-05-26",
             "age": 55,
             "unique": "false",
             "url": "search",
@@ -3002,7 +3002,7 @@ function visitors_data() {
         },
 
         {
-            "date": "2015-Nov-05",
+            "date": "2015-11-05",
             "age": 70,
             "unique": "false",
             "url": "partners",
@@ -3012,7 +3012,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Jul-20",
+            "date": "2016-07-20",
             "age": 49,
             "unique": "true",
             "url": "roadmap",
@@ -3022,7 +3022,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Aug-23",
+            "date": "2016-08-23",
             "age": 45,
             "unique": "false",
             "url": "blog/Legal Department",
@@ -3032,7 +3032,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Jan-14",
+            "date": "2016-01-14",
             "age": 54,
             "unique": "true",
             "url": "blog/Quality Assurance",
@@ -3042,7 +3042,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2015-Sep-25",
+            "date": "2015-09-25",
             "age": 21,
             "unique": "true",
             "url": "roadmap",
@@ -3052,7 +3052,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Mar-21",
+            "date": "2016-03-21",
             "age": 15,
             "unique": "true",
             "url": "customers",
@@ -3062,7 +3062,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2015-Oct-07",
+            "date": "2015-10-07",
             "age": 45,
             "unique": "false",
             "url": "products",
@@ -3072,7 +3072,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Apr-10",
+            "date": "2016-04-10",
             "age": 60,
             "unique": "true",
             "url": "blog/Customer Relations",
@@ -3082,7 +3082,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Feb-22",
+            "date": "2016-02-22",
             "age": 69,
             "unique": "false",
             "url": "products",
@@ -3092,7 +3092,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-May-26",
+            "date": "2016-05-26",
             "age": 47,
             "unique": "false",
             "url": "pricing",
@@ -3102,7 +3102,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Jan-06",
+            "date": "2016-01-06",
             "age": 33,
             "unique": "false",
             "url": "roadmap",
@@ -3112,7 +3112,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Jun-27",
+            "date": "2016-06-27",
             "age": 73,
             "unique": "true",
             "url": "pricing",
@@ -3122,7 +3122,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-May-27",
+            "date": "2016-05-27",
             "age": 26,
             "unique": "true",
             "url": "blog/Sales and Marketing",
@@ -3132,7 +3132,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Nov-21",
+            "date": "2015-11-21",
             "age": 33,
             "unique": "true",
             "url": "company",
@@ -3142,7 +3142,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2015-Oct-09",
+            "date": "2015-10-09",
             "age": 38,
             "unique": "false",
             "url": "pricing",
@@ -3152,7 +3152,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2015-Dec-01",
+            "date": "2015-12-01",
             "age": 40,
             "unique": "false",
             "url": "products",
@@ -3162,7 +3162,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Jun-29",
+            "date": "2016-06-29",
             "age": 73,
             "unique": "false",
             "url": "download",
@@ -3172,7 +3172,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Jan-03",
+            "date": "2016-01-03",
             "age": 36,
             "unique": "false",
             "url": "products",
@@ -3182,7 +3182,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2015-Sep-21",
+            "date": "2015-09-21",
             "age": 69,
             "unique": "false",
             "url": "features",
@@ -3192,7 +3192,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Apr-25",
+            "date": "2016-04-25",
             "age": 19,
             "unique": "false",
             "url": "customers",
@@ -3202,7 +3202,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Apr-05",
+            "date": "2016-04-05",
             "age": 23,
             "unique": "false",
             "url": "products",
@@ -3212,7 +3212,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-May-14",
+            "date": "2016-05-14",
             "age": 30,
             "unique": "true",
             "url": "blog/Tech Support",
@@ -3222,7 +3222,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Feb-17",
+            "date": "2016-02-17",
             "age": 50,
             "unique": "true",
             "url": "blog/Legal Department",
@@ -3232,7 +3232,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Oct-07",
+            "date": "2015-10-07",
             "age": 71,
             "unique": "true",
             "url": "blog",
@@ -3242,7 +3242,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Aug-30",
+            "date": "2016 08 30 10:45",
             "age": 26,
             "unique": "false",
             "url": "search",
@@ -3252,7 +3252,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2015-Dec-10",
+            "date": "2015-12-10",
             "age": 27,
             "unique": "false",
             "url": "search",
@@ -3262,7 +3262,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Jun-03",
+            "date": "2016-06-03",
             "age": 24,
             "unique": "false",
             "url": "blog/Human Resources",
@@ -3272,7 +3272,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Mar-14",
+            "date": "2016-03-14",
             "age": 71,
             "unique": "false",
             "url": "blog/Public Relations",
@@ -3282,7 +3282,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Aug-13",
+            "date": "2016-08-13",
             "age": 51,
             "unique": "false",
             "url": "contact",
@@ -3292,7 +3292,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Feb-12",
+            "date": "2016-02-12",
             "age": 24,
             "unique": "true",
             "url": "company",
@@ -3302,7 +3302,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Jan-02",
+            "date": "2016-01-02",
             "age": 25,
             "unique": "true",
             "url": "products",
@@ -3312,7 +3312,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Dec-18",
+            "date": "2015-12-18",
             "age": 76,
             "unique": "true",
             "url": "blog",
@@ -3322,7 +3322,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Apr-06",
+            "date": "2016-04-06",
             "age": 31,
             "unique": "true",
             "url": "pricing",
@@ -3332,7 +3332,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Jan-03",
+            "date": "2016-01-03",
             "age": 73,
             "unique": "true",
             "url": "company",
@@ -3342,7 +3342,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Apr-28",
+            "date": "2016-04-28",
             "age": 50,
             "unique": "true",
             "url": "roadmap",
@@ -3352,7 +3352,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2015-Oct-04",
+            "date": "2015-10-04",
             "age": 40,
             "unique": "false",
             "url": "blog/Research and Development",
@@ -3362,7 +3362,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Aug-25",
+            "date": "2016-08-25",
             "age": 69,
             "unique": "false",
             "url": "blog",
@@ -3372,7 +3372,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-May-08",
+            "date": "2016-05-08",
             "age": 76,
             "unique": "true",
             "url": "blog/Accounting",
@@ -3382,7 +3382,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jan-04",
+            "date": "2016-01-04",
             "age": 69,
             "unique": "true",
             "url": "blog/Finances",
@@ -3392,7 +3392,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jun-09",
+            "date": "2016-06-09",
             "age": 51,
             "unique": "true",
             "url": "partners",
@@ -3402,7 +3402,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jan-02",
+            "date": "2016-01-02",
             "age": 44,
             "unique": "false",
             "url": "company",
@@ -3412,7 +3412,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-May-28",
+            "date": "2016-05-28",
             "age": 69,
             "unique": "false",
             "url": "blog/Advertising",
@@ -3422,7 +3422,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jun-07",
+            "date": "2016-06-07",
             "age": 26,
             "unique": "true",
             "url": "blog/Legal Department",
@@ -3432,7 +3432,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Dec-10",
+            "date": "2015-12-10",
             "age": 27,
             "unique": "false",
             "url": "blog/Sales and Marketing",
@@ -3442,7 +3442,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2015-Dec-10",
+            "date": "2015-12-10",
             "age": 79,
             "unique": "false",
             "url": "blog",
@@ -3452,7 +3452,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-May-05",
+            "date": "2016-05-05",
             "age": 52,
             "unique": "false",
             "url": "blog/Customer Service",
@@ -3462,7 +3462,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2015-Sep-24",
+            "date": "2015-09-24",
             "age": 51,
             "unique": "true",
             "url": "pricing",
@@ -3472,7 +3472,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jun-03",
+            "date": "2016-06-03",
             "age": 42,
             "unique": "true",
             "url": "products",
@@ -3482,7 +3482,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Mar-30",
+            "date": "2016-03-30",
             "age": 15,
             "unique": "false",
             "url": "blog/Advertising",
@@ -3492,7 +3492,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Nov-06",
+            "date": "2015-11-06",
             "age": 48,
             "unique": "true",
             "url": "blog/Asset Management",
@@ -3502,7 +3502,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Apr-08",
+            "date": "2016-04-08",
             "age": 67,
             "unique": "true",
             "url": "support",
@@ -3512,7 +3512,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Feb-21",
+            "date": "2016-02-21",
             "age": 76,
             "unique": "false",
             "url": "products",
@@ -3522,7 +3522,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2015-Nov-18",
+            "date": "2015-11-18",
             "age": 48,
             "unique": "false",
             "url": "blog/Asset Management",
@@ -3532,7 +3532,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Jan-30",
+            "date": "2016-01-30",
             "age": 16,
             "unique": "true",
             "url": "company",
@@ -3542,7 +3542,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Aug-08",
+            "date": "2016-08-08",
             "age": 76,
             "unique": "false",
             "url": "roadmap",
@@ -3552,7 +3552,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Jun-30",
+            "date": "2016-06-30",
             "age": 20,
             "unique": "false",
             "url": "search",
@@ -3562,7 +3562,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2015-Dec-09",
+            "date": "2015-12-09",
             "age": 33,
             "unique": "false",
             "url": "blog/Human Resources",
@@ -3572,7 +3572,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2015-Dec-21",
+            "date": "2015-12-21",
             "age": 68,
             "unique": "true",
             "url": "customers",
@@ -3582,7 +3582,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Aug-09",
+            "date": "2016-08-09",
             "age": 66,
             "unique": "false",
             "url": "blog/Public Relations",
@@ -3592,7 +3592,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Jul-29",
+            "date": "2016-07-29",
             "age": 58,
             "unique": "true",
             "url": "pricing",
@@ -3602,7 +3602,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Aug-07",
+            "date": "2016-08-07",
             "age": 80,
             "unique": "false",
             "url": "search",
@@ -3612,7 +3612,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jul-15",
+            "date": "2016-07-15",
             "age": 50,
             "unique": "false",
             "url": "products",
@@ -3622,7 +3622,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jan-21",
+            "date": "2016-01-21",
             "age": 45,
             "unique": "true",
             "url": "search",
@@ -3632,7 +3632,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jul-09",
+            "date": "2016-07-09",
             "age": 29,
             "unique": "false",
             "url": "contact",
@@ -3642,7 +3642,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jul-01",
+            "date": "2016-07-01",
             "age": 72,
             "unique": "true",
             "url": "search",
@@ -3652,7 +3652,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Oct-06",
+            "date": "2015-10-06",
             "age": 51,
             "unique": "false",
             "url": "features",
@@ -3662,7 +3662,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2015-Oct-08",
+            "date": "2015-10-08",
             "age": 18,
             "unique": "false",
             "url": "contact",
@@ -3672,7 +3672,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Feb-20",
+            "date": "2016-02-20",
             "age": 79,
             "unique": "true",
             "url": "pricing",
@@ -3682,7 +3682,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-May-12",
+            "date": "2016-05-12",
             "age": 14,
             "unique": "false",
             "url": "search",
@@ -3692,7 +3692,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2015-Sep-25",
+            "date": "2015-09-25",
             "age": 14,
             "unique": "false",
             "url": "roadmap",
@@ -3702,7 +3702,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Apr-07",
+            "date": "2016-04-07",
             "age": 18,
             "unique": "true",
             "url": "partners",
@@ -3712,7 +3712,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2015-Dec-26",
+            "date": "2015-12-26",
             "age": 60,
             "unique": "false",
             "url": "features",
@@ -3722,7 +3722,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jan-03",
+            "date": "2016-01-03",
             "age": 13,
             "unique": "false",
             "url": "products",
@@ -3732,7 +3732,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Dec-22",
+            "date": "2015-12-22",
             "age": 63,
             "unique": "false",
             "url": "blog/Finances",
@@ -3742,7 +3742,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Jun-26",
+            "date": "2016-06-26",
             "age": 72,
             "unique": "true",
             "url": "blog/Payroll",
@@ -3752,7 +3752,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2015-Oct-11",
+            "date": "2015-10-11",
             "age": 40,
             "unique": "true",
             "url": "blog/Quality Assurance",
@@ -3762,7 +3762,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Oct-13",
+            "date": "2015-10-13",
             "age": 12,
             "unique": "false",
             "url": "customers",
@@ -3772,7 +3772,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Jul-07",
+            "date": "2016-07-07",
             "age": 50,
             "unique": "false",
             "url": "partners",
@@ -3782,7 +3782,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-May-08",
+            "date": "2016-05-08",
             "age": 29,
             "unique": "false",
             "url": "roadmap",
@@ -3792,7 +3792,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Apr-28",
+            "date": "2016-04-28",
             "age": 14,
             "unique": "false",
             "url": "support",
@@ -3802,7 +3802,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Oct-29",
+            "date": "2015-10-29",
             "age": 19,
             "unique": "false",
             "url": "blog/Payroll",
@@ -3812,7 +3812,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Oct-29",
+            "date": "2015-10-29",
             "age": 38,
             "unique": "false",
             "url": "blog/Advertising",
@@ -3822,7 +3822,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2015-Oct-01",
+            "date": "2015-10-01",
             "age": 13,
             "unique": "true",
             "url": "blog/Public Relations",
@@ -3832,7 +3832,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2015-Dec-22",
+            "date": "2015-12-22",
             "age": 40,
             "unique": "true",
             "url": "blog/Media Relations",
@@ -3842,7 +3842,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Mar-30",
+            "date": "2016-03-30",
             "age": 27,
             "unique": "true",
             "url": "blog",
@@ -3852,7 +3852,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jul-24",
+            "date": "2016-07-24",
             "age": 51,
             "unique": "false",
             "url": "customers",
@@ -3862,7 +3862,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Mar-07",
+            "date": "2016-03-07",
             "age": 39,
             "unique": "true",
             "url": "blog",
@@ -3872,7 +3872,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jan-17",
+            "date": "2016-01-17",
             "age": 22,
             "unique": "false",
             "url": "partners",
@@ -3882,7 +3882,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-May-27",
+            "date": "2016-05-27",
             "age": 76,
             "unique": "false",
             "url": "contact",
@@ -3892,7 +3892,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2015-Oct-17",
+            "date": "2015-10-17",
             "age": 44,
             "unique": "false",
             "url": "customers",
@@ -3902,7 +3902,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Aug-22",
+            "date": "2016-08-22",
             "age": 45,
             "unique": "true",
             "url": "blog/Media Relations",
@@ -3912,7 +3912,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Mar-17",
+            "date": "2016-03-17",
             "age": 34,
             "unique": "false",
             "url": "partners",
@@ -3922,7 +3922,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-May-05",
+            "date": "2016-05-05",
             "age": 38,
             "unique": "false",
             "url": "support",
@@ -3932,7 +3932,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2015-Nov-23",
+            "date": "2015-11-23",
             "age": 44,
             "unique": "true",
             "url": "products",
@@ -3942,7 +3942,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Jan-31",
+            "date": "2016-01-31",
             "age": 26,
             "unique": "false",
             "url": "products",
@@ -3952,7 +3952,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-May-25",
+            "date": "2016-05-25",
             "age": 63,
             "unique": "false",
             "url": "partners",
@@ -3962,7 +3962,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jul-30",
+            "date": "2016-07-30",
             "age": 19,
             "unique": "true",
             "url": "blog/Accounting",
@@ -3972,7 +3972,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2015-Oct-04",
+            "date": "2015-10-04",
             "age": 25,
             "unique": "false",
             "url": "blog/Public Relations",
@@ -3982,7 +3982,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jan-13",
+            "date": "2016-01-13",
             "age": 28,
             "unique": "false",
             "url": "pricing",
@@ -3992,7 +3992,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Apr-28",
+            "date": "2016-04-28",
             "age": 52,
             "unique": "true",
             "url": "pricing",
@@ -4003,7 +4003,7 @@ function visitors_data() {
         },
 
         {
-            "date": "2016-Jun-30",
+            "date": "2016-06-30",
             "age": 43,
             "unique": "true",
             "url": "blog/Media Relations",
@@ -4013,7 +4013,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2015-Oct-06",
+            "date": "2015-10-06",
             "age": 20,
             "unique": "true",
             "url": "products",
@@ -4023,7 +4023,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Feb-05",
+            "date": "2016-02-05",
             "age": 20,
             "unique": "false",
             "url": "company",
@@ -4033,7 +4033,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jan-04",
+            "date": "2016-01-04",
             "age": 15,
             "unique": "false",
             "url": "blog/Legal Department",
@@ -4043,7 +4043,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Mar-28",
+            "date": "2016-03-28",
             "age": 51,
             "unique": "true",
             "url": "contact",
@@ -4053,7 +4053,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2015-Oct-01",
+            "date": "2015-10-01",
             "age": 59,
             "unique": "true",
             "url": "products",
@@ -4063,7 +4063,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2015-Dec-09",
+            "date": "2015-12-09",
             "age": 31,
             "unique": "false",
             "url": "pricing",
@@ -4073,7 +4073,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jun-06",
+            "date": "2016-06-06",
             "age": 78,
             "unique": "true",
             "url": "pricing",
@@ -4083,7 +4083,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jul-27",
+            "date": "2016-07-27",
             "age": 63,
             "unique": "true",
             "url": "contact",
@@ -4093,7 +4093,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Aug-20",
+            "date": "2016-08-20",
             "age": 55,
             "unique": "false",
             "url": "roadmap",
@@ -4103,7 +4103,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jul-28",
+            "date": "2016-07-28",
             "age": 51,
             "unique": "true",
             "url": "download",
@@ -4113,7 +4113,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jan-22",
+            "date": "2016-01-22",
             "age": 29,
             "unique": "false",
             "url": "partners",
@@ -4123,7 +4123,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Jul-16",
+            "date": "2016-07-16",
             "age": 66,
             "unique": "false",
             "url": "blog/Legal Department",
@@ -4133,7 +4133,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2015-Nov-17",
+            "date": "2015-11-17",
             "age": 12,
             "unique": "true",
             "url": "support",
@@ -4143,7 +4143,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Apr-09",
+            "date": "2016-04-09",
             "age": 69,
             "unique": "false",
             "url": "blog/Public Relations",
@@ -4153,7 +4153,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jul-29",
+            "date": "2016-07-29",
             "age": 23,
             "unique": "true",
             "url": "products",
@@ -4163,7 +4163,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jun-21",
+            "date": "2016-06-21",
             "age": 20,
             "unique": "false",
             "url": "features",
@@ -4173,7 +4173,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jun-20",
+            "date": "2016-06-20",
             "age": 38,
             "unique": "true",
             "url": "products",
@@ -4183,7 +4183,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Feb-03",
+            "date": "2016-02-03",
             "age": 14,
             "unique": "false",
             "url": "search",
@@ -4193,7 +4193,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2015-Nov-09",
+            "date": "2015-11-09",
             "age": 62,
             "unique": "false",
             "url": "partners",
@@ -4203,7 +4203,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Aug-09",
+            "date": "2016-08-09",
             "age": 46,
             "unique": "false",
             "url": "blog/Public Relations",
@@ -4213,7 +4213,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Feb-28",
+            "date": "2016-02-28",
             "age": 30,
             "unique": "false",
             "url": "products",
@@ -4223,7 +4223,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Oct-28",
+            "date": "2015-10-28",
             "age": 52,
             "unique": "false",
             "url": "pricing",
@@ -4233,7 +4233,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Feb-07",
+            "date": "2016-02-07",
             "age": 35,
             "unique": "false",
             "url": "products",
@@ -4243,7 +4243,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2015-Nov-23",
+            "date": "2015-11-23",
             "age": 21,
             "unique": "false",
             "url": "blog/Quality Assurance",
@@ -4253,7 +4253,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Apr-30",
+            "date": "2016-04-30",
             "age": 67,
             "unique": "false",
             "url": "search",
@@ -4263,7 +4263,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jun-12",
+            "date": "2016-06-12",
             "age": 71,
             "unique": "true",
             "url": "blog/Asset Management",
@@ -4273,7 +4273,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-May-24",
+            "date": "2016-05-24",
             "age": 50,
             "unique": "true",
             "url": "blog/Customer Service",
@@ -4283,7 +4283,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-May-27",
+            "date": "2016-05-27",
             "age": 71,
             "unique": "false",
             "url": "contact",
@@ -4293,7 +4293,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2015-Oct-01",
+            "date": "2015-10-01",
             "age": 25,
             "unique": "false",
             "url": "blog/Accounting",
@@ -4303,7 +4303,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2015-Nov-30",
+            "date": "2015-11-30",
             "age": 59,
             "unique": "false",
             "url": "customers",
@@ -4313,7 +4313,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Jul-05",
+            "date": "2016-07-05",
             "age": 13,
             "unique": "false",
             "url": "partners",
@@ -4323,7 +4323,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Jan-06",
+            "date": "2016-01-06",
             "age": 29,
             "unique": "false",
             "url": "products",
@@ -4333,7 +4333,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jul-13",
+            "date": "2016-07-13",
             "age": 52,
             "unique": "true",
             "url": "support",
@@ -4343,7 +4343,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2015-Nov-06",
+            "date": "2015-11-06",
             "age": 17,
             "unique": "false",
             "url": "blog/Tech Support",
@@ -4353,7 +4353,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Mar-14",
+            "date": "2016-03-14",
             "age": 37,
             "unique": "true",
             "url": "contact",
@@ -4363,7 +4363,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jun-01",
+            "date": "2016-06-01",
             "age": 74,
             "unique": "false",
             "url": "features",
@@ -4373,7 +4373,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-May-14",
+            "date": "2016-05-14",
             "age": 18,
             "unique": "false",
             "url": "blog",
@@ -4383,7 +4383,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Oct-22",
+            "date": "2015-10-22",
             "age": 46,
             "unique": "true",
             "url": "search",
@@ -4393,7 +4393,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Mar-21",
+            "date": "2016-03-21",
             "age": 26,
             "unique": "false",
             "url": "blog/Accounting",
@@ -4403,7 +4403,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2015-Nov-09",
+            "date": "2015-11-09",
             "age": 26,
             "unique": "false",
             "url": "products",
@@ -4413,7 +4413,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Apr-21",
+            "date": "2016-04-21",
             "age": 64,
             "unique": "false",
             "url": "partners",
@@ -4423,7 +4423,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Jun-16",
+            "date": "2016-06-16",
             "age": 47,
             "unique": "true",
             "url": "products",
@@ -4433,7 +4433,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Oct-26",
+            "date": "2015-10-26",
             "age": 25,
             "unique": "false",
             "url": "roadmap",
@@ -4443,7 +4443,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Feb-01",
+            "date": "2016-02-01",
             "age": 26,
             "unique": "true",
             "url": "blog",
@@ -4453,7 +4453,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jul-17",
+            "date": "2016-07-17",
             "age": 49,
             "unique": "false",
             "url": "partners",
@@ -4463,7 +4463,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Jan-14",
+            "date": "2016-01-14",
             "age": 19,
             "unique": "true",
             "url": "blog",
@@ -4473,7 +4473,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Apr-02",
+            "date": "2016-04-02",
             "age": 73,
             "unique": "true",
             "url": "company",
@@ -4483,7 +4483,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Feb-03",
+            "date": "2016-02-03",
             "age": 34,
             "unique": "false",
             "url": "features",
@@ -4493,7 +4493,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Jun-12",
+            "date": "2016-06-12",
             "age": 37,
             "unique": "false",
             "url": "partners",
@@ -4503,7 +4503,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Jul-15",
+            "date": "2016-07-15",
             "age": 76,
             "unique": "false",
             "url": "customers",
@@ -4513,7 +4513,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Jun-30",
+            "date": "2016-06-30",
             "age": 33,
             "unique": "false",
             "url": "partners",
@@ -4523,7 +4523,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Jun-14",
+            "date": "2016-06-14",
             "age": 34,
             "unique": "true",
             "url": "pricing",
@@ -4533,7 +4533,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Dec-22",
+            "date": "2015-12-22",
             "age": 61,
             "unique": "true",
             "url": "blog",
@@ -4543,7 +4543,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Oct-16",
+            "date": "2015-10-16",
             "age": 69,
             "unique": "false",
             "url": "pricing",
@@ -4553,7 +4553,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2015-Sep-28",
+            "date": "2015-09-28",
             "age": 43,
             "unique": "false",
             "url": "support",
@@ -4563,7 +4563,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Feb-01",
+            "date": "2016-02-01",
             "age": 26,
             "unique": "false",
             "url": "roadmap",
@@ -4573,7 +4573,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-May-15",
+            "date": "2016-05-15",
             "age": 22,
             "unique": "false",
             "url": "pricing",
@@ -4583,7 +4583,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Jul-10",
+            "date": "2016-07-10",
             "age": 48,
             "unique": "false",
             "url": "pricing",
@@ -4593,7 +4593,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Aug-04",
+            "date": "2016-08-04",
             "age": 64,
             "unique": "false",
             "url": "roadmap",
@@ -4603,7 +4603,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Jul-24",
+            "date": "2016-07-24",
             "age": 56,
             "unique": "false",
             "url": "partners",
@@ -4613,7 +4613,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jan-06",
+            "date": "2016-01-06",
             "age": 39,
             "unique": "false",
             "url": "pricing",
@@ -4623,7 +4623,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Apr-14",
+            "date": "2016-04-14",
             "age": 60,
             "unique": "false",
             "url": "products",
@@ -4633,7 +4633,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Mar-07",
+            "date": "2016-03-07",
             "age": 61,
             "unique": "true",
             "url": "search",
@@ -4643,7 +4643,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Mar-14",
+            "date": "2016-03-14",
             "age": 44,
             "unique": "false",
             "url": "search",
@@ -4653,7 +4653,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Apr-10",
+            "date": "2016-04-10",
             "age": 23,
             "unique": "false",
             "url": "support",
@@ -4663,7 +4663,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Apr-02",
+            "date": "2016-04-02",
             "age": 30,
             "unique": "false",
             "url": "features",
@@ -4673,7 +4673,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Dec-09",
+            "date": "2015-12-09",
             "age": 50,
             "unique": "false",
             "url": "features",
@@ -4683,7 +4683,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Oct-17",
+            "date": "2015-10-17",
             "age": 74,
             "unique": "false",
             "url": "download",
@@ -4693,7 +4693,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Dec-18",
+            "date": "2015-12-18",
             "age": 13,
             "unique": "false",
             "url": "roadmap",
@@ -4703,7 +4703,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Mar-21",
+            "date": "2016-03-21",
             "age": 69,
             "unique": "false",
             "url": "customers",
@@ -4713,7 +4713,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2015-Nov-25",
+            "date": "2015-11-25",
             "age": 37,
             "unique": "false",
             "url": "partners",
@@ -4723,7 +4723,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Nov-11",
+            "date": "2015-11-11",
             "age": 79,
             "unique": "false",
             "url": "roadmap",
@@ -4733,7 +4733,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Nov-24",
+            "date": "2015-11-24",
             "age": 28,
             "unique": "false",
             "url": "pricing",
@@ -4743,7 +4743,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jan-22",
+            "date": "2016-01-22",
             "age": 12,
             "unique": "false",
             "url": "customers",
@@ -4753,7 +4753,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Feb-29",
+            "date": "2016-02-29",
             "age": 20,
             "unique": "true",
             "url": "customers",
@@ -4763,7 +4763,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Apr-28",
+            "date": "2016-04-28",
             "age": 23,
             "unique": "false",
             "url": "blog/Payroll",
@@ -4773,7 +4773,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Feb-08",
+            "date": "2016-02-08",
             "age": 23,
             "unique": "true",
             "url": "pricing",
@@ -4783,7 +4783,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Mar-27",
+            "date": "2016-03-27",
             "age": 47,
             "unique": "true",
             "url": "blog",
@@ -4793,7 +4793,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jun-20",
+            "date": "2016-06-20",
             "age": 35,
             "unique": "false",
             "url": "products",
@@ -4803,7 +4803,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2015-Oct-14",
+            "date": "2015-10-14",
             "age": 19,
             "unique": "true",
             "url": "customers",
@@ -4813,7 +4813,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Jun-23",
+            "date": "2016-06-23",
             "age": 55,
             "unique": "false",
             "url": "company",
@@ -4823,7 +4823,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-May-01",
+            "date": "2016-05-01",
             "age": 12,
             "unique": "false",
             "url": "pricing",
@@ -4833,7 +4833,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Feb-11",
+            "date": "2016-02-11",
             "age": 51,
             "unique": "false",
             "url": "products",
@@ -4843,7 +4843,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Apr-29",
+            "date": "2016-04-29",
             "age": 37,
             "unique": "false",
             "url": "blog/Finances",
@@ -4853,7 +4853,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Feb-13",
+            "date": "2016-02-13",
             "age": 26,
             "unique": "true",
             "url": "products",
@@ -4863,7 +4863,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jan-15",
+            "date": "2016-01-15",
             "age": 17,
             "unique": "false",
             "url": "blog/Legal Department",
@@ -4873,7 +4873,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Jun-14",
+            "date": "2016-06-14",
             "age": 27,
             "unique": "false",
             "url": "customers",
@@ -4883,7 +4883,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2015-Oct-28",
+            "date": "2015-10-28",
             "age": 37,
             "unique": "false",
             "url": "blog/Legal Department",
@@ -4893,7 +4893,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Jul-04",
+            "date": "2016-07-04",
             "age": 74,
             "unique": "false",
             "url": "products",
@@ -4903,7 +4903,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jun-07",
+            "date": "2016-06-07",
             "age": 69,
             "unique": "true",
             "url": "products",
@@ -4913,7 +4913,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Jul-17",
+            "date": "2016-07-17",
             "age": 48,
             "unique": "true",
             "url": "features",
@@ -4923,7 +4923,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2015-Nov-03",
+            "date": "2015-11-03",
             "age": 28,
             "unique": "false",
             "url": "download",
@@ -4933,7 +4933,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Jan-04",
+            "date": "2016-01-04",
             "age": 67,
             "unique": "true",
             "url": "search",
@@ -4943,7 +4943,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Feb-27",
+            "date": "2016-02-27",
             "age": 22,
             "unique": "false",
             "url": "features",
@@ -4953,7 +4953,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2015-Dec-04",
+            "date": "2015-12-04",
             "age": 40,
             "unique": "false",
             "url": "blog",
@@ -4963,7 +4963,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Mar-04",
+            "date": "2016-03-04",
             "age": 69,
             "unique": "true",
             "url": "blog/Media Relations",
@@ -4973,7 +4973,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jun-12",
+            "date": "2016-06-12",
             "age": 68,
             "unique": "true",
             "url": "pricing",
@@ -4983,7 +4983,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Aug-07",
+            "date": "2016-08-07",
             "age": 29,
             "unique": "false",
             "url": "blog/Customer Service",
@@ -4993,7 +4993,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Oct-03",
+            "date": "2015-10-03",
             "age": 30,
             "unique": "true",
             "url": "roadmap",
@@ -5004,7 +5004,7 @@ function visitors_data() {
         },
 
         {
-            "date": "2016-Jul-11",
+            "date": "2016-07-11",
             "age": 36,
             "unique": "true",
             "url": "customers",
@@ -5014,7 +5014,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Apr-13",
+            "date": "2016-04-13",
             "age": 58,
             "unique": "false",
             "url": "pricing",
@@ -5024,7 +5024,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Sep-30",
+            "date": "2015-09-30",
             "age": 15,
             "unique": "false",
             "url": "company",
@@ -5034,7 +5034,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Aug-26",
+            "date": "2016-08-26",
             "age": 25,
             "unique": "true",
             "url": "blog",
@@ -5044,7 +5044,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jan-09",
+            "date": "2016-01-09",
             "age": 20,
             "unique": "false",
             "url": "search",
@@ -5054,7 +5054,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Jan-11",
+            "date": "2016-01-11",
             "age": 58,
             "unique": "true",
             "url": "pricing",
@@ -5064,7 +5064,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-May-04",
+            "date": "2016-05-04",
             "age": 25,
             "unique": "false",
             "url": "customers",
@@ -5074,7 +5074,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Aug-19",
+            "date": "2016-08-19",
             "age": 71,
             "unique": "true",
             "url": "download",
@@ -5084,7 +5084,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Aug-17",
+            "date": "2016-08-17",
             "age": 75,
             "unique": "false",
             "url": "download",
@@ -5094,7 +5094,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Sep-17",
+            "date": "2015-09-17",
             "age": 80,
             "unique": "false",
             "url": "partners",
@@ -5104,7 +5104,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Apr-09",
+            "date": "2016-04-09",
             "age": 27,
             "unique": "true",
             "url": "partners",
@@ -5114,7 +5114,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jul-17",
+            "date": "2016-07-17",
             "age": 78,
             "unique": "false",
             "url": "blog/Human Resources",
@@ -5124,7 +5124,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2015-Dec-03",
+            "date": "2015-12-03",
             "age": 24,
             "unique": "true",
             "url": "contact",
@@ -5134,7 +5134,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-May-24",
+            "date": "2016-05-24",
             "age": 31,
             "unique": "false",
             "url": "products",
@@ -5144,7 +5144,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-May-11",
+            "date": "2016-05-11",
             "age": 63,
             "unique": "true",
             "url": "download",
@@ -5154,7 +5154,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Feb-18",
+            "date": "2016-02-18",
             "age": 41,
             "unique": "false",
             "url": "pricing",
@@ -5164,7 +5164,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2015-Dec-06",
+            "date": "2015-12-06",
             "age": 39,
             "unique": "false",
             "url": "company",
@@ -5174,7 +5174,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Apr-19",
+            "date": "2016-04-19",
             "age": 66,
             "unique": "false",
             "url": "blog/Accounting",
@@ -5184,7 +5184,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jul-27",
+            "date": "2016-07-27",
             "age": 37,
             "unique": "false",
             "url": "download",
@@ -5194,7 +5194,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jun-09",
+            "date": "2016-06-09",
             "age": 73,
             "unique": "true",
             "url": "features",
@@ -5204,7 +5204,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2015-Dec-26",
+            "date": "2015-12-26",
             "age": 73,
             "unique": "true",
             "url": "pricing",
@@ -5214,7 +5214,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Jun-25",
+            "date": "2016-06-25",
             "age": 19,
             "unique": "false",
             "url": "blog/Human Resources",
@@ -5224,7 +5224,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jun-19",
+            "date": "2016-06-19",
             "age": 72,
             "unique": "false",
             "url": "contact",
@@ -5234,7 +5234,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Apr-22",
+            "date": "2016-04-22",
             "age": 62,
             "unique": "true",
             "url": "pricing",
@@ -5244,7 +5244,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Feb-08",
+            "date": "2016-02-08",
             "age": 26,
             "unique": "false",
             "url": "pricing",
@@ -5254,7 +5254,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jul-24",
+            "date": "2016-07-24",
             "age": 37,
             "unique": "false",
             "url": "contact",
@@ -5264,7 +5264,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2015-Nov-21",
+            "date": "2015-11-21",
             "age": 34,
             "unique": "false",
             "url": "pricing",
@@ -5274,7 +5274,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Mar-01",
+            "date": "2016-03-01",
             "age": 45,
             "unique": "false",
             "url": "blog/Payroll",
@@ -5284,7 +5284,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Dec-06",
+            "date": "2015-12-06",
             "age": 21,
             "unique": "false",
             "url": "blog/Research and Development",
@@ -5294,7 +5294,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Feb-13",
+            "date": "2016-02-13",
             "age": 66,
             "unique": "false",
             "url": "roadmap",
@@ -5304,7 +5304,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Mar-03",
+            "date": "2016-03-03",
             "age": 68,
             "unique": "true",
             "url": "blog/Human Resources",
@@ -5314,7 +5314,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jan-08",
+            "date": "2016-01-08",
             "age": 67,
             "unique": "false",
             "url": "products",
@@ -5324,7 +5324,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Mar-22",
+            "date": "2016-03-22",
             "age": 20,
             "unique": "true",
             "url": "download",
@@ -5334,7 +5334,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Mar-05",
+            "date": "2016-03-05",
             "age": 18,
             "unique": "true",
             "url": "products",
@@ -5344,7 +5344,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Aug-15",
+            "date": "2016-08-15",
             "age": 62,
             "unique": "false",
             "url": "download",
@@ -5354,7 +5354,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2015-Oct-28",
+            "date": "2015-10-28",
             "age": 51,
             "unique": "false",
             "url": "blog",
@@ -5364,7 +5364,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Dec-22",
+            "date": "2015-12-22",
             "age": 67,
             "unique": "false",
             "url": "products",
@@ -5374,7 +5374,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Sep-14",
+            "date": "2015-09-14",
             "age": 46,
             "unique": "true",
             "url": "pricing",
@@ -5384,7 +5384,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Apr-06",
+            "date": "2016-04-06",
             "age": 76,
             "unique": "true",
             "url": "search",
@@ -5394,7 +5394,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Jan-13",
+            "date": "2016-01-13",
             "age": 79,
             "unique": "true",
             "url": "products",
@@ -5404,7 +5404,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jan-19",
+            "date": "2016-01-19",
             "age": 28,
             "unique": "false",
             "url": "products",
@@ -5414,7 +5414,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jan-21",
+            "date": "2016-01-21",
             "age": 75,
             "unique": "false",
             "url": "blog/Customer Service",
@@ -5424,7 +5424,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jun-12",
+            "date": "2016-06-12",
             "age": 26,
             "unique": "false",
             "url": "pricing",
@@ -5434,7 +5434,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2015-Nov-24",
+            "date": "2015-11-24",
             "age": 55,
             "unique": "false",
             "url": "search",
@@ -5444,7 +5444,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jun-11",
+            "date": "2016-06-11",
             "age": 69,
             "unique": "false",
             "url": "download",
@@ -5454,7 +5454,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Nov-14",
+            "date": "2015-11-14",
             "age": 21,
             "unique": "true",
             "url": "blog/Payroll",
@@ -5464,7 +5464,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Jan-07",
+            "date": "2016-01-07",
             "age": 25,
             "unique": "false",
             "url": "support",
@@ -5474,7 +5474,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-May-07",
+            "date": "2016-05-07",
             "age": 33,
             "unique": "false",
             "url": "blog/Media Relations",
@@ -5484,7 +5484,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Feb-27",
+            "date": "2016-02-27",
             "age": 22,
             "unique": "false",
             "url": "pricing",
@@ -5494,7 +5494,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Aug-26",
+            "date": "2016-08-26",
             "age": 13,
             "unique": "false",
             "url": "roadmap",
@@ -5504,7 +5504,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Mar-17",
+            "date": "2016-03-17",
             "age": 35,
             "unique": "false",
             "url": "search",
@@ -5514,7 +5514,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-May-13",
+            "date": "2016-05-13",
             "age": 16,
             "unique": "true",
             "url": "blog/Legal Department",
@@ -5524,7 +5524,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Jan-26",
+            "date": "2016-01-26",
             "age": 66,
             "unique": "false",
             "url": "blog/Tech Support",
@@ -5534,7 +5534,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jul-05",
+            "date": "2016-07-05",
             "age": 73,
             "unique": "false",
             "url": "support",
@@ -5544,7 +5544,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Feb-24",
+            "date": "2016-02-24",
             "age": 65,
             "unique": "false",
             "url": "support",
@@ -5554,7 +5554,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Aug-27",
+            "date": "2016-08-27",
             "age": 73,
             "unique": "false",
             "url": "support",
@@ -5564,7 +5564,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-May-05",
+            "date": "2016-05-05",
             "age": 55,
             "unique": "true",
             "url": "contact",
@@ -5574,7 +5574,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Aug-20",
+            "date": "2016-08-20",
             "age": 64,
             "unique": "false",
             "url": "blog/Public Relations",
@@ -5584,7 +5584,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Aug-05",
+            "date": "2016-08-05",
             "age": 37,
             "unique": "false",
             "url": "blog/Human Resources",
@@ -5594,7 +5594,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Feb-24",
+            "date": "2016-02-24",
             "age": 76,
             "unique": "false",
             "url": "contact",
@@ -5604,7 +5604,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Aug-29",
+            "date": "2016-08-29",
             "age": 53,
             "unique": "false",
             "url": "blog/Customer Relations",
@@ -5614,7 +5614,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Apr-30",
+            "date": "2016-04-30",
             "age": 78,
             "unique": "false",
             "url": "blog/Customer Service",
@@ -5624,7 +5624,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2015-Dec-30",
+            "date": "2015-12-30",
             "age": 63,
             "unique": "false",
             "url": "download",
@@ -5634,7 +5634,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2015-Nov-01",
+            "date": "2015-11-01",
             "age": 77,
             "unique": "true",
             "url": "blog/Accounting",
@@ -5644,7 +5644,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-May-13",
+            "date": "2016-05-13",
             "age": 71,
             "unique": "true",
             "url": "support",
@@ -5654,7 +5654,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Feb-04",
+            "date": "2016-02-04",
             "age": 20,
             "unique": "false",
             "url": "customers",
@@ -5664,7 +5664,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Jul-22",
+            "date": "2016-07-22",
             "age": 63,
             "unique": "false",
             "url": "roadmap",
@@ -5674,7 +5674,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Aug-04",
+            "date": "2016-08-04",
             "age": 73,
             "unique": "false",
             "url": "blog/Legal Department",
@@ -5684,7 +5684,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jun-23",
+            "date": "2016-06-23",
             "age": 41,
             "unique": "false",
             "url": "support",
@@ -5694,7 +5694,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2015-Oct-23",
+            "date": "2015-10-23",
             "age": 12,
             "unique": "false",
             "url": "company",
@@ -5704,7 +5704,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Sep-25",
+            "date": "2015-09-25",
             "age": 28,
             "unique": "false",
             "url": "company",
@@ -5714,7 +5714,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jul-20",
+            "date": "2016-07-20",
             "age": 51,
             "unique": "true",
             "url": "company",
@@ -5724,7 +5724,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jun-27",
+            "date": "2016-06-27",
             "age": 69,
             "unique": "false",
             "url": "blog/Quality Assurance",
@@ -5734,7 +5734,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Mar-24",
+            "date": "2016-03-24",
             "age": 78,
             "unique": "false",
             "url": "products",
@@ -5744,7 +5744,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-May-24",
+            "date": "2016-05-24",
             "age": 49,
             "unique": "false",
             "url": "download",
@@ -5754,7 +5754,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-May-08",
+            "date": "2016-05-08",
             "age": 24,
             "unique": "false",
             "url": "products",
@@ -5764,7 +5764,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jul-27",
+            "date": "2016-07-27",
             "age": 79,
             "unique": "false",
             "url": "download",
@@ -5774,7 +5774,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Nov-25",
+            "date": "2015-11-25",
             "age": 51,
             "unique": "false",
             "url": "blog/Customer Relations",
@@ -5784,7 +5784,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Nov-22",
+            "date": "2015-11-22",
             "age": 11,
             "unique": "false",
             "url": "support",
@@ -5794,7 +5794,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Aug-30",
+            "date": "2016 08 30 15:55",
             "age": 79,
             "unique": "false",
             "url": "contact",
@@ -5804,7 +5804,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Apr-28",
+            "date": "2016-04-28",
             "age": 15,
             "unique": "false",
             "url": "customers",
@@ -5814,7 +5814,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jun-22",
+            "date": "2016-06-22",
             "age": 73,
             "unique": "true",
             "url": "roadmap",
@@ -5824,7 +5824,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2015-Oct-29",
+            "date": "2015-10-29",
             "age": 62,
             "unique": "true",
             "url": "contact",
@@ -5834,7 +5834,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Mar-03",
+            "date": "2016-03-03",
             "age": 54,
             "unique": "true",
             "url": "support",
@@ -5844,7 +5844,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jul-14",
+            "date": "2016-07-14",
             "age": 15,
             "unique": "false",
             "url": "search",
@@ -5854,7 +5854,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Aug-05",
+            "date": "2016-08-05",
             "age": 37,
             "unique": "false",
             "url": "pricing",
@@ -5864,7 +5864,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-May-30",
+            "date": "2016-05-30",
             "age": 11,
             "unique": "true",
             "url": "pricing",
@@ -5874,7 +5874,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Jun-18",
+            "date": "2016-06-18",
             "age": 11,
             "unique": "true",
             "url": "contact",
@@ -5884,7 +5884,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-May-26",
+            "date": "2016-05-26",
             "age": 65,
             "unique": "true",
             "url": "pricing",
@@ -5894,7 +5894,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Nov-10",
+            "date": "2015-11-10",
             "age": 60,
             "unique": "false",
             "url": "download",
@@ -5904,7 +5904,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jan-18",
+            "date": "2016-01-18",
             "age": 69,
             "unique": "false",
             "url": "download",
@@ -5914,7 +5914,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Jul-15",
+            "date": "2016-07-15",
             "age": 39,
             "unique": "false",
             "url": "customers",
@@ -5924,7 +5924,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jan-16",
+            "date": "2016-01-16",
             "age": 17,
             "unique": "true",
             "url": "pricing",
@@ -5934,7 +5934,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Nov-18",
+            "date": "2015-11-18",
             "age": 45,
             "unique": "false",
             "url": "customers",
@@ -5944,7 +5944,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Mar-06",
+            "date": "2016-03-06",
             "age": 58,
             "unique": "true",
             "url": "products",
@@ -5954,7 +5954,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Mar-16",
+            "date": "2016-03-16",
             "age": 74,
             "unique": "true",
             "url": "company",
@@ -5964,7 +5964,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Mar-26",
+            "date": "2016-03-26",
             "age": 22,
             "unique": "false",
             "url": "roadmap",
@@ -5974,7 +5974,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2015-Sep-21",
+            "date": "2015-09-21",
             "age": 42,
             "unique": "true",
             "url": "products",
@@ -5984,7 +5984,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jul-16",
+            "date": "2016-07-16",
             "age": 60,
             "unique": "true",
             "url": "blog/Payroll",
@@ -5994,7 +5994,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-May-04",
+            "date": "2016-05-04",
             "age": 58,
             "unique": "false",
             "url": "company",
@@ -6005,7 +6005,7 @@ function visitors_data() {
         },
 
         {
-            "date": "2016-Aug-07",
+            "date": "2016-08-07",
             "age": 46,
             "unique": "false",
             "url": "roadmap",
@@ -6015,7 +6015,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Mar-01",
+            "date": "2016-03-01",
             "age": 40,
             "unique": "false",
             "url": "company",
@@ -6025,7 +6025,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Jan-23",
+            "date": "2016-01-23",
             "age": 51,
             "unique": "true",
             "url": "blog/Finances",
@@ -6035,7 +6035,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jun-23",
+            "date": "2016-06-23",
             "age": 26,
             "unique": "false",
             "url": "blog/Sales and Marketing",
@@ -6045,7 +6045,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Aug-06",
+            "date": "2016-08-06",
             "age": 71,
             "unique": "false",
             "url": "support",
@@ -6055,7 +6055,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Oct-22",
+            "date": "2015-10-22",
             "age": 37,
             "unique": "false",
             "url": "blog/Payroll",
@@ -6065,7 +6065,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Apr-01",
+            "date": "2016-04-01",
             "age": 26,
             "unique": "false",
             "url": "company",
@@ -6075,7 +6075,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Nov-01",
+            "date": "2015-11-01",
             "age": 29,
             "unique": "true",
             "url": "company",
@@ -6085,7 +6085,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Apr-03",
+            "date": "2016-04-03",
             "age": 75,
             "unique": "false",
             "url": "blog/Media Relations",
@@ -6095,7 +6095,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Jun-11",
+            "date": "2016-06-11",
             "age": 46,
             "unique": "true",
             "url": "pricing",
@@ -6105,7 +6105,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Mar-17",
+            "date": "2016-03-17",
             "age": 58,
             "unique": "false",
             "url": "blog/Customer Service",
@@ -6115,7 +6115,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Aug-21",
+            "date": "2016-08-21",
             "age": 27,
             "unique": "true",
             "url": "partners",
@@ -6125,7 +6125,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Oct-24",
+            "date": "2015-10-24",
             "age": 24,
             "unique": "false",
             "url": "blog",
@@ -6135,7 +6135,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2015-Nov-15",
+            "date": "2015-11-15",
             "age": 38,
             "unique": "false",
             "url": "customers",
@@ -6145,7 +6145,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Apr-03",
+            "date": "2016-04-03",
             "age": 54,
             "unique": "true",
             "url": "blog/Legal Department",
@@ -6155,7 +6155,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Feb-21",
+            "date": "2016-02-21",
             "age": 14,
             "unique": "false",
             "url": "support",
@@ -6165,7 +6165,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Jun-25",
+            "date": "2016-06-25",
             "age": 69,
             "unique": "false",
             "url": "blog/Customer Service",
@@ -6175,7 +6175,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jan-28",
+            "date": "2016-01-28",
             "age": 18,
             "unique": "true",
             "url": "customers",
@@ -6185,7 +6185,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Jan-28",
+            "date": "2016-01-28",
             "age": 49,
             "unique": "true",
             "url": "customers",
@@ -6195,7 +6195,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2015-Oct-19",
+            "date": "2015-10-19",
             "age": 32,
             "unique": "false",
             "url": "contact",
@@ -6205,7 +6205,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Feb-13",
+            "date": "2016-02-13",
             "age": 19,
             "unique": "false",
             "url": "company",
@@ -6215,7 +6215,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Jul-22",
+            "date": "2016-07-22",
             "age": 75,
             "unique": "false",
             "url": "blog/Accounting",
@@ -6225,7 +6225,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2015-Oct-28",
+            "date": "2015-10-28",
             "age": 41,
             "unique": "false",
             "url": "contact",
@@ -6235,7 +6235,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jun-04",
+            "date": "2016-06-04",
             "age": 73,
             "unique": "false",
             "url": "blog",
@@ -6245,7 +6245,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Jul-31",
+            "date": "2016-07-31",
             "age": 42,
             "unique": "true",
             "url": "download",
@@ -6255,7 +6255,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2015-Dec-30",
+            "date": "2015-12-30",
             "age": 29,
             "unique": "false",
             "url": "pricing",
@@ -6265,7 +6265,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Mar-04",
+            "date": "2016-03-04",
             "age": 75,
             "unique": "false",
             "url": "blog/Accounting",
@@ -6275,7 +6275,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jan-10",
+            "date": "2016-01-10",
             "age": 61,
             "unique": "true",
             "url": "company",
@@ -6285,7 +6285,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Oct-18",
+            "date": "2015-10-18",
             "age": 76,
             "unique": "false",
             "url": "pricing",
@@ -6295,7 +6295,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Mar-31",
+            "date": "2016-03-31",
             "age": 37,
             "unique": "false",
             "url": "blog/Advertising",
@@ -6305,7 +6305,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2015-Nov-10",
+            "date": "2015-11-10",
             "age": 78,
             "unique": "true",
             "url": "blog/Human Resources",
@@ -6315,7 +6315,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Feb-04",
+            "date": "2016-02-04",
             "age": 60,
             "unique": "false",
             "url": "products",
@@ -6325,7 +6325,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Feb-13",
+            "date": "2016-02-13",
             "age": 15,
             "unique": "false",
             "url": "blog/Legal Department",
@@ -6335,7 +6335,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jan-02",
+            "date": "2016-01-02",
             "age": 78,
             "unique": "false",
             "url": "roadmap",
@@ -6345,7 +6345,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jun-19",
+            "date": "2016-06-19",
             "age": 43,
             "unique": "false",
             "url": "blog/Research and Development",
@@ -6355,7 +6355,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2015-Sep-20",
+            "date": "2015-09-20",
             "age": 43,
             "unique": "false",
             "url": "download",
@@ -6365,7 +6365,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-May-21",
+            "date": "2016-05-21",
             "age": 28,
             "unique": "true",
             "url": "partners",
@@ -6375,7 +6375,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Jul-01",
+            "date": "2016-07-01",
             "age": 29,
             "unique": "true",
             "url": "products",
@@ -6385,7 +6385,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-May-18",
+            "date": "2016-05-18",
             "age": 25,
             "unique": "false",
             "url": "features",
@@ -6395,7 +6395,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Jan-13",
+            "date": "2016-01-13",
             "age": 66,
             "unique": "false",
             "url": "customers",
@@ -6405,7 +6405,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2015-Dec-30",
+            "date": "2015-12-30",
             "age": 22,
             "unique": "false",
             "url": "blog/Tech Support",
@@ -6415,7 +6415,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Jan-07",
+            "date": "2016-01-07",
             "age": 45,
             "unique": "true",
             "url": "download",
@@ -6425,7 +6425,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-May-03",
+            "date": "2016-05-03",
             "age": 36,
             "unique": "false",
             "url": "support",
@@ -6435,7 +6435,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Feb-27",
+            "date": "2016-02-27",
             "age": 51,
             "unique": "true",
             "url": "contact",
@@ -6445,7 +6445,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Jun-21",
+            "date": "2016-06-21",
             "age": 51,
             "unique": "false",
             "url": "pricing",
@@ -6455,7 +6455,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Apr-06",
+            "date": "2016-04-06",
             "age": 74,
             "unique": "true",
             "url": "contact",
@@ -6465,7 +6465,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-May-10",
+            "date": "2016-05-10",
             "age": 64,
             "unique": "true",
             "url": "products",
@@ -6475,7 +6475,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jun-15",
+            "date": "2016-06-15",
             "age": 55,
             "unique": "false",
             "url": "roadmap",
@@ -6485,7 +6485,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jul-18",
+            "date": "2016-07-18",
             "age": 68,
             "unique": "false",
             "url": "blog/Public Relations",
@@ -6495,7 +6495,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Feb-23",
+            "date": "2016-02-23",
             "age": 24,
             "unique": "true",
             "url": "customers",
@@ -6505,7 +6505,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jan-18",
+            "date": "2016-01-18",
             "age": 46,
             "unique": "false",
             "url": "blog/Legal Department",
@@ -6515,7 +6515,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Feb-23",
+            "date": "2016-02-23",
             "age": 37,
             "unique": "false",
             "url": "blog/Sales and Marketing",
@@ -6525,7 +6525,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Feb-05",
+            "date": "2016-02-05",
             "age": 65,
             "unique": "false",
             "url": "pricing",
@@ -6535,7 +6535,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jul-17",
+            "date": "2016-07-17",
             "age": 26,
             "unique": "true",
             "url": "products",
@@ -6545,7 +6545,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Aug-13",
+            "date": "2016-08-13",
             "age": 31,
             "unique": "true",
             "url": "roadmap",
@@ -6555,7 +6555,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Aug-19",
+            "date": "2016-08-19",
             "age": 42,
             "unique": "true",
             "url": "blog/Quality Assurance",
@@ -6565,7 +6565,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Mar-28",
+            "date": "2016-03-28",
             "age": 22,
             "unique": "false",
             "url": "download",
@@ -6575,7 +6575,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Feb-09",
+            "date": "2016-02-09",
             "age": 31,
             "unique": "false",
             "url": "blog/Research and Development",
@@ -6585,7 +6585,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2015-Oct-13",
+            "date": "2015-10-13",
             "age": 78,
             "unique": "true",
             "url": "partners",
@@ -6595,7 +6595,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2015-Oct-19",
+            "date": "2015-10-19",
             "age": 16,
             "unique": "true",
             "url": "products",
@@ -6605,7 +6605,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Apr-26",
+            "date": "2016-04-26",
             "age": 65,
             "unique": "false",
             "url": "pricing",
@@ -6615,7 +6615,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Feb-11",
+            "date": "2016-02-11",
             "age": 17,
             "unique": "false",
             "url": "products",
@@ -6625,7 +6625,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jun-01",
+            "date": "2016-06-01",
             "age": 40,
             "unique": "false",
             "url": "download",
@@ -6635,7 +6635,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Jun-17",
+            "date": "2016-06-17",
             "age": 64,
             "unique": "false",
             "url": "roadmap",
@@ -6645,7 +6645,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2015-Oct-21",
+            "date": "2015-10-21",
             "age": 76,
             "unique": "true",
             "url": "features",
@@ -6655,7 +6655,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jan-17",
+            "date": "2016-01-17",
             "age": 25,
             "unique": "false",
             "url": "roadmap",
@@ -6665,7 +6665,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Aug-06",
+            "date": "2016-08-06",
             "age": 15,
             "unique": "false",
             "url": "roadmap",
@@ -6675,7 +6675,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jun-20",
+            "date": "2016-06-20",
             "age": 61,
             "unique": "false",
             "url": "download",
@@ -6685,7 +6685,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2015-Nov-27",
+            "date": "2015-11-27",
             "age": 72,
             "unique": "true",
             "url": "features",
@@ -6695,7 +6695,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Nov-06",
+            "date": "2015-11-06",
             "age": 74,
             "unique": "true",
             "url": "blog/Payroll",
@@ -6705,7 +6705,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2015-Nov-07",
+            "date": "2015-11-07",
             "age": 73,
             "unique": "false",
             "url": "products",
@@ -6715,7 +6715,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Feb-10",
+            "date": "2016-02-10",
             "age": 38,
             "unique": "false",
             "url": "blog/Finances",
@@ -6725,7 +6725,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Aug-24",
+            "date": "2016-08-24",
             "age": 33,
             "unique": "true",
             "url": "pricing",
@@ -6735,7 +6735,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Jan-04",
+            "date": "2016-01-04",
             "age": 24,
             "unique": "false",
             "url": "company",
@@ -6745,7 +6745,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Apr-27",
+            "date": "2016-04-27",
             "age": 24,
             "unique": "false",
             "url": "roadmap",
@@ -6755,7 +6755,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Feb-22",
+            "date": "2016-02-22",
             "age": 64,
             "unique": "true",
             "url": "roadmap",
@@ -6765,7 +6765,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jul-07",
+            "date": "2016-07-07",
             "age": 23,
             "unique": "true",
             "url": "blog/Human Resources",
@@ -6775,7 +6775,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Aug-16",
+            "date": "2016-08-16",
             "age": 72,
             "unique": "true",
             "url": "products",
@@ -6785,7 +6785,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Jul-07",
+            "date": "2016-07-07",
             "age": 38,
             "unique": "false",
             "url": "pricing",
@@ -6795,7 +6795,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Feb-28",
+            "date": "2016-02-28",
             "age": 19,
             "unique": "false",
             "url": "blog/Research and Development",
@@ -6805,7 +6805,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2015-Sep-17",
+            "date": "2015-09-17",
             "age": 67,
             "unique": "false",
             "url": "blog/Customer Service",
@@ -6815,7 +6815,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Mar-22",
+            "date": "2016-03-22",
             "age": 40,
             "unique": "false",
             "url": "blog/Sales and Marketing",
@@ -6825,7 +6825,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Apr-09",
+            "date": "2016-04-09",
             "age": 16,
             "unique": "true",
             "url": "products",
@@ -6835,7 +6835,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Mar-25",
+            "date": "2016-03-25",
             "age": 34,
             "unique": "false",
             "url": "features",
@@ -6845,7 +6845,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2015-Sep-14",
+            "date": "2015-09-14",
             "age": 48,
             "unique": "true",
             "url": "support",
@@ -6855,7 +6855,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Oct-25",
+            "date": "2015-10-25",
             "age": 62,
             "unique": "false",
             "url": "blog/Finances",
@@ -6865,7 +6865,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Feb-29",
+            "date": "2016-02-29",
             "age": 51,
             "unique": "false",
             "url": "blog/Advertising",
@@ -6875,7 +6875,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2015-Nov-03",
+            "date": "2015-11-03",
             "age": 47,
             "unique": "false",
             "url": "support",
@@ -6885,7 +6885,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Jun-20",
+            "date": "2016-06-20",
             "age": 28,
             "unique": "false",
             "url": "partners",
@@ -6895,7 +6895,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2015-Dec-06",
+            "date": "2015-12-06",
             "age": 31,
             "unique": "false",
             "url": "blog/Finances",
@@ -6905,7 +6905,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Dec-18",
+            "date": "2015-12-18",
             "age": 72,
             "unique": "true",
             "url": "partners",
@@ -6915,7 +6915,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jul-21",
+            "date": "2016-07-21",
             "age": 20,
             "unique": "false",
             "url": "customers",
@@ -6925,7 +6925,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Apr-17",
+            "date": "2016-04-17",
             "age": 35,
             "unique": "false",
             "url": "products",
@@ -6935,7 +6935,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Feb-01",
+            "date": "2016-02-01",
             "age": 48,
             "unique": "false",
             "url": "roadmap",
@@ -6945,7 +6945,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jun-22",
+            "date": "2016-06-22",
             "age": 74,
             "unique": "false",
             "url": "products",
@@ -6955,7 +6955,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Aug-05",
+            "date": "2016-08-05",
             "age": 15,
             "unique": "true",
             "url": "company",
@@ -6965,7 +6965,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Jul-26",
+            "date": "2016-07-26",
             "age": 28,
             "unique": "true",
             "url": "roadmap",
@@ -6975,7 +6975,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Jul-29",
+            "date": "2016-07-29",
             "age": 47,
             "unique": "false",
             "url": "blog/Asset Management",
@@ -6985,7 +6985,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Mar-03",
+            "date": "2016-03-03",
             "age": 52,
             "unique": "false",
             "url": "partners",
@@ -6995,7 +6995,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Nov-16",
+            "date": "2015-11-16",
             "age": 34,
             "unique": "true",
             "url": "company",
@@ -7006,7 +7006,7 @@ function visitors_data() {
         },
 
         {
-            "date": "2016-Jan-04",
+            "date": "2016-01-04",
             "age": 31,
             "unique": "false",
             "url": "support",
@@ -7016,7 +7016,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2015-Sep-28",
+            "date": "2015-09-28",
             "age": 67,
             "unique": "true",
             "url": "products",
@@ -7026,7 +7026,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jan-15",
+            "date": "2016-01-15",
             "age": 47,
             "unique": "true",
             "url": "roadmap",
@@ -7036,7 +7036,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Mar-08",
+            "date": "2016-03-08",
             "age": 72,
             "unique": "false",
             "url": "products",
@@ -7046,7 +7046,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Aug-13",
+            "date": "2016-08-13",
             "age": 37,
             "unique": "true",
             "url": "products",
@@ -7056,7 +7056,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-May-23",
+            "date": "2016-05-23",
             "age": 22,
             "unique": "true",
             "url": "contact",
@@ -7066,7 +7066,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Aug-12",
+            "date": "2016-08-12",
             "age": 79,
             "unique": "false",
             "url": "blog/Sales and Marketing",
@@ -7076,7 +7076,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Apr-15",
+            "date": "2016-04-15",
             "age": 25,
             "unique": "true",
             "url": "partners",
@@ -7086,7 +7086,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Dec-21",
+            "date": "2015-12-21",
             "age": 22,
             "unique": "true",
             "url": "blog/Customer Service",
@@ -7096,7 +7096,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2015-Nov-02",
+            "date": "2015-11-02",
             "age": 53,
             "unique": "false",
             "url": "blog/Customer Service",
@@ -7106,7 +7106,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Feb-15",
+            "date": "2016-02-15",
             "age": 65,
             "unique": "false",
             "url": "contact",
@@ -7116,7 +7116,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Oct-31",
+            "date": "2015-10-31",
             "age": 42,
             "unique": "true",
             "url": "pricing",
@@ -7126,7 +7126,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Nov-02",
+            "date": "2015-11-02",
             "age": 22,
             "unique": "false",
             "url": "pricing",
@@ -7136,7 +7136,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Feb-28",
+            "date": "2016-02-28",
             "age": 32,
             "unique": "false",
             "url": "blog",
@@ -7146,7 +7146,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Jan-04",
+            "date": "2016-01-04",
             "age": 80,
             "unique": "false",
             "url": "blog/Research and Development",
@@ -7156,7 +7156,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Jun-06",
+            "date": "2016-06-06",
             "age": 41,
             "unique": "false",
             "url": "download",
@@ -7166,7 +7166,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Jun-04",
+            "date": "2016-06-04",
             "age": 54,
             "unique": "false",
             "url": "pricing",
@@ -7176,7 +7176,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jan-11",
+            "date": "2016-01-11",
             "age": 41,
             "unique": "true",
             "url": "roadmap",
@@ -7186,7 +7186,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Apr-28",
+            "date": "2016-04-28",
             "age": 24,
             "unique": "false",
             "url": "blog/Payroll",
@@ -7196,7 +7196,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Nov-19",
+            "date": "2015-11-19",
             "age": 58,
             "unique": "false",
             "url": "products",
@@ -7206,7 +7206,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-May-21",
+            "date": "2016-05-21",
             "age": 20,
             "unique": "false",
             "url": "customers",
@@ -7216,7 +7216,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jan-09",
+            "date": "2016-01-09",
             "age": 20,
             "unique": "false",
             "url": "company",
@@ -7226,7 +7226,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-May-24",
+            "date": "2016-05-24",
             "age": 57,
             "unique": "true",
             "url": "roadmap",
@@ -7236,7 +7236,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Aug-07",
+            "date": "2016-08-07",
             "age": 46,
             "unique": "false",
             "url": "contact",
@@ -7246,7 +7246,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jul-31",
+            "date": "2016-07-31",
             "age": 79,
             "unique": "false",
             "url": "blog/Legal Department",
@@ -7256,7 +7256,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Jan-23",
+            "date": "2016-01-23",
             "age": 16,
             "unique": "true",
             "url": "search",
@@ -7266,7 +7266,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Aug-24",
+            "date": "2016-08-24",
             "age": 45,
             "unique": "false",
             "url": "pricing",
@@ -7276,7 +7276,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Jul-14",
+            "date": "2016-07-14",
             "age": 34,
             "unique": "false",
             "url": "pricing",
@@ -7286,7 +7286,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2015-Dec-17",
+            "date": "2015-12-17",
             "age": 31,
             "unique": "false",
             "url": "blog/Payroll",
@@ -7296,7 +7296,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Jul-24",
+            "date": "2016-07-24",
             "age": 24,
             "unique": "false",
             "url": "features",
@@ -7306,7 +7306,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jun-26",
+            "date": "2016-06-26",
             "age": 17,
             "unique": "false",
             "url": "blog/Finances",
@@ -7316,7 +7316,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jul-23",
+            "date": "2016-07-23",
             "age": 35,
             "unique": "false",
             "url": "customers",
@@ -7326,7 +7326,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2015-Oct-13",
+            "date": "2015-10-13",
             "age": 60,
             "unique": "true",
             "url": "partners",
@@ -7336,7 +7336,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Sep-16",
+            "date": "2015-09-16",
             "age": 43,
             "unique": "true",
             "url": "blog/Finances",
@@ -7346,7 +7346,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2015-Sep-20",
+            "date": "2015-09-20",
             "age": 69,
             "unique": "false",
             "url": "products",
@@ -7356,7 +7356,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Feb-03",
+            "date": "2016-02-03",
             "age": 18,
             "unique": "false",
             "url": "blog/Legal Department",
@@ -7366,7 +7366,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Dec-08",
+            "date": "2015-12-08",
             "age": 31,
             "unique": "false",
             "url": "features",
@@ -7376,7 +7376,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Jan-19",
+            "date": "2016-01-19",
             "age": 19,
             "unique": "true",
             "url": "pricing",
@@ -7386,7 +7386,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Jan-04",
+            "date": "2016-01-04",
             "age": 62,
             "unique": "false",
             "url": "roadmap",
@@ -7396,7 +7396,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2015-Dec-22",
+            "date": "2015-12-22",
             "age": 34,
             "unique": "false",
             "url": "products",
@@ -7406,7 +7406,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-May-20",
+            "date": "2016-05-20",
             "age": 21,
             "unique": "false",
             "url": "products",
@@ -7416,7 +7416,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2015-Nov-24",
+            "date": "2015-11-24",
             "age": 46,
             "unique": "true",
             "url": "blog",
@@ -7426,7 +7426,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Nov-26",
+            "date": "2015-11-26",
             "age": 60,
             "unique": "false",
             "url": "support",
@@ -7436,7 +7436,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-May-12",
+            "date": "2016-05-12",
             "age": 64,
             "unique": "false",
             "url": "products",
@@ -7446,7 +7446,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Jan-03",
+            "date": "2016-01-03",
             "age": 27,
             "unique": "false",
             "url": "customers",
@@ -7456,7 +7456,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-May-18",
+            "date": "2016-05-18",
             "age": 21,
             "unique": "true",
             "url": "pricing",
@@ -7466,7 +7466,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2015-Sep-29",
+            "date": "2015-09-29",
             "age": 21,
             "unique": "false",
             "url": "blog/Finances",
@@ -7476,7 +7476,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2015-Sep-18",
+            "date": "2015-09-18",
             "age": 37,
             "unique": "false",
             "url": "blog/Advertising",
@@ -7486,7 +7486,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Oct-30",
+            "date": "2015-10-30",
             "age": 28,
             "unique": "false",
             "url": "blog/Quality Assurance",
@@ -7496,7 +7496,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2015-Dec-15",
+            "date": "2015-12-15",
             "age": 47,
             "unique": "true",
             "url": "blog/Public Relations",
@@ -7506,7 +7506,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2015-Sep-20",
+            "date": "2015-09-20",
             "age": 71,
             "unique": "false",
             "url": "blog/Tech Support",
@@ -7516,7 +7516,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Apr-09",
+            "date": "2016-04-09",
             "age": 26,
             "unique": "true",
             "url": "roadmap",
@@ -7526,7 +7526,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2015-Nov-08",
+            "date": "2015-11-08",
             "age": 25,
             "unique": "false",
             "url": "pricing",
@@ -7536,7 +7536,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2015-Oct-22",
+            "date": "2015-10-22",
             "age": 61,
             "unique": "false",
             "url": "company",
@@ -7546,7 +7546,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2015-Oct-11",
+            "date": "2015-10-11",
             "age": 19,
             "unique": "false",
             "url": "partners",
@@ -7556,7 +7556,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Aug-07",
+            "date": "2016-08-07",
             "age": 25,
             "unique": "false",
             "url": "blog/Media Relations",
@@ -7566,7 +7566,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2015-Nov-24",
+            "date": "2015-11-24",
             "age": 18,
             "unique": "true",
             "url": "blog/Public Relations",
@@ -7576,7 +7576,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Oct-09",
+            "date": "2015-10-09",
             "age": 60,
             "unique": "false",
             "url": "blog/Advertising",
@@ -7586,7 +7586,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Mar-01",
+            "date": "2016-03-01",
             "age": 74,
             "unique": "true",
             "url": "blog/Customer Service",
@@ -7596,7 +7596,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Jan-17",
+            "date": "2016-01-17",
             "age": 37,
             "unique": "false",
             "url": "pricing",
@@ -7606,7 +7606,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Apr-13",
+            "date": "2016-04-13",
             "age": 33,
             "unique": "false",
             "url": "roadmap",
@@ -7616,7 +7616,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Sep-19",
+            "date": "2015-09-19",
             "age": 73,
             "unique": "false",
             "url": "products",
@@ -7626,7 +7626,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Apr-05",
+            "date": "2016-04-05",
             "age": 25,
             "unique": "false",
             "url": "blog/Customer Relations",
@@ -7636,7 +7636,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Feb-24",
+            "date": "2016-02-24",
             "age": 41,
             "unique": "false",
             "url": "contact",
@@ -7646,7 +7646,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Dec-12",
+            "date": "2015-12-12",
             "age": 14,
             "unique": "false",
             "url": "contact",
@@ -7656,7 +7656,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Feb-12",
+            "date": "2016-02-12",
             "age": 50,
             "unique": "false",
             "url": "customers",
@@ -7666,7 +7666,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Mar-07",
+            "date": "2016-03-07",
             "age": 21,
             "unique": "false",
             "url": "blog/Public Relations",
@@ -7676,7 +7676,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jan-23",
+            "date": "2016-01-23",
             "age": 22,
             "unique": "false",
             "url": "roadmap",
@@ -7686,7 +7686,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Aug-30",
+            "date": "2016 08 30 11:25",
             "age": 11,
             "unique": "false",
             "url": "partners",
@@ -7696,7 +7696,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-May-21",
+            "date": "2016-05-21",
             "age": 49,
             "unique": "false",
             "url": "contact",
@@ -7706,7 +7706,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2015-Dec-01",
+            "date": "2015-12-01",
             "age": 57,
             "unique": "false",
             "url": "products",
@@ -7716,7 +7716,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Apr-20",
+            "date": "2016-04-20",
             "age": 14,
             "unique": "true",
             "url": "products",
@@ -7726,7 +7726,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jan-31",
+            "date": "2016-01-31",
             "age": 37,
             "unique": "true",
             "url": "partners",
@@ -7736,7 +7736,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Oct-10",
+            "date": "2015-10-10",
             "age": 19,
             "unique": "false",
             "url": "blog/Research and Development",
@@ -7746,7 +7746,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Apr-28",
+            "date": "2016-04-28",
             "age": 27,
             "unique": "false",
             "url": "download",
@@ -7756,7 +7756,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2015-Oct-13",
+            "date": "2015-10-13",
             "age": 40,
             "unique": "true",
             "url": "blog/Legal Department",
@@ -7766,7 +7766,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Aug-16",
+            "date": "2016-08-16",
             "age": 22,
             "unique": "false",
             "url": "pricing",
@@ -7776,7 +7776,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Aug-14",
+            "date": "2016-08-14",
             "age": 39,
             "unique": "false",
             "url": "features",
@@ -7786,7 +7786,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Apr-02",
+            "date": "2016-04-02",
             "age": 68,
             "unique": "true",
             "url": "blog/Customer Service",
@@ -7796,7 +7796,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Mar-08",
+            "date": "2016-03-08",
             "age": 51,
             "unique": "false",
             "url": "blog/Media Relations",
@@ -7806,7 +7806,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2015-Dec-11",
+            "date": "2015-12-11",
             "age": 20,
             "unique": "false",
             "url": "contact",
@@ -7816,7 +7816,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Apr-29",
+            "date": "2016-04-29",
             "age": 20,
             "unique": "false",
             "url": "roadmap",
@@ -7826,7 +7826,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Feb-06",
+            "date": "2016-02-06",
             "age": 38,
             "unique": "false",
             "url": "blog/Payroll",
@@ -7836,7 +7836,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jul-30",
+            "date": "2016-07-30",
             "age": 22,
             "unique": "false",
             "url": "pricing",
@@ -7846,7 +7846,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jul-13",
+            "date": "2016-07-13",
             "age": 23,
             "unique": "false",
             "url": "blog",
@@ -7856,7 +7856,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-May-23",
+            "date": "2016-05-23",
             "age": 13,
             "unique": "false",
             "url": "features",
@@ -7866,7 +7866,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Jan-20",
+            "date": "2016-01-20",
             "age": 25,
             "unique": "false",
             "url": "pricing",
@@ -7876,7 +7876,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Aug-25",
+            "date": "2016-08-25",
             "age": 57,
             "unique": "false",
             "url": "contact",
@@ -7886,7 +7886,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Apr-29",
+            "date": "2016-04-29",
             "age": 43,
             "unique": "false",
             "url": "blog/Payroll",
@@ -7896,7 +7896,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Nov-22",
+            "date": "2015-11-22",
             "age": 25,
             "unique": "false",
             "url": "pricing",
@@ -7906,7 +7906,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2015-Nov-04",
+            "date": "2015-11-04",
             "age": 16,
             "unique": "false",
             "url": "customers",
@@ -7916,7 +7916,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Oct-31",
+            "date": "2015-10-31",
             "age": 37,
             "unique": "false",
             "url": "pricing",
@@ -7926,7 +7926,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jan-20",
+            "date": "2016-01-20",
             "age": 11,
             "unique": "true",
             "url": "partners",
@@ -7936,7 +7936,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Mar-31",
+            "date": "2016-03-31",
             "age": 59,
             "unique": "true",
             "url": "download",
@@ -7946,7 +7946,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Aug-31",
+            "date": "2016 08 31 17:45",
             "age": 25,
             "unique": "false",
             "url": "blog/Advertising",
@@ -7956,7 +7956,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Oct-24",
+            "date": "2015-10-24",
             "age": 70,
             "unique": "false",
             "url": "features",
@@ -7966,7 +7966,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Sep-21",
+            "date": "2015-09-21",
             "age": 76,
             "unique": "false",
             "url": "pricing",
@@ -7976,7 +7976,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Apr-26",
+            "date": "2016-04-26",
             "age": 33,
             "unique": "false",
             "url": "products",
@@ -7986,7 +7986,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Mar-20",
+            "date": "2016-03-20",
             "age": 72,
             "unique": "false",
             "url": "pricing",
@@ -7996,7 +7996,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2015-Sep-28",
+            "date": "2015-09-28",
             "age": 38,
             "unique": "false",
             "url": "pricing",
@@ -8007,7 +8007,7 @@ function visitors_data() {
         },
 
         {
-            "date": "2016-Aug-10",
+            "date": "2016-08-10",
             "age": 39,
             "unique": "false",
             "url": "blog/Media Relations",
@@ -8017,7 +8017,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jun-20",
+            "date": "2016-06-20",
             "age": 31,
             "unique": "true",
             "url": "roadmap",
@@ -8027,7 +8027,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Nov-27",
+            "date": "2015-11-27",
             "age": 22,
             "unique": "false",
             "url": "blog",
@@ -8037,7 +8037,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Aug-27",
+            "date": "2016-08-27",
             "age": 15,
             "unique": "false",
             "url": "partners",
@@ -8047,7 +8047,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Jun-01",
+            "date": "2016-06-01",
             "age": 21,
             "unique": "true",
             "url": "blog/Asset Management",
@@ -8057,7 +8057,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Aug-10",
+            "date": "2016-08-10",
             "age": 56,
             "unique": "false",
             "url": "blog/Sales and Marketing",
@@ -8067,7 +8067,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Jan-23",
+            "date": "2016-01-23",
             "age": 61,
             "unique": "false",
             "url": "products",
@@ -8077,7 +8077,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Jan-01",
+            "date": "2016-01-01",
             "age": 66,
             "unique": "true",
             "url": "company",
@@ -8087,7 +8087,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jul-04",
+            "date": "2016-07-04",
             "age": 62,
             "unique": "true",
             "url": "search",
@@ -8097,7 +8097,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Dec-04",
+            "date": "2015-12-04",
             "age": 59,
             "unique": "false",
             "url": "download",
@@ -8107,7 +8107,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Nov-14",
+            "date": "2015-11-14",
             "age": 40,
             "unique": "true",
             "url": "blog/Tech Support",
@@ -8117,7 +8117,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Mar-23",
+            "date": "2016-03-23",
             "age": 58,
             "unique": "false",
             "url": "download",
@@ -8127,7 +8127,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Dec-16",
+            "date": "2015-12-16",
             "age": 34,
             "unique": "false",
             "url": "products",
@@ -8137,7 +8137,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Mar-28",
+            "date": "2016-03-28",
             "age": 65,
             "unique": "false",
             "url": "pricing",
@@ -8147,7 +8147,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Jan-17",
+            "date": "2016-01-17",
             "age": 40,
             "unique": "false",
             "url": "search",
@@ -8157,7 +8157,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Feb-06",
+            "date": "2016-02-06",
             "age": 28,
             "unique": "false",
             "url": "blog/Finances",
@@ -8167,7 +8167,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Jun-01",
+            "date": "2016-06-01",
             "age": 20,
             "unique": "false",
             "url": "company",
@@ -8177,7 +8177,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Mar-06",
+            "date": "2016-03-06",
             "age": 66,
             "unique": "false",
             "url": "partners",
@@ -8187,7 +8187,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Nov-30",
+            "date": "2015-11-30",
             "age": 36,
             "unique": "false",
             "url": "support",
@@ -8197,7 +8197,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-May-06",
+            "date": "2016-05-06",
             "age": 56,
             "unique": "false",
             "url": "company",
@@ -8207,7 +8207,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Aug-16",
+            "date": "2016-08-16",
             "age": 15,
             "unique": "false",
             "url": "partners",
@@ -8217,7 +8217,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-May-12",
+            "date": "2016-05-12",
             "age": 53,
             "unique": "true",
             "url": "partners",
@@ -8227,7 +8227,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jun-20",
+            "date": "2016-06-20",
             "age": 26,
             "unique": "true",
             "url": "company",
@@ -8237,7 +8237,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Aug-29",
+            "date": "2016-08-29",
             "age": 23,
             "unique": "false",
             "url": "support",
@@ -8247,7 +8247,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Feb-21",
+            "date": "2016-02-21",
             "age": 63,
             "unique": "false",
             "url": "features",
@@ -8257,7 +8257,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Jun-22",
+            "date": "2016-06-22",
             "age": 27,
             "unique": "false",
             "url": "pricing",
@@ -8267,7 +8267,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Nov-18",
+            "date": "2015-11-18",
             "age": 53,
             "unique": "false",
             "url": "pricing",
@@ -8277,7 +8277,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2015-Oct-15",
+            "date": "2015-10-15",
             "age": 73,
             "unique": "false",
             "url": "blog/Sales and Marketing",
@@ -8287,7 +8287,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Mar-08",
+            "date": "2016-03-08",
             "age": 78,
             "unique": "true",
             "url": "blog",
@@ -8297,7 +8297,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2015-Sep-14",
+            "date": "2015-09-14",
             "age": 70,
             "unique": "true",
             "url": "search",
@@ -8307,7 +8307,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jul-30",
+            "date": "2016-07-30",
             "age": 54,
             "unique": "true",
             "url": "pricing",
@@ -8317,7 +8317,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Jan-30",
+            "date": "2016-01-30",
             "age": 63,
             "unique": "true",
             "url": "blog",
@@ -8327,7 +8327,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Dec-25",
+            "date": "2015-12-25",
             "age": 68,
             "unique": "false",
             "url": "blog/Asset Management",
@@ -8337,7 +8337,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Aug-12",
+            "date": "2016-08-12",
             "age": 78,
             "unique": "false",
             "url": "features",
@@ -8347,7 +8347,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jun-10",
+            "date": "2016-06-10",
             "age": 77,
             "unique": "false",
             "url": "support",
@@ -8357,7 +8357,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-May-06",
+            "date": "2016-05-06",
             "age": 26,
             "unique": "false",
             "url": "contact",
@@ -8367,7 +8367,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Apr-01",
+            "date": "2016-04-01",
             "age": 22,
             "unique": "false",
             "url": "pricing",
@@ -8377,7 +8377,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Aug-21",
+            "date": "2016-08-21",
             "age": 33,
             "unique": "true",
             "url": "customers",
@@ -8387,7 +8387,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Jun-30",
+            "date": "2016-06-30",
             "age": 37,
             "unique": "true",
             "url": "download",
@@ -8397,7 +8397,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Apr-04",
+            "date": "2016-04-04",
             "age": 44,
             "unique": "false",
             "url": "blog/Customer Service",
@@ -8407,7 +8407,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Oct-19",
+            "date": "2015-10-19",
             "age": 33,
             "unique": "true",
             "url": "contact",
@@ -8417,7 +8417,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Aug-11",
+            "date": "2016-08-11",
             "age": 43,
             "unique": "false",
             "url": "blog/Human Resources",
@@ -8427,7 +8427,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Dec-01",
+            "date": "2015-12-01",
             "age": 43,
             "unique": "false",
             "url": "blog/Payroll",
@@ -8437,7 +8437,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2015-Sep-26",
+            "date": "2015-09-26",
             "age": 22,
             "unique": "false",
             "url": "blog/Finances",
@@ -8447,7 +8447,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-May-24",
+            "date": "2016-05-24",
             "age": 70,
             "unique": "true",
             "url": "company",
@@ -8457,7 +8457,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2015-Nov-16",
+            "date": "2015-11-16",
             "age": 16,
             "unique": "true",
             "url": "contact",
@@ -8467,7 +8467,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Aug-20",
+            "date": "2016-08-20",
             "age": 51,
             "unique": "false",
             "url": "contact",
@@ -8477,7 +8477,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2015-Nov-24",
+            "date": "2015-11-24",
             "age": 60,
             "unique": "true",
             "url": "blog/Research and Development",
@@ -8487,7 +8487,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Sep-14",
+            "date": "2015-09-14",
             "age": 59,
             "unique": "false",
             "url": "blog/Media Relations",
@@ -8497,7 +8497,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Apr-03",
+            "date": "2016-04-03",
             "age": 73,
             "unique": "false",
             "url": "pricing",
@@ -8507,7 +8507,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2015-Nov-02",
+            "date": "2015-11-02",
             "age": 55,
             "unique": "true",
             "url": "download",
@@ -8517,7 +8517,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Feb-23",
+            "date": "2016-02-23",
             "age": 61,
             "unique": "true",
             "url": "contact",
@@ -8527,7 +8527,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jul-21",
+            "date": "2016-07-21",
             "age": 46,
             "unique": "false",
             "url": "blog/Media Relations",
@@ -8537,7 +8537,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Mar-13",
+            "date": "2016-03-13",
             "age": 44,
             "unique": "false",
             "url": "support",
@@ -8547,7 +8547,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Apr-09",
+            "date": "2016-04-09",
             "age": 22,
             "unique": "false",
             "url": "blog/Customer Relations",
@@ -8557,7 +8557,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Feb-24",
+            "date": "2016-02-24",
             "age": 63,
             "unique": "false",
             "url": "products",
@@ -8567,7 +8567,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Aug-03",
+            "date": "2016-08-03",
             "age": 26,
             "unique": "false",
             "url": "blog/Payroll",
@@ -8577,7 +8577,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jul-24",
+            "date": "2016-07-24",
             "age": 49,
             "unique": "true",
             "url": "blog/Media Relations",
@@ -8587,7 +8587,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-May-26",
+            "date": "2016-05-26",
             "age": 75,
             "unique": "true",
             "url": "pricing",
@@ -8597,7 +8597,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Apr-07",
+            "date": "2016-04-07",
             "age": 67,
             "unique": "false",
             "url": "products",
@@ -8607,7 +8607,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Feb-01",
+            "date": "2016-02-01",
             "age": 16,
             "unique": "false",
             "url": "features",
@@ -8617,7 +8617,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Feb-01",
+            "date": "2016-02-01",
             "age": 45,
             "unique": "false",
             "url": "roadmap",
@@ -8627,7 +8627,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Jan-09",
+            "date": "2016-01-09",
             "age": 70,
             "unique": "true",
             "url": "blog/Customer Service",
@@ -8637,7 +8637,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Mar-23",
+            "date": "2016-03-23",
             "age": 64,
             "unique": "false",
             "url": "contact",
@@ -8647,7 +8647,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2015-Oct-16",
+            "date": "2015-10-16",
             "age": 63,
             "unique": "false",
             "url": "company",
@@ -8657,7 +8657,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jan-12",
+            "date": "2016-01-12",
             "age": 45,
             "unique": "true",
             "url": "pricing",
@@ -8667,7 +8667,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Aug-06",
+            "date": "2016-08-06",
             "age": 13,
             "unique": "true",
             "url": "roadmap",
@@ -8677,7 +8677,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jun-24",
+            "date": "2016-06-24",
             "age": 27,
             "unique": "true",
             "url": "contact",
@@ -8687,7 +8687,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jan-19",
+            "date": "2016-01-19",
             "age": 43,
             "unique": "true",
             "url": "partners",
@@ -8697,7 +8697,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-May-27",
+            "date": "2016-05-27",
             "age": 47,
             "unique": "false",
             "url": "download",
@@ -8707,7 +8707,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2015-Dec-05",
+            "date": "2015-12-05",
             "age": 23,
             "unique": "false",
             "url": "support",
@@ -8717,7 +8717,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Feb-19",
+            "date": "2016-02-19",
             "age": 80,
             "unique": "false",
             "url": "roadmap",
@@ -8727,7 +8727,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2015-Dec-30",
+            "date": "2015-12-30",
             "age": 31,
             "unique": "false",
             "url": "pricing",
@@ -8737,7 +8737,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Jul-31",
+            "date": "2016-07-31",
             "age": 26,
             "unique": "false",
             "url": "customers",
@@ -8747,7 +8747,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jul-12",
+            "date": "2016-07-12",
             "age": 37,
             "unique": "false",
             "url": "pricing",
@@ -8757,7 +8757,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Apr-26",
+            "date": "2016-04-26",
             "age": 49,
             "unique": "true",
             "url": "features",
@@ -8767,7 +8767,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Sep-29",
+            "date": "2015-09-29",
             "age": 37,
             "unique": "true",
             "url": "blog",
@@ -8777,7 +8777,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Mar-01",
+            "date": "2016-03-01",
             "age": 71,
             "unique": "true",
             "url": "features",
@@ -8787,7 +8787,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Nov-18",
+            "date": "2015-11-18",
             "age": 26,
             "unique": "false",
             "url": "company",
@@ -8797,7 +8797,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Oct-08",
+            "date": "2015-10-08",
             "age": 67,
             "unique": "false",
             "url": "blog/Legal Department",
@@ -8807,7 +8807,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Feb-25",
+            "date": "2016-02-25",
             "age": 39,
             "unique": "false",
             "url": "contact",
@@ -8817,7 +8817,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Oct-09",
+            "date": "2015-10-09",
             "age": 24,
             "unique": "false",
             "url": "features",
@@ -8827,7 +8827,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-May-31",
+            "date": "2016-05-31",
             "age": 77,
             "unique": "false",
             "url": "blog/Research and Development",
@@ -8837,7 +8837,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-May-01",
+            "date": "2016-05-01",
             "age": 29,
             "unique": "false",
             "url": "roadmap",
@@ -8847,7 +8847,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2015-Oct-26",
+            "date": "2015-10-26",
             "age": 30,
             "unique": "false",
             "url": "search",
@@ -8857,7 +8857,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jun-21",
+            "date": "2016-06-21",
             "age": 44,
             "unique": "false",
             "url": "download",
@@ -8867,7 +8867,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Jan-23",
+            "date": "2016-01-23",
             "age": 53,
             "unique": "false",
             "url": "products",
@@ -8877,7 +8877,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Feb-26",
+            "date": "2016-02-26",
             "age": 40,
             "unique": "false",
             "url": "roadmap",
@@ -8887,7 +8887,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2015-Oct-25",
+            "date": "2015-10-25",
             "age": 24,
             "unique": "false",
             "url": "products",
@@ -8897,7 +8897,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-May-26",
+            "date": "2016-05-26",
             "age": 25,
             "unique": "false",
             "url": "roadmap",
@@ -8907,7 +8907,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Dec-19",
+            "date": "2015-12-19",
             "age": 37,
             "unique": "false",
             "url": "download",
@@ -8917,7 +8917,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Aug-01",
+            "date": "2016-08-01",
             "age": 25,
             "unique": "false",
             "url": "pricing",
@@ -8927,7 +8927,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Feb-26",
+            "date": "2016-02-26",
             "age": 55,
             "unique": "true",
             "url": "blog/Customer Service",
@@ -8937,7 +8937,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Aug-21",
+            "date": "2016-08-21",
             "age": 77,
             "unique": "false",
             "url": "pricing",
@@ -8947,7 +8947,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Feb-29",
+            "date": "2016-02-29",
             "age": 13,
             "unique": "false",
             "url": "support",
@@ -8957,7 +8957,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jun-22",
+            "date": "2016-06-22",
             "age": 12,
             "unique": "true",
             "url": "contact",
@@ -8967,7 +8967,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2015-Nov-07",
+            "date": "2015-11-07",
             "age": 43,
             "unique": "false",
             "url": "blog/Finances",
@@ -8977,7 +8977,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Aug-09",
+            "date": "2016-08-09",
             "age": 13,
             "unique": "false",
             "url": "products",
@@ -8987,7 +8987,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Apr-11",
+            "date": "2016-04-11",
             "age": 67,
             "unique": "true",
             "url": "blog/Public Relations",
@@ -8997,7 +8997,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Jul-17",
+            "date": "2016-07-17",
             "age": 55,
             "unique": "true",
             "url": "partners",
@@ -9008,7 +9008,7 @@ function visitors_data() {
         },
 
         {
-            "date": "2015-Oct-21",
+            "date": "2015-10-21",
             "age": 40,
             "unique": "false",
             "url": "download",
@@ -9018,7 +9018,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2015-Dec-26",
+            "date": "2015-12-26",
             "age": 47,
             "unique": "false",
             "url": "blog",
@@ -9028,7 +9028,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Apr-01",
+            "date": "2016-04-01",
             "age": 40,
             "unique": "false",
             "url": "blog/Customer Relations",
@@ -9038,7 +9038,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Apr-07",
+            "date": "2016-04-07",
             "age": 20,
             "unique": "false",
             "url": "blog/Asset Management",
@@ -9048,7 +9048,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Jun-19",
+            "date": "2016-06-19",
             "age": 46,
             "unique": "false",
             "url": "blog/Customer Relations",
@@ -9058,7 +9058,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Jul-01",
+            "date": "2016-07-01",
             "age": 74,
             "unique": "false",
             "url": "download",
@@ -9068,7 +9068,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-May-27",
+            "date": "2016-05-27",
             "age": 73,
             "unique": "false",
             "url": "support",
@@ -9078,7 +9078,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Oct-01",
+            "date": "2015-10-01",
             "age": 51,
             "unique": "true",
             "url": "blog/Legal Department",
@@ -9088,7 +9088,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Aug-01",
+            "date": "2016-08-01",
             "age": 30,
             "unique": "false",
             "url": "support",
@@ -9098,7 +9098,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Apr-08",
+            "date": "2016-04-08",
             "age": 26,
             "unique": "false",
             "url": "contact",
@@ -9108,7 +9108,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Dec-11",
+            "date": "2015-12-11",
             "age": 12,
             "unique": "false",
             "url": "pricing",
@@ -9118,7 +9118,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Feb-11",
+            "date": "2016-02-11",
             "age": 48,
             "unique": "false",
             "url": "partners",
@@ -9128,7 +9128,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2015-Oct-09",
+            "date": "2015-10-09",
             "age": 46,
             "unique": "true",
             "url": "pricing",
@@ -9138,7 +9138,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Jun-07",
+            "date": "2016-06-07",
             "age": 47,
             "unique": "false",
             "url": "partners",
@@ -9148,7 +9148,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2015-Dec-17",
+            "date": "2015-12-17",
             "age": 58,
             "unique": "true",
             "url": "customers",
@@ -9158,7 +9158,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Aug-08",
+            "date": "2016-08-08",
             "age": 54,
             "unique": "false",
             "url": "features",
@@ -9168,7 +9168,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Mar-24",
+            "date": "2016-03-24",
             "age": 15,
             "unique": "false",
             "url": "company",
@@ -9178,7 +9178,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Feb-07",
+            "date": "2016-02-07",
             "age": 21,
             "unique": "true",
             "url": "products",
@@ -9188,7 +9188,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2015-Nov-21",
+            "date": "2015-11-21",
             "age": 68,
             "unique": "false",
             "url": "blog/Asset Management",
@@ -9198,7 +9198,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Aug-04",
+            "date": "2016-08-04",
             "age": 77,
             "unique": "true",
             "url": "roadmap",
@@ -9208,7 +9208,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-May-18",
+            "date": "2016-05-18",
             "age": 20,
             "unique": "true",
             "url": "blog",
@@ -9218,7 +9218,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Apr-14",
+            "date": "2016-04-14",
             "age": 52,
             "unique": "false",
             "url": "company",
@@ -9228,7 +9228,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jan-29",
+            "date": "2016-01-29",
             "age": 57,
             "unique": "true",
             "url": "partners",
@@ -9238,7 +9238,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Nov-01",
+            "date": "2015-11-01",
             "age": 78,
             "unique": "true",
             "url": "download",
@@ -9248,7 +9248,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jun-09",
+            "date": "2016-06-09",
             "age": 52,
             "unique": "false",
             "url": "support",
@@ -9258,7 +9258,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2015-Oct-31",
+            "date": "2015-10-31",
             "age": 46,
             "unique": "false",
             "url": "blog",
@@ -9268,7 +9268,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Apr-19",
+            "date": "2016-04-19",
             "age": 29,
             "unique": "true",
             "url": "features",
@@ -9278,7 +9278,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Sep-21",
+            "date": "2015-09-21",
             "age": 21,
             "unique": "false",
             "url": "download",
@@ -9288,7 +9288,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Aug-27",
+            "date": "2016-08-27",
             "age": 65,
             "unique": "true",
             "url": "blog/Research and Development",
@@ -9298,7 +9298,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Apr-17",
+            "date": "2016-04-17",
             "age": 12,
             "unique": "false",
             "url": "features",
@@ -9308,7 +9308,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Feb-18",
+            "date": "2016-02-18",
             "age": 44,
             "unique": "false",
             "url": "features",
@@ -9318,7 +9318,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jun-28",
+            "date": "2016-06-28",
             "age": 73,
             "unique": "false",
             "url": "blog/Research and Development",
@@ -9328,7 +9328,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-May-06",
+            "date": "2016-05-06",
             "age": 20,
             "unique": "false",
             "url": "blog/Research and Development",
@@ -9338,7 +9338,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Apr-19",
+            "date": "2016-04-19",
             "age": 46,
             "unique": "false",
             "url": "blog/Sales and Marketing",
@@ -9348,7 +9348,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2015-Nov-16",
+            "date": "2015-11-16",
             "age": 14,
             "unique": "false",
             "url": "company",
@@ -9358,7 +9358,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Mar-03",
+            "date": "2016-03-03",
             "age": 40,
             "unique": "false",
             "url": "blog",
@@ -9368,7 +9368,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Feb-14",
+            "date": "2016-02-14",
             "age": 11,
             "unique": "true",
             "url": "partners",
@@ -9378,7 +9378,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Aug-23",
+            "date": "2016-08-23",
             "age": 69,
             "unique": "false",
             "url": "contact",
@@ -9388,7 +9388,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Dec-30",
+            "date": "2015-12-30",
             "age": 56,
             "unique": "false",
             "url": "pricing",
@@ -9398,7 +9398,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-May-04",
+            "date": "2016-05-04",
             "age": 26,
             "unique": "false",
             "url": "download",
@@ -9408,7 +9408,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Jun-26",
+            "date": "2016-06-26",
             "age": 41,
             "unique": "false",
             "url": "blog/Quality Assurance",
@@ -9418,7 +9418,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Feb-28",
+            "date": "2016-02-28",
             "age": 58,
             "unique": "true",
             "url": "pricing",
@@ -9428,7 +9428,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2015-Oct-12",
+            "date": "2015-10-12",
             "age": 78,
             "unique": "true",
             "url": "customers",
@@ -9438,7 +9438,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Oct-26",
+            "date": "2015-10-26",
             "age": 78,
             "unique": "false",
             "url": "products",
@@ -9448,7 +9448,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2015-Sep-16",
+            "date": "2015-09-16",
             "age": 51,
             "unique": "false",
             "url": "contact",
@@ -9458,7 +9458,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Feb-18",
+            "date": "2016-02-18",
             "age": 39,
             "unique": "false",
             "url": "blog/Public Relations",
@@ -9468,7 +9468,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2015-Dec-27",
+            "date": "2015-12-27",
             "age": 44,
             "unique": "true",
             "url": "pricing",
@@ -9478,7 +9478,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Feb-17",
+            "date": "2016-02-17",
             "age": 62,
             "unique": "false",
             "url": "features",
@@ -9488,7 +9488,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Jun-17",
+            "date": "2016-06-17",
             "age": 26,
             "unique": "false",
             "url": "blog/Finances",
@@ -9498,7 +9498,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Aug-26",
+            "date": "2016-08-26",
             "age": 55,
             "unique": "false",
             "url": "blog",
@@ -9508,7 +9508,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jul-06",
+            "date": "2016-07-06",
             "age": 26,
             "unique": "true",
             "url": "blog/Quality Assurance",
@@ -9518,7 +9518,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-May-21",
+            "date": "2016-05-21",
             "age": 26,
             "unique": "true",
             "url": "contact",
@@ -9528,7 +9528,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jul-04",
+            "date": "2016-07-04",
             "age": 27,
             "unique": "false",
             "url": "company",
@@ -9538,7 +9538,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Sep-16",
+            "date": "2015-09-16",
             "age": 64,
             "unique": "true",
             "url": "blog/Finances",
@@ -9548,7 +9548,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-May-24",
+            "date": "2016-05-24",
             "age": 59,
             "unique": "true",
             "url": "products",
@@ -9558,7 +9558,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Dec-21",
+            "date": "2015-12-21",
             "age": 38,
             "unique": "true",
             "url": "products",
@@ -9568,7 +9568,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jul-31",
+            "date": "2016-07-31",
             "age": 20,
             "unique": "false",
             "url": "blog/Quality Assurance",
@@ -9578,7 +9578,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2015-Oct-23",
+            "date": "2015-10-23",
             "age": 50,
             "unique": "true",
             "url": "support",
@@ -9588,7 +9588,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2015-Oct-14",
+            "date": "2015-10-14",
             "age": 78,
             "unique": "false",
             "url": "customers",
@@ -9598,7 +9598,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Feb-02",
+            "date": "2016-02-02",
             "age": 26,
             "unique": "true",
             "url": "features",
@@ -9608,7 +9608,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Jul-25",
+            "date": "2016-07-25",
             "age": 20,
             "unique": "false",
             "url": "blog/Customer Relations",
@@ -9618,7 +9618,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jul-19",
+            "date": "2016-07-19",
             "age": 39,
             "unique": "false",
             "url": "contact",
@@ -9628,7 +9628,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Mar-22",
+            "date": "2016-03-22",
             "age": 26,
             "unique": "true",
             "url": "search",
@@ -9638,7 +9638,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Feb-21",
+            "date": "2016-02-21",
             "age": 31,
             "unique": "false",
             "url": "blog/Tech Support",
@@ -9648,7 +9648,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jun-28",
+            "date": "2016-06-28",
             "age": 33,
             "unique": "true",
             "url": "blog/Advertising",
@@ -9658,7 +9658,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jun-24",
+            "date": "2016-06-24",
             "age": 28,
             "unique": "true",
             "url": "partners",
@@ -9668,7 +9668,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-May-06",
+            "date": "2016-05-06",
             "age": 64,
             "unique": "false",
             "url": "features",
@@ -9678,7 +9678,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2015-Nov-01",
+            "date": "2015-11-01",
             "age": 41,
             "unique": "false",
             "url": "products",
@@ -9688,7 +9688,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jan-24",
+            "date": "2016-01-24",
             "age": 17,
             "unique": "false",
             "url": "features",
@@ -9698,7 +9698,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Feb-15",
+            "date": "2016-02-15",
             "age": 58,
             "unique": "false",
             "url": "contact",
@@ -9708,7 +9708,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Apr-10",
+            "date": "2016-04-10",
             "age": 53,
             "unique": "false",
             "url": "contact",
@@ -9718,7 +9718,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Jul-30",
+            "date": "2016-07-30",
             "age": 51,
             "unique": "true",
             "url": "blog/Advertising",
@@ -9728,7 +9728,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Mar-24",
+            "date": "2016-03-24",
             "age": 26,
             "unique": "false",
             "url": "pricing",
@@ -9738,7 +9738,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Jun-23",
+            "date": "2016-06-23",
             "age": 35,
             "unique": "false",
             "url": "partners",
@@ -9748,7 +9748,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Mar-05",
+            "date": "2016-03-05",
             "age": 18,
             "unique": "false",
             "url": "pricing",
@@ -9758,7 +9758,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Apr-25",
+            "date": "2016-04-25",
             "age": 45,
             "unique": "false",
             "url": "download",
@@ -9768,7 +9768,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Aug-29",
+            "date": "2016-08-29",
             "age": 25,
             "unique": "false",
             "url": "blog/Sales and Marketing",
@@ -9778,7 +9778,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-May-15",
+            "date": "2016-05-15",
             "age": 39,
             "unique": "false",
             "url": "blog",
@@ -9788,7 +9788,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Oct-03",
+            "date": "2015-10-03",
             "age": 64,
             "unique": "false",
             "url": "blog/Legal Department",
@@ -9798,7 +9798,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jun-24",
+            "date": "2016-06-24",
             "age": 42,
             "unique": "false",
             "url": "blog/Public Relations",
@@ -9808,7 +9808,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2015-Oct-31",
+            "date": "2015-10-31",
             "age": 73,
             "unique": "false",
             "url": "blog/Sales and Marketing",
@@ -9818,7 +9818,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Apr-08",
+            "date": "2016-04-08",
             "age": 54,
             "unique": "true",
             "url": "customers",
@@ -9828,7 +9828,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2015-Nov-17",
+            "date": "2015-11-17",
             "age": 44,
             "unique": "false",
             "url": "download",
@@ -9838,7 +9838,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jul-13",
+            "date": "2016-07-13",
             "age": 63,
             "unique": "false",
             "url": "blog/Finances",
@@ -9848,7 +9848,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Dec-06",
+            "date": "2015-12-06",
             "age": 78,
             "unique": "false",
             "url": "download",
@@ -9858,7 +9858,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Jul-28",
+            "date": "2016-07-28",
             "age": 29,
             "unique": "true",
             "url": "partners",
@@ -9868,7 +9868,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jun-15",
+            "date": "2016-06-15",
             "age": 40,
             "unique": "false",
             "url": "customers",
@@ -9878,7 +9878,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Aug-06",
+            "date": "2016-08-06",
             "age": 33,
             "unique": "true",
             "url": "customers",
@@ -9888,7 +9888,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Jul-02",
+            "date": "2016-07-02",
             "age": 47,
             "unique": "true",
             "url": "pricing",
@@ -9898,7 +9898,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Jun-01",
+            "date": "2016-06-01",
             "age": 20,
             "unique": "false",
             "url": "support",
@@ -9908,7 +9908,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Feb-19",
+            "date": "2016-02-19",
             "age": 27,
             "unique": "false",
             "url": "products",
@@ -9918,7 +9918,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Apr-29",
+            "date": "2016-04-29",
             "age": 20,
             "unique": "false",
             "url": "blog/Public Relations",
@@ -9928,7 +9928,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jan-14",
+            "date": "2016-01-14",
             "age": 39,
             "unique": "true",
             "url": "download",
@@ -9938,7 +9938,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jun-20",
+            "date": "2016-06-20",
             "age": 37,
             "unique": "false",
             "url": "download",
@@ -9948,7 +9948,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2015-Nov-23",
+            "date": "2015-11-23",
             "age": 31,
             "unique": "false",
             "url": "pricing",
@@ -9958,7 +9958,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-May-19",
+            "date": "2016-05-19",
             "age": 66,
             "unique": "false",
             "url": "blog",
@@ -9968,7 +9968,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Apr-17",
+            "date": "2016-04-17",
             "age": 56,
             "unique": "false",
             "url": "partners",
@@ -9978,7 +9978,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Feb-23",
+            "date": "2016-02-23",
             "age": 58,
             "unique": "false",
             "url": "blog/Asset Management",
@@ -9988,7 +9988,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-May-07",
+            "date": "2016-05-07",
             "age": 31,
             "unique": "false",
             "url": "blog/Customer Service",
@@ -9998,7 +9998,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Feb-17",
+            "date": "2016-02-17",
             "age": 35,
             "unique": "false",
             "url": "search",
@@ -10009,7 +10009,7 @@ function visitors_data() {
         },
 
         {
-            "date": "2016-Jan-04",
+            "date": "2016-01-04",
             "age": 44,
             "unique": "true",
             "url": "company",
@@ -10019,7 +10019,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Feb-07",
+            "date": "2016-02-07",
             "age": 53,
             "unique": "false",
             "url": "download",
@@ -10029,7 +10029,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Mar-02",
+            "date": "2016-03-02",
             "age": 54,
             "unique": "false",
             "url": "search",
@@ -10039,7 +10039,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Feb-25",
+            "date": "2016-02-25",
             "age": 27,
             "unique": "true",
             "url": "pricing",
@@ -10049,7 +10049,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Feb-24",
+            "date": "2016-02-24",
             "age": 57,
             "unique": "false",
             "url": "download",
@@ -10059,7 +10059,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-May-09",
+            "date": "2016-05-09",
             "age": 70,
             "unique": "false",
             "url": "pricing",
@@ -10069,7 +10069,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2015-Dec-27",
+            "date": "2015-12-27",
             "age": 37,
             "unique": "false",
             "url": "contact",
@@ -10079,7 +10079,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Aug-09",
+            "date": "2016-08-09",
             "age": 60,
             "unique": "false",
             "url": "partners",
@@ -10089,7 +10089,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Apr-11",
+            "date": "2016-04-11",
             "age": 29,
             "unique": "false",
             "url": "blog/Research and Development",
@@ -10099,7 +10099,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Feb-01",
+            "date": "2016-02-01",
             "age": 55,
             "unique": "false",
             "url": "customers",
@@ -10109,7 +10109,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Apr-09",
+            "date": "2016-04-09",
             "age": 51,
             "unique": "true",
             "url": "products",
@@ -10119,7 +10119,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Dec-13",
+            "date": "2015-12-13",
             "age": 66,
             "unique": "false",
             "url": "blog/Accounting",
@@ -10129,7 +10129,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Aug-10",
+            "date": "2016-08-10",
             "age": 65,
             "unique": "true",
             "url": "blog/Legal Department",
@@ -10139,7 +10139,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-May-09",
+            "date": "2016-05-09",
             "age": 12,
             "unique": "true",
             "url": "pricing",
@@ -10149,7 +10149,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Apr-21",
+            "date": "2016-04-21",
             "age": 51,
             "unique": "false",
             "url": "blog/Finances",
@@ -10159,7 +10159,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2015-Nov-10",
+            "date": "2015-11-10",
             "age": 22,
             "unique": "false",
             "url": "search",
@@ -10169,7 +10169,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Dec-16",
+            "date": "2015-12-16",
             "age": 16,
             "unique": "false",
             "url": "company",
@@ -10179,7 +10179,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Mar-02",
+            "date": "2016-03-02",
             "age": 16,
             "unique": "true",
             "url": "pricing",
@@ -10189,7 +10189,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Jun-08",
+            "date": "2016-06-08",
             "age": 65,
             "unique": "true",
             "url": "products",
@@ -10199,7 +10199,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-May-29",
+            "date": "2016-05-29",
             "age": 76,
             "unique": "false",
             "url": "blog/Advertising",
@@ -10209,7 +10209,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-May-25",
+            "date": "2016-05-25",
             "age": 43,
             "unique": "false",
             "url": "features",
@@ -10219,7 +10219,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Aug-10",
+            "date": "2016-08-10",
             "age": 24,
             "unique": "false",
             "url": "blog/Legal Department",
@@ -10229,7 +10229,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Apr-01",
+            "date": "2016-04-01",
             "age": 30,
             "unique": "true",
             "url": "products",
@@ -10239,7 +10239,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Mar-05",
+            "date": "2016-03-05",
             "age": 18,
             "unique": "true",
             "url": "download",
@@ -10249,7 +10249,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jan-23",
+            "date": "2016-01-23",
             "age": 27,
             "unique": "false",
             "url": "partners",
@@ -10259,7 +10259,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Mar-28",
+            "date": "2016-03-28",
             "age": 56,
             "unique": "false",
             "url": "blog/Finances",
@@ -10269,7 +10269,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Jun-20",
+            "date": "2016-06-20",
             "age": 26,
             "unique": "true",
             "url": "partners",
@@ -10279,7 +10279,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Nov-22",
+            "date": "2015-11-22",
             "age": 40,
             "unique": "false",
             "url": "blog/Quality Assurance",
@@ -10289,7 +10289,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Aug-15",
+            "date": "2016-08-15",
             "age": 40,
             "unique": "false",
             "url": "blog/Quality Assurance",
@@ -10299,7 +10299,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-Aug-12",
+            "date": "2016-08-12",
             "age": 45,
             "unique": "true",
             "url": "blog",
@@ -10309,7 +10309,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Mar-01",
+            "date": "2016-03-01",
             "age": 75,
             "unique": "false",
             "url": "pricing",
@@ -10319,7 +10319,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Feb-11",
+            "date": "2016-02-11",
             "age": 45,
             "unique": "true",
             "url": "pricing",
@@ -10329,7 +10329,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-May-03",
+            "date": "2016-05-03",
             "age": 77,
             "unique": "true",
             "url": "support",
@@ -10339,7 +10339,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Mar-20",
+            "date": "2016-03-20",
             "age": 26,
             "unique": "false",
             "url": "products",
@@ -10349,7 +10349,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Jul-09",
+            "date": "2016-07-09",
             "age": 13,
             "unique": "false",
             "url": "blog/Accounting",
@@ -10359,7 +10359,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Mar-01",
+            "date": "2016-03-01",
             "age": 21,
             "unique": "true",
             "url": "support",
@@ -10369,7 +10369,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2016-Feb-21",
+            "date": "2016-02-21",
             "age": 26,
             "unique": "false",
             "url": "roadmap",
@@ -10379,7 +10379,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Aug-13",
+            "date": "2016-08-13",
             "age": 27,
             "unique": "false",
             "url": "blog/Media Relations",
@@ -10389,7 +10389,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Feb-20",
+            "date": "2016-02-20",
             "age": 18,
             "unique": "true",
             "url": "blog/Sales and Marketing",
@@ -10399,7 +10399,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2015-Nov-14",
+            "date": "2015-11-14",
             "age": 26,
             "unique": "false",
             "url": "contact",
@@ -10409,7 +10409,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Feb-06",
+            "date": "2016-02-06",
             "age": 29,
             "unique": "true",
             "url": "support",
@@ -10419,7 +10419,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Aug-14",
+            "date": "2016-08-14",
             "age": 27,
             "unique": "false",
             "url": "roadmap",
@@ -10429,7 +10429,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2015-Oct-27",
+            "date": "2015-10-27",
             "age": 47,
             "unique": "true",
             "url": "products",
@@ -10439,7 +10439,7 @@ function visitors_data() {
             "keywords": "support"
         },
         {
-            "date": "2015-Dec-27",
+            "date": "2015-12-27",
             "age": 49,
             "unique": "true",
             "url": "blog/Accounting",
@@ -10449,7 +10449,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Aug-09",
+            "date": "2016-08-09",
             "age": 35,
             "unique": "true",
             "url": "customers",
@@ -10459,7 +10459,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Aug-26",
+            "date": "2016-08-26",
             "age": 39,
             "unique": "true",
             "url": "pricing",
@@ -10469,7 +10469,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Apr-30",
+            "date": "2016-04-30",
             "age": 20,
             "unique": "false",
             "url": "support",
@@ -10479,7 +10479,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-May-31",
+            "date": "2016-05-31",
             "age": 40,
             "unique": "false",
             "url": "download",
@@ -10489,7 +10489,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jul-17",
+            "date": "2016-07-17",
             "age": 75,
             "unique": "true",
             "url": "contact",
@@ -10499,7 +10499,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2015-Dec-18",
+            "date": "2015-12-18",
             "age": 14,
             "unique": "true",
             "url": "blog",
@@ -10509,7 +10509,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2015-Oct-31",
+            "date": "2015-10-31",
             "age": 22,
             "unique": "true",
             "url": "partners",
@@ -10519,7 +10519,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Aug-11",
+            "date": "2016-08-11",
             "age": 35,
             "unique": "false",
             "url": "partners",
@@ -10529,7 +10529,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2015-Oct-13",
+            "date": "2015-10-13",
             "age": 15,
             "unique": "true",
             "url": "partners",
@@ -10539,7 +10539,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-Jan-25",
+            "date": "2016-01-25",
             "age": 28,
             "unique": "false",
             "url": "support",
@@ -10549,7 +10549,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jan-29",
+            "date": "2016-01-29",
             "age": 65,
             "unique": "true",
             "url": "pricing",
@@ -10559,7 +10559,7 @@ function visitors_data() {
             "keywords": "legal"
         },
         {
-            "date": "2016-May-22",
+            "date": "2016-05-22",
             "age": 72,
             "unique": "true",
             "url": "contact",
@@ -10569,7 +10569,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-May-24",
+            "date": "2016-05-24",
             "age": 53,
             "unique": "false",
             "url": "blog/Payroll",
@@ -10579,7 +10579,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Mar-25",
+            "date": "2016-03-25",
             "age": 21,
             "unique": "true",
             "url": "company",
@@ -10589,7 +10589,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Aug-03",
+            "date": "2016-08-03",
             "age": 18,
             "unique": "false",
             "url": "blog/Legal Department",
@@ -10599,7 +10599,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2015-Oct-20",
+            "date": "2015-10-20",
             "age": 42,
             "unique": "false",
             "url": "blog/Tech Support",
@@ -10609,7 +10609,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Feb-08",
+            "date": "2016-02-08",
             "age": 63,
             "unique": "false",
             "url": "partners",
@@ -10619,7 +10619,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Apr-01",
+            "date": "2016-04-01",
             "age": 22,
             "unique": "true",
             "url": "blog/Research and Development",
@@ -10629,7 +10629,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Oct-21",
+            "date": "2015-10-21",
             "age": 75,
             "unique": "false",
             "url": "blog/Advertising",
@@ -10639,7 +10639,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-Mar-05",
+            "date": "2016-03-05",
             "age": 17,
             "unique": "true",
             "url": "pricing",
@@ -10649,7 +10649,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-Jul-16",
+            "date": "2016-07-16",
             "age": 67,
             "unique": "false",
             "url": "blog/Media Relations",
@@ -10659,7 +10659,7 @@ function visitors_data() {
             "keywords": "customer"
         },
         {
-            "date": "2016-Mar-23",
+            "date": "2016-03-23",
             "age": 21,
             "unique": "false",
             "url": "roadmap",
@@ -10669,7 +10669,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Oct-11",
+            "date": "2015-10-11",
             "age": 22,
             "unique": "true",
             "url": "download",
@@ -10679,7 +10679,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2015-Sep-28",
+            "date": "2015-09-28",
             "age": 74,
             "unique": "false",
             "url": "products",
@@ -10689,7 +10689,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jun-14",
+            "date": "2016-06-14",
             "age": 79,
             "unique": "false",
             "url": "features",
@@ -10699,7 +10699,7 @@ function visitors_data() {
             "keywords": "quality"
         },
         {
-            "date": "2016-May-26",
+            "date": "2016-05-26",
             "age": 26,
             "unique": "false",
             "url": "blog/Quality Assurance",
@@ -10709,7 +10709,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-May-22",
+            "date": "2016-05-22",
             "age": 27,
             "unique": "true",
             "url": "blog/Public Relations",
@@ -10719,7 +10719,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Aug-25",
+            "date": "2016-08-25",
             "age": 56,
             "unique": "false",
             "url": "pricing",
@@ -10729,7 +10729,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2015-Sep-24",
+            "date": "2015-09-24",
             "age": 27,
             "unique": "false",
             "url": "features",
@@ -10739,7 +10739,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jan-28",
+            "date": "2016-01-28",
             "age": 25,
             "unique": "false",
             "url": "search",
@@ -10749,7 +10749,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Jun-18",
+            "date": "2016-06-18",
             "age": 15,
             "unique": "false",
             "url": "pricing",
@@ -10759,7 +10759,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Jul-03",
+            "date": "2016-07-03",
             "age": 71,
             "unique": "false",
             "url": "blog/Public Relations",
@@ -10769,7 +10769,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Mar-31",
+            "date": "2016-03-31",
             "age": 45,
             "unique": "false",
             "url": "pricing",
@@ -10779,7 +10779,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-May-25",
+            "date": "2016-05-25",
             "age": 16,
             "unique": "false",
             "url": "download",
@@ -10789,7 +10789,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2015-Oct-27",
+            "date": "2015-10-27",
             "age": 65,
             "unique": "false",
             "url": "products",
@@ -10799,7 +10799,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-May-11",
+            "date": "2016-05-11",
             "age": 21,
             "unique": "true",
             "url": "pricing",
@@ -10809,7 +10809,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jul-17",
+            "date": "2016-07-17",
             "age": 17,
             "unique": "true",
             "url": "pricing",
@@ -10819,7 +10819,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Dec-29",
+            "date": "2015-12-29",
             "age": 17,
             "unique": "true",
             "url": "support",
@@ -10829,7 +10829,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2016-Apr-10",
+            "date": "2016-04-10",
             "age": 26,
             "unique": "false",
             "url": "customers",
@@ -10839,7 +10839,7 @@ function visitors_data() {
             "keywords": "service"
         },
         {
-            "date": "2015-Oct-16",
+            "date": "2015-10-16",
             "age": 43,
             "unique": "true",
             "url": "pricing",
@@ -10849,7 +10849,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Jun-09",
+            "date": "2016-06-09",
             "age": 32,
             "unique": "false",
             "url": "blog/Legal Department",
@@ -10859,7 +10859,7 @@ function visitors_data() {
             "keywords": "accounting"
         },
         {
-            "date": "2016-May-01",
+            "date": "2016-05-01",
             "age": 31,
             "unique": "false",
             "url": "customers",
@@ -10869,7 +10869,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2016-Mar-21",
+            "date": "2016-03-21",
             "age": 47,
             "unique": "false",
             "url": "features",
@@ -10879,7 +10879,7 @@ function visitors_data() {
             "keywords": "public"
         },
         {
-            "date": "2016-Aug-31",
+            "date": "2016 08 31 15:30",
             "age": 21,
             "unique": "false",
             "url": "blog/Sales and Marketing",
@@ -10889,7 +10889,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Jul-03",
+            "date": "2016-07-03",
             "age": 36,
             "unique": "true",
             "url": "roadmap",
@@ -10899,7 +10899,7 @@ function visitors_data() {
             "keywords": "advertising"
         },
         {
-            "date": "2016-Jul-23",
+            "date": "2016-07-23",
             "age": 33,
             "unique": "false",
             "url": "roadmap",
@@ -10909,7 +10909,7 @@ function visitors_data() {
             "keywords": "media"
         },
         {
-            "date": "2016-Feb-26",
+            "date": "2016-02-26",
             "age": 65,
             "unique": "true",
             "url": "search",
@@ -10919,7 +10919,7 @@ function visitors_data() {
             "keywords": "marketing"
         },
         {
-            "date": "2016-Jan-23",
+            "date": "2016-01-23",
             "age": 70,
             "unique": "false",
             "url": "contact",
@@ -10929,7 +10929,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Jul-14",
+            "date": "2016-07-14",
             "age": 46,
             "unique": "false",
             "url": "pricing",
@@ -10939,7 +10939,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Jul-02",
+            "date": "2016-07-02",
             "age": 28,
             "unique": "false",
             "url": "search",
@@ -10949,7 +10949,7 @@ function visitors_data() {
             "keywords": "management"
         },
         {
-            "date": "2016-Apr-22",
+            "date": "2016-04-22",
             "age": 70,
             "unique": "false",
             "url": "roadmap",
@@ -10959,7 +10959,7 @@ function visitors_data() {
             "keywords": "development"
         },
         {
-            "date": "2015-Oct-15",
+            "date": "2015-10-15",
             "age": 31,
             "unique": "false",
             "url": "blog/Human Resources",
@@ -10969,7 +10969,7 @@ function visitors_data() {
             "keywords": "payroll"
         },
         {
-            "date": "2016-May-27",
+            "date": "2016-05-27",
             "age": 39,
             "unique": "false",
             "url": "blog/Advertising",
@@ -10979,7 +10979,7 @@ function visitors_data() {
             "keywords": "finances"
         },
         {
-            "date": "2016-Feb-26",
+            "date": "2016-02-26",
             "age": 61,
             "unique": "false",
             "url": "blog/Legal Department",
@@ -10989,7 +10989,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2015-Oct-26",
+            "date": "2015-10-26",
             "age": 17,
             "unique": "false",
             "url": "blog/Asset Management",
@@ -10999,7 +10999,7 @@ function visitors_data() {
             "keywords": "resources"
         },
         {
-            "date": "2016-Mar-27",
+            "date": "2016-03-27",
             "age": 66,
             "unique": "false",
             "url": "products",

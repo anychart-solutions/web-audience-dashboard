@@ -56,6 +56,10 @@ body {
     color: rgb(124, 134, 142);
 }
 
+.datetimepicker-container {
+    margin-top: 15px;
+}
+
 /* DataTable */
 .top {
     float: left;

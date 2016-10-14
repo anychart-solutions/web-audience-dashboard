@@ -1,8 +1,20 @@
 (function () {
+    var charts = {
+        'stock': {},
+        'pie': {},
+        'map': {}
+    };
+    var $datetimepicker_start = $('#datetimepicker_start');
+    var $datetimepicker_end = $('#datetimepicker_end');
+
     var $blog_found = $('#table-blog-found');
     var $site_found = $('#table-site-found');
     var $most_popular = $('#table-most-popular');
     var $most_search_keyword = $('#table-search-keywords');
+
+    var $nav = $('#nav-date-time');
+    var today = new Date($nav.find('[data-range="today"]').data('time'));
+    var from_min_date;
 
     var pattern_age_group = [
         {
@@ -31,21 +43,21 @@
         }
     ];
 
-    function web_audience_dashboard(rawData) {
-        var data = processData(rawData);
+    function web_audience_dashboard(rawData, filter) {
+        var data = processData(rawData, filter);
 
-        // create chart - Visitors
-        createStockChart_2(data['visitors'], 'visitors', 'Visitors');
-        // create chart - Audience Location
-        createMap(data['location'], 'audience-location', 'Audience location');
-        // create chart - Age Category
-        createPieChart(data['age_info'], 'age-category', 'Visit by age category');
         // create chart - Blog Visitors
-        createStockChart_1(data['visitors']['blog_visitors'], 'blog-visitors', 'Blog Visitors');
+        createStockChart_1('one', data['visitors']['blog_visitors'], 'blog-visitors', 'Blog Visitors');
+        // create chart - Visitors
+        createStockChart_2('two', data['visitors'], 'visitors', 'Visitors');
+        // create chart - Audience Location
+        createMap('one', data['location'], 'audience-location', 'Audience location');
+        // create chart - Age Category
+        createPieChart('one', data['age_info'], 'age-category', 'Visit by age category');
         // create chart - Device Category
-        createPieChart(data['device_info'], 'device-category', 'Visit by device category');
+        createPieChart('two', data['device_info'], 'device-category', 'Visit by device category');
         // create chart - Viewer's mobile devices
-        createPieChart(data['device_info']['mobile'], 'mobile-devices', 'Viewer\'s mobile devices');
+        createPieChart('three', data['device_info']['mobile'], 'mobile-devices', 'Viewer\'s mobile devices');
 
         // create table - How is your blog found
         createDataTable(data['visitors']['blog_visitors']['blog_url'], $blog_found);
@@ -56,12 +68,19 @@
         // create table - Most used search terms
         createDataTable(data['most_search_keyword'], $most_search_keyword);
 
-        function createStockChart_1(data, container, title) {
+        function createStockChart_1(index, data, container, title) {
+
+            if (charts['stock'][index]) {
+                charts['stock'][index].dispose();
+                charts['stock'][index] = null;
+            }
+
             var chart;
             var data_chart = [];
-            var count = data['values'].reduce(function (a, b) {
+
+            var count = data['values'].length ? data['values'].reduce(function (a, b) {
                 return a + b;
-            });
+            }) : 0;
 
             for (var i = 0; i < data['categories'].length; i++) {
                 data_chart.push([data['categories'][i], data['values'][i]]);
@@ -93,25 +112,36 @@
             var users = chart.plot(0);
             users.line(mapping_blog_users);
             users.legend().itemsTextFormatter(function () {
-                return 'Visitors: ' + this.value + ' of ' + count
+                return 'Visitors: ' + (this.value  || 0)+ ' of ' + count
             });
 
-            // set chart selected date/time range
-            chart.selectRange('2015-12-03', '2016-03-23');
+            chart.tooltip().titleFormatter(function () {
+                var date = new Date(this.hoveredDate);
+
+                return date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate() + ' ' + date.getHours() + ':' + date.getMinutes();
+            });
 
             // set container id for the chart
             chart.container(container);
             // initiate chart drawing
             chart.draw();
+
+            charts['stock'][index] = chart;
         }
 
-        function createMap(data, container, title) {
+        function createMap(index, data, container, title) {
+
+            if (charts['map'][index]) {
+                charts['map'][index].dispose();
+                charts['map'][index] = null;
+            }
+
             var map;
             var data_map = [];
             var world_map = anychart.maps.world.features;
-            var count = data['values'].reduce(function (a, b) {
+            var count = data['values'].length ? data['values'].reduce(function (a, b) {
                 return a + b;
-            });
+            }) : 0;
 
             for (var i = 0; i < data['names'].length; i++) {
                 data_map.push(
@@ -132,6 +162,7 @@
             }
 
             map = anychart.map();
+            map.unboundRegions();
             map.geoData(anychart.maps.world);
             map.allowPointsSelect(false);
             map.padding('0px');
@@ -143,6 +174,7 @@
 
             var series = map.choropleth(data_map);
             series.hoverFill('#f48fb1');
+            series.stroke('#ddd');
             series.hoverStroke(anychart.color.darken('#f48fb1'));
             series.selectFill('#c2185b');
             series.selectStroke(anychart.color.darken('#c2185b'));
@@ -162,7 +194,7 @@
             ]);
             scale.colors(
                 [
-                    '#A5B3B3',
+                    '#eee',
                     '#4fc3f7',
                     '#039be5',
                     '#0288d1',
@@ -196,14 +228,28 @@
             series.colorScale(scale);
             map.container(container);
             map.draw();
+
+            charts['map']['one'] = map;
         }
 
-        function createPieChart(data, container, title) {
+        function createPieChart(index, data, container, title) {
+
+            if (charts['pie'][index]) {
+                charts['pie'][index].dispose();
+                charts['pie'][index] = null;
+            }
+
             var chart;
             var data_chart = [];
-            var count = data['values'].reduce(function (a, b) {
-                return a + b;
-            });
+            var count;
+
+            if (data['values'].length) {
+                count = data['values'].reduce(function (a, b) {
+                    return a + b;
+                });
+            } else {
+                count = 0;
+            }
 
             for (var i = 0; i < data['categories'].length; i++) {
                 data_chart.push(
@@ -258,17 +304,27 @@
             chart.container(container);
             // init chart
             chart.draw();
+
+            charts['pie'][index] = chart;
         }
 
-        function createStockChart_2(data, container, title) {
+        function createStockChart_2(index, data, container, title) {
+
+            if (charts['stock'][index]) {
+                charts['stock'][index].dispose();
+                charts['stock'][index] = null;
+            }
+
             var chart;
             var data_chart = [];
-            var count_users = data['users'].reduce(function (a, b) {
+
+            var count_users = data['users'].length ? data['users'].reduce(function (a, b) {
                 return a + b;
-            });
-            var count_new_users = data['new_users'].reduce(function (a, b) {
+            }) : 0;
+
+            var count_new_users = data['new_users'].length ? data['new_users'].reduce(function (a, b) {
                 return a + b;
-            });
+            }) : 0;
 
             // chart type
             chart = anychart.stock();
@@ -283,6 +339,12 @@
                 var time_a = new Date(a[0]).getTime();
                 var time_b = new Date(b[0]).getTime();
                 return time_a - time_b
+            });
+
+            chart.tooltip().titleFormatter(function () {
+                var date = new Date(this.hoveredDate);
+
+                return date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate() + ' ' + date.getHours() + ':' + date.getMinutes();
             });
 
             chart.tooltip().textFormatter(function () {
@@ -303,49 +365,80 @@
             var users = chart.plot(0);
             users.splineArea(mapping_users).fill('#1976d2 0.65').stroke('1.5 #1976d2');
             users.legend().itemsTextFormatter(function () {
-                return 'Visitors: ' + this.value + ' of ' + count_users
+                return 'Visitors: ' + (this.value || 0) + ' of ' + count_users
             });
 
             var users_unique = chart.plot(1);
             users_unique.splineArea(mapping_users_unique).fill('#ef6c00 0.65').stroke('1.5 #ef6c00');
             users_unique.legend().itemsTextFormatter(function () {
-                return 'New Visitors: ' + this.value + ' of ' + count_new_users
+                return 'New Visitors: ' + (this.value || 0) + ' of ' + count_new_users
             });
-
-            // set chart selected date/time range
-            chart.selectRange('2016-02-21', '2016-06-18');
 
             // set container id for the chart
             chart.container(container);
             // init chart
             chart.draw();
+
+            charts['stock'][index] = chart;
         }
 
         function createDataTable(data, $el) {
             var $tbody = $el.find('tbody');
+            // init DataTable
+            var $table = $tbody.parent('table').DataTable({
+                scrollY: '225px',
+                scrollCollapse: true,
+                paging: false,
+                "dom": '<"top"f>rtip'
+            });
 
+            if ($tbody.children().length) {
+                $table.clear();
+                $table.draw();
+            }
+
+            // update table
             for (var i = 0; i < data.categories.length; i++) {
-                $tbody.append(
-                    '<tr>' +
-                    '<td>' + data['categories'][i] +
-                    '</td>' +
-                    '<td>' + data['values'][i] +
-                    '</td>' +
-                    '</tr>'
-                );
                 if (data['unique_values'] !== undefined) {
-                    $tbody.find('tr').last().append(
-                        '<td>' + data['unique_values'][i] + ' (' +
-                        (data['unique_values'][i] * 100 / data['values'][i]).toFixed(2) + '%)' +
-                        '</td>'
-                    )
+                    $table.row.add([data['categories'][i], data['values'][i], data['unique_values'][i] + ' (' +
+                        (data['unique_values'][i] * 100 / data['values'][i]).toFixed(2) + '%)'])
+                        .draw();
+                } else {
+                    $table.row.add([data['categories'][i], data['values'][i]])
+                        .draw();
                 }
             }
+
         }
     }
 
-    function processData(rawData) {
-        var data = rawData;
+    function processData(rawData, filter) {
+        var data;
+
+        // return data by filter if filter exist
+        if (filter) {
+            data = rawData.filter(function (item) {
+                var time = (new Date(item['date'])).getTime();
+                var start_date = (new Date(filter['start-date'])).getTime();
+                var end_date = (new Date(filter['end-date'])).getTime();
+
+                return time >= start_date && time <= end_date
+            });
+        } else {
+            data = rawData;
+        }
+
+        // search min date
+        rawData.sort(function (visitor_a, visitor_b) {
+            var time_a = new Date(visitor_a['date']).getTime();
+            var time_b = new Date(visitor_b['date']).getTime();
+            return time_a - time_b
+        });
+
+        // set min date from data
+        from_min_date = new Date(rawData[0]['date']);
+        initFullTimeDate(filter, from_min_date, today);
+
         var index;
         var i;
 
@@ -615,8 +708,8 @@
         var mq = window.matchMedia("(min-width: 768px)");
         var $chart_container = $('.chart_container');
         var $chart = $('.chart');
-        // sum of padding and margin height
-        var offsetHeight = 125;
+        // sum of padding/margin and container-timeline height
+        var offsetHeight = 145 + $('#container-timeline').height();
 
         // if parent != iframe
         if (self === top) {
@@ -634,32 +727,132 @@
         $('#loader-wrapper').fadeOut('slow');
     }
 
-    function initDataTable() {
-        $('.data-table').each(function () {
-            $(this).DataTable({
-                scrollY: '225px',
-                scrollCollapse: true,
-                paging: false,
-                "dom": '<"top"f>rtip'
-            });
-        });
-    }
-
-    anychart.onDocumentReady(function () {
+    function init(filter) {
         // replace this line with your data
         var rawData = visitors_data();
         // draw dashboard
-        web_audience_dashboard(rawData);
-        initDataTable();
+        web_audience_dashboard(rawData, filter);
         heightInit();
+    }
+
+    function initDateTime() {
+        $datetimepicker_start.datetimepicker();
+        $datetimepicker_end.datetimepicker({
+            useCurrent: false //Important! See issue #1075
+        });
+
+        $datetimepicker_start.on("dp.change", function (e) {
+            $datetimepicker_end.data("DateTimePicker").minDate(e.date);
+            $(this).datetimepicker('hide');
+
+            $nav.find('li').removeClass('active');
+
+            if ($datetimepicker_end.data("DateTimePicker").date() !== null) {
+                // init with new data filter
+                init({
+                    'start-date': $(this).data('DateTimePicker').date().toDate(),
+                    'end-date': $datetimepicker_end.data('DateTimePicker').date().toDate()
+                });
+
+            }
+        });
+
+        $datetimepicker_end.on("dp.change", function (e) {
+            $datetimepicker_start.data("DateTimePicker").maxDate(e.date);
+            $(this).datetimepicker('hide');
+
+            $nav.find('li').removeClass('active');
+
+            if ($datetimepicker_start.data("DateTimePicker").date() !== null) {
+                // init with new data filter
+                init({
+                    'start-date': $datetimepicker_start.data('DateTimePicker').date().toDate(),
+                    'end-date': $(this).data("DateTimePicker").date().toDate()
+                });
+            }
+        });
+    }
+
+    function initFullTimeDate(filter, from, to) {
+        if (!filter) {
+            $datetimepicker_start.data('DateTimePicker').date(from);
+            $datetimepicker_end.data('DateTimePicker').date(to);
+        }
+    }
+
+    // time line events
+    $nav.on('click', 'a', function () {
+        var range = $(this).data('range');
+        var from;
+        var to;
+
+        if ($(this).closest('li').hasClass('active')) {
+            return false
+        }
+
+        switch (range) {
+            case 'today':
+            {
+                from = new Date(today.getFullYear(), today.getMonth(), (today.getDate() - 1));
+                to = today;
+                break;
+            }
+            case 'yesterday':
+            {
+                from = new Date(today.getFullYear(), today.getMonth(), (today.getDate() - 2));
+                to = new Date(today.getFullYear(), today.getMonth(), (today.getDate() - 1));
+                break;
+            }
+            case 'week':
+            {
+                from = new Date(today.getFullYear(), today.getMonth(), (today.getDate() - 6));
+                to = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+                break;
+            }
+            case 'month':
+            {
+                from = new Date(today.getFullYear(), today.getMonth() - 1, (today.getDate()));
+                to = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+                break;
+            }
+            case 'quarter':
+            {
+                from = new Date(today.getFullYear(), today.getMonth() - 4, (today.getDate()));
+                to = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+                break;
+            }
+            case 'year':
+            {
+                from = new Date(today.getFullYear(), 0, 0);
+                to = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+                break;
+            }
+            case 'full':
+            {
+                from = from_min_date;
+                to = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+            }
+        }
+
+        // set datetime for input date
+        $datetimepicker_start.data('DateTimePicker').date(from);
+        $datetimepicker_end.data('DateTimePicker').date(to);
+
+        $(this).parents($nav).find('li').removeClass('active');
+        $(this).closest('li').addClass('active');
+    });
+
+    anychart.onDocumentReady(function () {
+        initDateTime();
+        init();
+
+        $('[data-range="full"]').closest('li').addClass('active');
     });
 
     $(window).on('load', function () {
         hidePreloader();
     });
 
-    $(window).bind('resize', function () {
-        heightInit();
-    });
+    $(window).bind('resize', heightInit);
 })();
 
