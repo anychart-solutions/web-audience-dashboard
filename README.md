@@ -5,7 +5,8 @@ Web-Audience dashboard provides you with a handy snapshot of your page viewers l
 
 [<img src="http://static.anychart.com/images/github/web-audience.png" alt="Web Audience Dashboard | AnyChart">](http://anychart.com/solutions/web-audience/)
 
-## Further Learning
+## Links
+* [Web Audience Dashboard Demo at AnyChart.Com](https://www.anychart.com/solutions/web-audience/)
 * [Documentation](https://docs.anychart.com)
 * [JavaScript API Reference](https://api.anychart.com)
 * [Code Playground](https://playground.anychart.com)
