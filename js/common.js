@@ -1,9 +1,12 @@
 (function () {
+    // replace this line with your data
+    var rawData = visitors_data();
     var charts = {
         'stock': {},
         'pie': {},
         'map': {}
     };
+    var tables = {};
     var $datetimepicker_start = $('#datetimepicker_start');
     var $datetimepicker_end = $('#datetimepicker_end');
 
@@ -15,6 +18,8 @@
     var $nav = $('#nav-date-time');
     var today = new Date($nav.find('[data-range="today"]').data('time'));
     var from_min_date;
+
+    var flag_init = true;
 
     var pattern_age_group = [
         {
@@ -60,13 +65,13 @@
         createPieChart('three', data['device_info']['mobile'], 'mobile-devices', 'Viewer\'s mobile devices');
 
         // create table - How is your blog found
-        createDataTable(data['visitors']['blog_visitors']['blog_url'], $blog_found);
+        createDataTable('one', data['visitors']['blog_visitors']['blog_url'], $blog_found);
         // create table - How links to you
-        createDataTable(data['from_link'], $site_found);
+        createDataTable('two', data['from_link'], $site_found);
         // create table - Most popular pages
-        createDataTable(data['most_popular_page'], $most_popular);
+        createDataTable('three', data['most_popular_page'], $most_popular);
         // create table - Most used search terms
-        createDataTable(data['most_search_keyword'], $most_search_keyword);
+        createDataTable('four', data['most_search_keyword'], $most_search_keyword);
 
         function createStockChart_1(index, data, container, title) {
 
@@ -382,12 +387,14 @@
             charts['stock'][index] = chart;
         }
 
-        function createDataTable(data, $el) {
+        function createDataTable(index, data, $el) {
             var $tbody = $el.find('tbody');
-            // init DataTable
-            var $table;
 
-            $table = $tbody.parent('table').DataTable({
+            if (tables[index] !== undefined) {
+                tables[index].destroy();
+            }
+
+            tables[index] = $tbody.parent('table').DataTable({
                 scrollY: '225px',
                 scrollCollapse: true,
                 paging: false,
@@ -395,18 +402,18 @@
             });
 
             if ($tbody.children().length) {
-                $table.clear();
-                $table.draw();
+                tables[index].clear();
+                tables[index].draw();
             }
 
             // update table
             for (var i = 0; i < data.categories.length; i++) {
                 if (data['unique_values'] !== undefined) {
-                    $table.row.add([data['categories'][i], data['values'][i], data['unique_values'][i] + ' (' +
+                    tables[index].row.add([data['categories'][i], data['values'][i], data['unique_values'][i] + ' (' +
                         (data['unique_values'][i] * 100 / data['values'][i]).toFixed(2) + '%)'])
                         .draw();
                 } else {
-                    $table.row.add([data['categories'][i], data['values'][i]])
+                    tables[index].row.add([data['categories'][i], data['values'][i]])
                         .draw();
                 }
             }
@@ -429,17 +436,6 @@
         } else {
             data = rawData;
         }
-
-        // search min date
-        rawData.sort(function (visitor_a, visitor_b) {
-            var time_a = new Date(visitor_a['date']).getTime();
-            var time_b = new Date(visitor_b['date']).getTime();
-            return time_a - time_b
-        });
-
-        // set min date from data
-        from_min_date = new Date(rawData[0]['date']);
-        initFullTimeDate(filter, from_min_date, today);
 
         var index;
         var i;
@@ -730,8 +726,6 @@
     }
 
     function init(filter) {
-        // replace this line with your data
-        var rawData = visitors_data();
         // draw dashboard
         web_audience_dashboard(rawData, filter);
         heightInit();
@@ -746,15 +740,26 @@
         $datetimepicker_start.on("dp.change", function (e) {
             $datetimepicker_end.data("DateTimePicker").minDate(e.date);
             $(this).datetimepicker('hide');
+            $(this).on('dp.show', function () {
+                flag_init = true;
+            });
+            $(this).on('dp.hide', function () {
+                flag_init = false;
+            });
 
             $nav.find('li').removeClass('active');
 
             if ($datetimepicker_end.data("DateTimePicker").date() !== null) {
-                // init with new data filter
-                init({
-                    'start-date': $(this).data('DateTimePicker').date().toDate(),
-                    'end-date': $datetimepicker_end.data('DateTimePicker').date().toDate()
-                });
+                if (flag_init) {
+                    // init with new data filter
+                    init({
+                        'start-date': $(this).data('DateTimePicker').date().toDate(),
+                        'end-date': $datetimepicker_end.data('DateTimePicker').date().toDate()
+                    });
+                    if (!$(this).find('.bootstrap-datetimepicker-widget').is(':visible')) {
+                        flag_init = false;
+                    }
+                }
 
             }
         });
@@ -762,24 +767,35 @@
         $datetimepicker_end.on("dp.change", function (e) {
             $datetimepicker_start.data("DateTimePicker").maxDate(e.date);
             $(this).datetimepicker('hide');
+            $(this).on('dp.show', function () {
+                flag_init = true;
+            });
+            $(this).on('dp.hide', function () {
+                flag_init = false;
+            });
 
             $nav.find('li').removeClass('active');
 
             if ($datetimepicker_start.data("DateTimePicker").date() !== null) {
-                // init with new data filter
-                init({
-                    'start-date': $datetimepicker_start.data('DateTimePicker').date().toDate(),
-                    'end-date': $(this).data("DateTimePicker").date().toDate()
-                });
+                if (flag_init) {
+                    // init with new data filter
+                    init({
+                        'start-date': $datetimepicker_start.data('DateTimePicker').date().toDate(),
+                        'end-date': $(this).data("DateTimePicker").date().toDate()
+                    });
+
+                    if (!$(this).find('.bootstrap-datetimepicker-widget').is(':visible')) {
+                        flag_init = false;
+                    }
+                }
             }
         });
     }
 
-    function initFullTimeDate(filter, from, to) {
-        if (!filter) {
-            $datetimepicker_start.data('DateTimePicker').date(from);
-            $datetimepicker_end.data('DateTimePicker').date(to);
-        }
+    function initFullTimeDate(from, to) {
+        // set datetime for input date and init
+        $datetimepicker_start.data('DateTimePicker').date(from);
+        $datetimepicker_end.data('DateTimePicker').date(to);
     }
 
     // time line events
@@ -836,7 +852,9 @@
             }
         }
 
-        // set datetime for input date
+        flag_init = true;
+
+        // set datetime for input date and init
         $datetimepicker_start.data('DateTimePicker').date(from);
         $datetimepicker_end.data('DateTimePicker').date(to);
 
@@ -844,9 +862,22 @@
         $(this).closest('li').addClass('active');
     });
 
+    function firstInit() {
+        // search min date
+        rawData.sort(function (visitor_a, visitor_b) {
+            var time_a = new Date(visitor_a['date']).getTime();
+            var time_b = new Date(visitor_b['date']).getTime();
+            return time_a - time_b
+        });
+
+        // set min date from data
+        from_min_date = new Date(rawData[0]['date']);
+        initFullTimeDate(from_min_date, today);
+    }
+
     anychart.onDocumentReady(function () {
         initDateTime();
-        init();
+        firstInit();
 
         $('[data-range="full"]').closest('li').addClass('active');
     });
