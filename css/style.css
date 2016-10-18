@@ -89,8 +89,8 @@ body {
     margin-bottom: 15px;
 }
 
-.chart.no-height-init {
-    max-height: 435px;
+a[data-range] {
+    cursor: pointer;
 }
 
 /* DataTable */
