@@ -10,6 +10,8 @@
     };
     var tables = {};
 
+    var tables_charts_arr = [];
+
     var $datetimepicker_start = $('#datetimepicker_start');
     var $datetimepicker_end = $('#datetimepicker_end');
 
@@ -57,6 +59,7 @@
 
     function web_audience_dashboard(rawData, filter) {
         var data = processData(rawData, filter);
+
 
         // create chart - Blog Visitors
         createStockChart_1('one', data['visitors']['blog_visitors'], 'blog-visitors', 'Blog Visitors', data['datetime']);
@@ -961,6 +964,9 @@
         $datetimepicker_start.data('DateTimePicker').date(from);
         $datetimepicker_end.data('DateTimePicker').date(to);
 
+        // visible table, (table/chart)
+        setTableVisible();
+
         // init
         init({
             'start-date': $datetimepicker_start.data('DateTimePicker').date().toDate(),
@@ -969,6 +975,14 @@
 
         $(this).parents($nav).find('li').removeClass('active');
         $(this).closest('li').addClass('active');
+
+        // visible chart, (table/chart)
+        tables_charts_arr.filter(function ($el) {
+            $el.attr('data-visible', 'chart')
+        });
+
+        // init toggle, set visible chart/table
+        initToggle();
     });
 
     function minDate() {
@@ -994,6 +1008,20 @@
         });
 
         $('[data-range="full"]').closest('li').addClass('active');
+    }
+
+    function setTableVisible() {
+        tables_charts_arr = [];
+
+        $('[data-visible]').each(function () {
+            if ($(this).attr('data-visible') !== 'table') {
+                tables_charts_arr.push($(this));
+                $(this).attr('data-visible', 'table').removeClass('active');
+            }
+        });
+
+        // init toggle, set visible chart/table
+        initToggle();
     }
 
     function initToggle() {
