@@ -20,6 +20,16 @@ body {
     -webkit-box-shadow: 0 0 5px 0 #ddd;
     box-shadow: 0 0 5px 0 #ddd;
     border-radius: 2px;
+    padding: 20px;
+
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.chart_container.pie-chart {
+    padding: 20px 0;
 }
 
 .chart.no-iframe {
@@ -32,11 +42,6 @@ body {
 
 #score-card {
     height: 650px;
-}
-
-.chart_container {
-    transition: all 1s;
-    padding: 20px;
 }
 
 .chart_container .table-container {
@@ -64,6 +69,29 @@ body {
     max-width: 590px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.toggle-chart {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #91999e;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.toggle-chart.active,
+.toggle-chart:hover {
+    color: #5bc0de;
+}
+
+#set-date {
+    margin-bottom: 15px;
 }
 
 /* DataTable */
