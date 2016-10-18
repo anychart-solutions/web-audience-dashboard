@@ -40,10 +40,6 @@ body {
     height: 450px;
 }
 
-#score-card {
-    height: 650px;
-}
-
 .chart_container .table-container {
     padding: 20px;
     padding-bottom: 0;
@@ -81,7 +77,6 @@ body {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
-    -ms-transition: all 0.3s;
     transition: all 0.3s;
 }
 
@@ -92,6 +87,10 @@ body {
 
 #set-date {
     margin-bottom: 15px;
+}
+
+.chart.no-height-init {
+    max-height: 435px;
 }
 
 /* DataTable */
