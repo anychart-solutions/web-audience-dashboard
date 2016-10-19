@@ -36,6 +36,10 @@ body {
     height: 500px;
 }
 
+.chart.no-height-init {
+    height: 400px;
+}
+
 .chart {
     height: 450px;
 }
