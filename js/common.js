@@ -12,6 +12,8 @@
 
     var tables_charts_arr = [];
 
+    var $loader = $('#loader-wrapper');
+
     var $datetimepicker_start = $('#datetimepicker_start');
     var $datetimepicker_end = $('#datetimepicker_end');
 
@@ -59,7 +61,6 @@
 
     function web_audience_dashboard(rawData, filter) {
         var data = processData(rawData, filter);
-
 
         // create chart - Blog Visitors
         createStockChart_1('one', data['visitors']['blog_visitors'], 'blog-visitors', 'Blog Visitors', data['datetime']);
@@ -174,6 +175,9 @@
             chart.tooltip().titleFormatter(function () {
                 return dateFormatTitleTooltip(this.hoveredDate, datetime);
             });
+
+            // enabled false to scroller
+            chart.scroller(false);
 
             // set container id for the chart
             chart.container(container);
@@ -327,7 +331,7 @@
                 chart.padding('25px');
             }
             chart.tooltip().textFormatter(function () {
-                return 'Visitors: ' + this.value + '\n' + 'Percent Value: ' + (100 * this.value/count).toFixed(2) + '%';
+                return 'Visitors: ' + this.value + '\n' + 'Percent Value: ' + (100 * this.value / count).toFixed(2) + '%';
             });
 
             // set chart labels settings
@@ -436,6 +440,9 @@
             users_unique.legend().itemsTextFormatter(function () {
                 return 'New Visitors: ' + (this.value || 0) + ' of ' + count_new_users
             });
+
+            // enabled false to scroller
+            chart.scroller(false);
 
             // set container id for the chart
             chart.container(container);
@@ -880,13 +887,15 @@
     }
 
     function hidePreloader() {
-        $('#loader-wrapper').fadeOut('slow');
+        $loader.fadeOut('slow');
     }
 
     function init(filter) {
         // draw dashboard
         web_audience_dashboard(rawData, filter);
         heightInit();
+        // hide loader
+        $loader.fadeOut();
     }
 
     function initDateTime() {
@@ -967,10 +976,12 @@
         // visible table, (table/chart)
         setTableVisible();
 
-        // init
-        init({
-            'start-date': $datetimepicker_start.data('DateTimePicker').date().toDate(),
-            'end-date': $datetimepicker_end.data('DateTimePicker').date().toDate()
+        $loader.fadeIn('slow', function () {
+            // init
+            init({
+                'start-date': $datetimepicker_start.data('DateTimePicker').date().toDate(),
+                'end-date': $datetimepicker_end.data('DateTimePicker').date().toDate()
+            });
         });
 
         $(this).parents($nav).find('li').removeClass('active');
@@ -1025,15 +1036,24 @@
     }
 
     function initToggle() {
-        $toggle_chart.each(function () {
-            var $parent = $(this).closest('.chart_container');
+        $('.chart_container').each(function () {
+            // var $parent = $(this).closest('.chart_container');
+            var $parent = $(this);
 
             if ($(this).attr('data-visible') === 'table') {
                 $parent.find('.chart').hide();
                 $parent.find('.table-container').show();
+
+                $parent.find('.icon-chart').show();
+                $parent.find('.icon-table').hide();
+
             } else if ($(this).attr('data-visible') === 'chart') {
                 $parent.find('.table-container').hide();
                 $parent.find('.chart').show();
+
+                $parent.find('.icon-chart').hide();
+                $parent.find('.icon-table').show();
+
                 $(this).addClass('active')
             }
         });
@@ -1047,9 +1067,16 @@
         // event set date
         $button_set_date.on('click', function () {
             if ($datetimepicker_start.data('DateTimePicker').date().toDate() !== null && $datetimepicker_end.data('DateTimePicker').date().toDate() !== null) {
-                init({
-                    'start-date': $datetimepicker_start.data('DateTimePicker').date().toDate(),
-                    'end-date': $datetimepicker_end.data('DateTimePicker').date().toDate()
+                $loader.fadeIn('slow', function () {
+
+                    $loader.fadeIn('slow', function () {
+                        // init
+                        init({
+                            'start-date': $datetimepicker_start.data('DateTimePicker').date().toDate(),
+                            'end-date': $datetimepicker_end.data('DateTimePicker').date().toDate()
+                        });
+                    });
+
                 });
             }
         });
@@ -1060,21 +1087,28 @@
         // event toggle chart/table
         $toggle_chart.on('click', function () {
             var $parent = $(this).closest('.chart_container');
-            var $that = $(this);
             var mq = window.matchMedia('(min-width: 992px)');
 
-            if ($(this).attr('data-visible') === 'table') {
+            if ($parent.attr('data-visible') === 'table') {
                 $parent.find('.table-container').fadeOut('fast', function () {
                     $parent.find('.chart').fadeIn('slow');
-                    $that.attr('data-visible', 'chart').addClass('active');
+
+                    $parent.find('.icon-table').show();
+                    $parent.find('.icon-chart').hide();
+
+                    $parent.attr('data-visible', 'chart');
                     if (mq.matches) {
                         heightInit();
                     }
                 });
-            } else if ($(this).attr('data-visible') === 'chart') {
+            } else if ($parent.attr('data-visible') === 'chart') {
                 $parent.find('.chart').fadeOut('fast', function () {
                     $parent.find('.table-container').fadeIn('slow');
-                    $that.attr('data-visible', 'table').removeClass('active');
+                    $parent.attr('data-visible', 'table');
+
+                    $parent.find('.icon-table').hide();
+                    $parent.find('.icon-chart').show();
+
                     if (mq.matches) {
                         heightInit();
                     }

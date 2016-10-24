@@ -38,6 +38,9 @@
     <!-- AnyChart Fonts -->
     <link rel="stylesheet" href="https://cdn.anychart.com/fonts/2.5.0/anychart.css">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
     <!--css-->
     <link rel="stylesheet" href="css/style.css">
 
@@ -154,9 +157,10 @@
             </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="chart_container">
+            <div class="chart_container" data-visible="table">
                 <h4>Most popular pages?</h4>
-                <span class="ac ac-chart-column toggle-chart" data-visible="table"></span>
+                <i class="ac ac-chart-column toggle-chart icon-chart" data-visible="table"></i>
+                <i class="fa fa-table toggle-chart icon-table" data-visible="chart"></i>
                 <div class="chart no-height-init" id="most-popular"></div>
 
                 <div class="table-container">
@@ -184,9 +188,10 @@
             </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="chart_container">
+            <div class="chart_container" data-visible="table">
                 <h4>How links to you?</h4>
-                <span class="ac ac-chart-column toggle-chart" data-visible="table"></span>
+                <i class="ac ac-chart-column toggle-chart icon-chart" data-visible="table"></i>
+                <i class="fa fa-table toggle-chart icon-table" data-visible="chart"></i>
                 <div class="chart no-height-init" id="links-to-you"></div>
 
                 <div class="table-container">
@@ -214,10 +219,11 @@
             </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="chart_container">
+            <div class="chart_container" data-visible="table">
                 <h4>How is your blog found?</h4>
                 <div class="chart no-height-init" id="blog-found"></div>
-                <span class="ac ac-chart-column toggle-chart" data-visible="table"></span>
+                <i class="ac ac-chart-column toggle-chart icon-chart" data-visible="table"></i>
+                <i class="fa fa-table toggle-chart icon-table" data-visible="chart"></i>
 
                 <div class="table-container clearfix">
                     <table id="table-blog-found" class="table table-striped table-bordered data-table" cellspacing="0"
@@ -244,9 +250,10 @@
             </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="chart_container pie-chart">
+            <div class="chart_container pie-chart" data-visible="table">
                 <h4>Most used search terms?</h4>
-                <span class="ac ac-anychart2 toggle-chart" data-visible="table"></span>
+                <i class="ac ac-anychart2 toggle-chart icon-chart" data-visible="table"></i>
+                <i class="fa fa-table toggle-chart icon-table" data-visible="chart"></i>
                 <div class="chart no-height-init" id="most-used-search-terms"></div>
 
                 <div class="table-container">
