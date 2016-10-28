@@ -1010,7 +1010,7 @@
     function firstInit() {
         // get rawData from http://cdn.anychart.com/solutions-data/web-audience-data.json
         $.ajax({
-            url: 'http://cdn.anychart.com/solutions-data/web-audience-data.json',
+            url: 'http://cdn.anychart.com/solutions-data/web-audience_data.json',
             success: function (data) {
                 rawData = data;
 
