@@ -1,6 +1,6 @@
 (function () {
     // replace this line with your data
-    var rawData = visitors_data();
+    var rawData;
 
     var charts = {
         'stock': {},
@@ -24,10 +24,10 @@
 
     var $nav = $('#nav-date-time');
     var today = new Date($nav.find('[data-range="today"]').data('time'));
-    var from_min_date = minDate();
+    var from_min_date;
 
-    var from = from_min_date;
-    var to = today;
+    var from;
+    var to;
 
     var $button_set_date = $('button#set-date');
     var $toggle_chart = $('.toggle-chart');
@@ -1008,17 +1008,29 @@
     }
 
     function firstInit() {
-        // set datetime for input date
-        $datetimepicker_start.data('DateTimePicker').date(from_min_date);
-        $datetimepicker_end.data('DateTimePicker').date(today);
+        // get rawData from http://cdn.anychart.com/solutions-data/web-audience-data.json
+        $.ajax({
+            url: 'http://cdn.anychart.com/solutions-data/web-audience-data.json',
+            success: function (data) {
+                rawData = data;
 
-        // firstInit
-        init({
-            'start-date': from_min_date,
-            'end-date': today
+                from_min_date = minDate();
+                from = from_min_date;
+                to = today;
+
+                // set datetime for input date
+                $datetimepicker_start.data('DateTimePicker').date(from_min_date);
+                $datetimepicker_end.data('DateTimePicker').date(today);
+
+                // firstInit
+                init({
+                    'start-date': from_min_date,
+                    'end-date': today
+                });
+
+                $('[data-range="full"]').closest('li').addClass('active');
+            }
         });
-
-        $('[data-range="full"]').closest('li').addClass('active');
     }
 
     function setTableVisible() {
