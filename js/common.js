@@ -24,6 +24,7 @@
 
     var $nav = $('#nav-date-time');
     var today = new Date($nav.find('[data-range="today"]').data('time'));
+    today.setTime(today.getTime());
     var from_min_date;
 
     var from;
@@ -95,8 +96,7 @@
 
         function dateFormatTitleTooltip(hoveredDate, datetime) {
             var _date = new Date(hoveredDate);
-            var timezone = _date.getTimezoneOffset();
-            _date = new Date(_date.getTime() + timezone * 60 * 1000);
+            _date = new Date(_date.getTime() + new Date().getTimezoneOffset() * 60 * 1000);
 
             var year = _date.getFullYear();
             var month = _date.getMonth() + 1;
@@ -574,8 +574,8 @@
         if (filter) {
             data = rawData.filter(function (item) {
                 var time = (new Date(item['date'])).getTime();
-                var start_date = (new Date(filter['start-date'])).getTime();
-                var end_date = (new Date(filter['end-date'])).getTime();
+                var start_date = (new Date(filter['start-date'])).getTime() - (new Date().getTimezoneOffset() * 60 * 1000);
+                var end_date = (new Date(filter['end-date'])).getTime() - (new Date().getTimezoneOffset() * 60 * 1000);
 
                 return time >= start_date && time <= end_date
             });
@@ -917,6 +917,7 @@
         });
     }
 
+    today = new Date(today.getTime() + (new Date().getTimezoneOffset() * 60 * 1000));
     // time line events
     $nav.on('click', 'a', function () {
         var range = $(this).data('range');
@@ -928,19 +929,19 @@
         switch (range) {
             case 'today':
             {
-                from = new Date(today.getFullYear(), today.getMonth(), (today.getDate() - 1), 0, 0);
-                to = today;
+                from = new Date(today.getFullYear(), today.getMonth(), (today.getDate()), 0, 1);
+                to = new Date(today.getFullYear(), today.getMonth(), today.getDate(), 23, 59);
                 break;
             }
             case 'yesterday':
             {
-                from = new Date(today.getFullYear(), today.getMonth(), (today.getDate() - 2), 0, 0);
-                to = new Date(today.getFullYear(), today.getMonth(), (today.getDate() - 1), today.getHours(), today.getMinutes());
+                from = new Date(today.getFullYear(), today.getMonth(), (today.getDate() - 1), 0, 1);
+                to = new Date(today.getFullYear(), today.getMonth(), (today.getDate() - 1), 23, 59);
                 break;
             }
             case 'week':
             {
-                from = new Date(today.getFullYear(), today.getMonth(), (today.getDate() - 6));
+                from = new Date(today.getFullYear(), today.getMonth(), (today.getDate() - 7));
                 to = new Date(today.getFullYear(), today.getMonth(), today.getDate());
                 break;
             }
@@ -965,7 +966,7 @@
             case 'full':
             {
                 from = from_min_date;
-                to = new Date(today.getFullYear(), today.getMonth(), today.getDate(), 0, 0);
+                to = new Date(today.getFullYear(), today.getMonth(), today.getDate(), 23, 59);
             }
         }
 
@@ -979,8 +980,8 @@
         $loader.fadeIn('slow', function () {
             // init
             init({
-                'start-date': $datetimepicker_start.data('DateTimePicker').date().toDate(),
-                'end-date': $datetimepicker_end.data('DateTimePicker').date().toDate()
+                'start-date': from,
+                'end-date': to
             });
         });
 
@@ -1004,13 +1005,13 @@
             return time_a - time_b
         });
 
-        return new Date(rawData[0]['date']);
+        return new Date(new Date(rawData[0]['date']).getTime() + new Date().getTimezoneOffset() * 60 * 1000);
     }
 
     function firstInit() {
-        // get rawData from http://cdn.anychart.com/solutions-data/web-audience-data.json
+        // get rawData from http://cdn.anychart.com/solutions-data/web-audience/data.json
         $.ajax({
-            url: 'http://cdn.anychart.com/solutions-data/web-audience_data.json',
+            url: 'http://cdn.anychart.com/solutions-data/web-audience/data.json',
             success: function (data) {
                 rawData = data;
 
