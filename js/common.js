@@ -153,7 +153,7 @@
             chart = anychart.stock();
             chart.title(title);
             chart.tooltip().textFormatter(function () {
-                return 'Users: ' + this.points[0].value;
+                return 'Users: ' + this.value;
             });
             chart.padding('0px');
 
@@ -325,10 +325,11 @@
             chart.overlapMode(true);
             // set the insideLabelsOffset
             chart.insideLabelsOffset("-55%");
-            chart.title(title);
             chart.padding('0px');
             if (!title) {
                 chart.padding('25px');
+            } else {
+                chart.title(title);
             }
             chart.tooltip().textFormatter(function () {
                 return 'Visitors: ' + this.value + '\n' + 'Percent Value: ' + (100 * this.value / count).toFixed(2) + '%';
@@ -414,7 +415,7 @@
                 return dateFormatTitleTooltip(this.hoveredDate, datetime);
             });
 
-            chart.tooltip().textFormatter(function () {
+            chart.tooltip().unionTextFormatter(function () {
                 return 'Visitors: ' + this.points[0].value + '\n' + 'New Visitors: ' + this.points[1].value;
             });
 
