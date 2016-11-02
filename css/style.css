@@ -46,6 +46,7 @@ body {
 
 .chart {
     height: 450px;
+    min-height: 250px !important;
 }
 
 .chart_container .table-container {
