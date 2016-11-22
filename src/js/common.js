@@ -1,14 +1,15 @@
+var charts = {
+    'stock': {},
+    'pie': {},
+    'map': {},
+    'column': {}
+};
+
+var tables = {};
+
 (function () {
     // replace this line with your data
     var rawData;
-
-    var charts = {
-        'stock': {},
-        'pie': {},
-        'map': {},
-        'column': {}
-    };
-    var tables = {};
 
     var tables_charts_arr = [];
 
@@ -61,16 +62,19 @@
     ];
 
     function web_audience_dashboard(rawData, filter) {
+        // hide loader
+        hidePreloader();
+
         var data = processData(rawData, filter);
 
-        // create chart - Blog Visitors
-        createStockChart_1('one', data['visitors']['blog_visitors'], 'blog-visitors', 'Blog Visitors', data['datetime']);
         // create chart - Visitors
         createStockChart_2('two', data['visitors'], 'visitors', 'Visitors', data['datetime']);
         // create chart - Audience Location
         createMap('one', data['location'], 'audience-location', 'Audience location');
         // create chart - Age Category
         createPieChart('one', data['age_info'], 'age-category', 'Visit by age category');
+        // create chart - Blog Visitors
+        createStockChart_1('one', data['visitors']['blog_visitors'], 'blog-visitors', 'Blog Visitors', data['datetime']);
         // create chart - Device Category
         createPieChart('two', data['device_info'], 'device-category', 'Visit by device category');
         // create chart - Viewer's mobile devices
@@ -126,14 +130,10 @@
         }
 
         function createStockChart_1(index, data, container, title, datetime) {
-
-            if (charts['stock'][index]) {
-                charts['stock'][index].dispose();
-                charts['stock'][index] = null;
-            }
-
             var chart;
             var data_chart = [];
+            var max_users = 0;
+            var SCALE_INTERVAL = 5;
 
             var count = data['values'].length ? data['values'].reduce(function (a, b) {
                 return a + b;
@@ -141,6 +141,10 @@
 
             for (var i = 0; i < data['categories'].length; i++) {
                 data_chart.push([data['categories'][i], data['values'][i]]);
+
+                if (max_users <= data['values'][i]) {
+                    max_users = data['values'][i];
+                }
             }
 
             data_chart.sort(function (a, b) {
@@ -149,51 +153,74 @@
                 return time_a - time_b
             });
 
-            // chart type
-            chart = anychart.stock();
-            chart.title(title);
-            chart.tooltip().textFormatter(function () {
-                return 'Users: ' + this.value;
-            });
-            chart.padding('0px');
+            if (charts['stock'][index]) {
+                charts['stock'][index]['table'].remove().addData(data_chart);
+                charts['stock'][index]['scale'].maximum(Math.max(max_users % 2 ? max_users : (max_users + 1), SCALE_INTERVAL));
+                charts['stock'][index].tooltip().titleFormatter(function () {
+                    return dateFormatTitleTooltip(this.hoveredDate, datetime);
+                });
+                charts['stock'][index]['users'].legend().itemsTextFormatter(function () {
+                    return 'Visitors: ' + (this.value || 0) + ' of ' + count
+                });
+                charts['stock'][index]['users'].legend(false);
+                charts['stock'][index]['users'].legend(true);
 
-            // set the data
-            var table = anychart.data.table();
-            table.addData(data_chart);
+                if (max_users <= SCALE_INTERVAL) {
+                    charts['stock'][index]['scale'].minimum(0);
+                } else {
+                    charts['stock'][index]['scale'].minimum(1);
+                }
+            } else {
+                // chart type
+                chart = anychart.stock();
+                chart.padding().top(0).left(20).right(0);
+                chart.title(title);
+                chart.tooltip().textFormatter(function () {
+                    return 'Users: ' + this.value;
+                });
 
-            // map the data
-            var mapping_blog_users = table.mapAs();
-            mapping_blog_users.addField('value', 1);
+                // set the data
+                var table = anychart.data.table();
+                table.addData(data_chart);
 
-            // set the series
-            var users = chart.plot(0);
-            users.line(mapping_blog_users);
-            users.legend().itemsTextFormatter(function () {
-                return 'Visitors: ' + (this.value || 0) + ' of ' + count
-            });
+                // map the data
+                var mapping_blog_users = table.mapAs();
+                mapping_blog_users.addField('value', 1);
 
-            chart.tooltip().titleFormatter(function () {
-                return dateFormatTitleTooltip(this.hoveredDate, datetime);
-            });
+                // set the series
+                var users = chart.plot();
+                users.line(mapping_blog_users).clip(false);
+                users.legend().itemsTextFormatter(function () {
+                    return 'Visitors: ' + (this.value || 0) + ' of ' + count
+                });
 
-            // enabled false to scroller
-            chart.scroller(false);
+                var scale = users.yScale();
+                scale.ticks().interval(SCALE_INTERVAL);
+                scale.minimum(1);
+                scale.maximum(Math.max(max_users % 2 ? max_users : (max_users + 1), SCALE_INTERVAL));
 
-            // set container id for the chart
-            chart.container(container);
-            // initiate chart drawing
-            chart.draw();
+                users.yAxis().ticks().position('inside');
 
-            charts['stock'][index] = chart;
+                chart.tooltip().titleFormatter(function () {
+                    return dateFormatTitleTooltip(this.hoveredDate, datetime);
+                });
+
+                // enabled false to scroller
+                chart.scroller(false);
+
+                // set container id for the chart
+                chart.container(container);
+                // initiate chart drawing
+                chart.draw(true);
+
+                charts['stock'][index] = chart;
+                charts['stock'][index]['table'] = table;
+                charts['stock'][index]['scale'] = scale;
+                charts['stock'][index]['users'] = users;
+            }
         }
 
         function createMap(index, data, container, title) {
-
-            if (charts['map'][index]) {
-                charts['map'][index].dispose();
-                charts['map'][index] = null;
-            }
-
             var map;
             var data_map = [];
             var world_map = anychart.maps.world.features;
@@ -219,87 +246,87 @@
                 }
             }
 
-            map = anychart.map();
-            map.unboundRegions();
-            map.geoData(anychart.maps.world);
-            map.allowPointsSelect(false);
-            map.padding('0px');
+            if (charts['map'][index]) {
+                charts['map'][index].getSeriesAt(0).data(data_map);
+            } else {
+                map = anychart.map();
+                map.unboundRegions();
+                map.geoData(anychart.maps.world);
+                map.allowPointsSelect(false);
+                map.padding('0px');
 
-            var map_title = map.title();
-            map_title.enabled(true);
-            map_title.text(title + ' (' + count + ' visitors)');
-            map_title.padding().bottom('25px');
+                var map_title = map.title();
+                map_title.enabled(true);
+                map_title.text(title + ' (' + count + ' visitors)');
+                map_title.padding().bottom('25px');
 
-            var series = map.choropleth(data_map);
-            series.hoverFill('#f48fb1');
-            series.stroke('#ddd');
-            series.hoverStroke(anychart.color.darken('#f48fb1'));
-            series.selectFill('#c2185b');
-            series.selectStroke(anychart.color.darken('#c2185b'));
-            series.labels().enabled(false);
-            series.tooltip().textWrap('byLetter').useHtml(true);
-            series.tooltip().textFormatter(function () {
-                return '<span style="color: #d9d9d9">Visitors</span>: ' + this.value;
-            });
+                var series = map.choropleth(data_map);
+                series.hoverFill('#f48fb1');
+                series.stroke('#ddd');
+                series.hoverStroke(anychart.color.darken('#f48fb1'));
+                series.selectFill('#c2185b');
+                series.selectStroke(anychart.color.darken('#c2185b'));
+                series.labels().enabled(false);
+                series.tooltip().textWrap('byLetter').useHtml(true);
+                series.tooltip().textFormatter(function () {
+                    return '<span style="color: #d9d9d9">Visitors</span>: ' + this.value;
+                });
 
-            var scale = anychart.scales.ordinalColor([
-                {less: 0},
-                {from: 1, to: 10},
-                {from: 10, to: 20},
-                {from: 20, to: 40},
-                {from: 40, to: 75},
-                {greater: 75}
-            ]);
-            scale.colors(
-                [
-                    '#eee',
-                    '#4fc3f7',
-                    '#039be5',
-                    '#0288d1',
-                    '#0277bd',
-                    '#01579b'
-                ]
-            );
+                var scale = anychart.scales.ordinalColor([
+                    {less: 0},
+                    {from: 1, to: 10},
+                    {from: 10, to: 20},
+                    {from: 20, to: 40},
+                    {from: 40, to: 75},
+                    {greater: 75}
+                ]);
+                scale.colors(
+                    [
+                        '#eee',
+                        '#4fc3f7',
+                        '#039be5',
+                        '#0288d1',
+                        '#0277bd',
+                        '#01579b'
+                    ]
+                );
 
-            var colorRange = map.colorRange();
-            colorRange.enabled(true).padding([0, 0, 20, 0]);
-            colorRange.ticks().stroke('3 #ffffff').position('center').length(7).enabled(true);
-            colorRange.colorLineSize(5);
-            colorRange.marker().size(7);
-            colorRange.labels().fontSize(11).padding(3, 0, 0, 0).textFormatter(function () {
-                var range = this.colorRange;
-                var name;
-                if (isFinite(range.start + range.end)) {
-                    name = range.start + ' - ' + range.end;
-                } else if (isFinite(range.start)) {
-                    name = '> ' + range.start;
-                } else {
-                    if (range.end === 0) {
-                        name = range.end;
+                var colorRange = map.colorRange();
+                colorRange.enabled(true).padding([0, 0, 20, 0]);
+                colorRange.ticks().stroke('3 #ffffff').position('center').length(7).enabled(true);
+                colorRange.colorLineSize(5);
+                colorRange.marker().size(7);
+                colorRange.labels().fontSize(11).padding(3, 0, 0, 0).textFormatter(function () {
+                    var range = this.colorRange;
+                    var name;
+                    if (isFinite(range.start + range.end)) {
+                        name = range.start + ' - ' + range.end;
+                    } else if (isFinite(range.start)) {
+                        name = '> ' + range.start;
                     } else {
-                        name = '< ' + range.end;
+                        if (range.end === 0) {
+                            name = range.end;
+                        } else {
+                            name = '< ' + range.end;
+                        }
                     }
-                }
-                return name
-            });
+                    return name
+                });
 
-            series.colorScale(scale);
-            map.container(container);
-            map.draw();
+                series.colorScale(scale);
 
-            charts['map']['one'] = map;
+                map.container(container);
+                map.draw(true);
+
+                charts['map']['one'] = map;
+            }
         }
 
         function createPieChart(index, data, container, title) {
-
-            if (charts['pie'][index]) {
-                charts['pie'][index].dispose();
-                charts['pie'][index] = null;
-            }
-
             var chart;
             var data_chart = [];
             var count;
+            var dataSet;
 
             if (data['values'].length) {
                 count = data['values'].reduce(function (a, b) {
@@ -318,75 +345,82 @@
                 );
             }
 
-            // set data and chart type
-            chart = anychart.pie(data_chart);
-            // create empty area in pie chart
-            chart.innerRadius('65%');
-            chart.overlapMode(true);
-            // set the insideLabelsOffset
-            chart.insideLabelsOffset("-55%");
-            chart.padding('0px');
-            if (!title) {
-                chart.padding('25px');
+            if (charts['pie'][index]) {
+                charts['pie'][index]['dataSet'].data(data_chart);
+                charts['pie'][index]['label'].text('<span style="font-size: 32px; color: #A0B1BA;">' +
+                    count + '</span>');
             } else {
-                chart.title(title);
+                // chart type
+                chart = anychart.pie();
+                dataSet = anychart.data.set(data_chart);
+                chart.data(dataSet);
+                // create empty area in pie chart
+                chart.innerRadius('65%');
+                chart.overlapMode(true);
+                // set the insideLabelsOffset
+                chart.insideLabelsOffset("-55%");
+                chart.padding().top(0);
+                if (!title) {
+                    chart.padding('25px');
+                } else {
+                    chart.title(title);
+                }
+                chart.tooltip().textFormatter(function () {
+                    return 'Visitors: ' + this.value + '\n' + 'Percent Value: ' + (100 * this.value / count).toFixed(2) + '%';
+                });
+
+                // set chart labels settings
+                var labels = chart.labels();
+                labels.enabled(true);
+                labels.fontColor("#60727B");
+                labels.position("outside");
+                labels.fontWeight('bold');
+                labels.textFormatter(function () {
+                    return this.value
+                });
+
+                // set chart label settings
+                var label_1 = chart.label(0);
+                label_1.text('<span style="font-size: 32px; color: #A0B1BA;">' +
+                    count + '</span>');
+                label_1.position("center");
+                label_1.anchor("center");
+                if (title) {
+                    label_1.offsetY("-10px");
+                } else {
+                    label_1.offsetY("-25px");
+                }
+                label_1.useHtml(true);
+
+                // set chart label settings
+                var label_2 = chart.label(1);
+                label_2.text('<span style="20px; color: #bbb;">' + 'Visitors' + '</span>');
+                label_2.position("center");
+                label_2.anchor("center");
+                if (title) {
+                    label_2.offsetY("15px");
+                } else {
+                    label_2.offsetY("0");
+                }
+                label_2.useHtml(true);
+
+                // set container id for the chart
+                chart.container(container);
+                // init chart
+                chart.draw(true);
+
+                charts['pie'][index] = chart;
+                charts['pie'][index]['dataSet'] = dataSet;
+                charts['pie'][index]['label'] = label_1;
             }
-            chart.tooltip().textFormatter(function () {
-                return 'Visitors: ' + this.value + '\n' + 'Percent Value: ' + (100 * this.value / count).toFixed(2) + '%';
-            });
-
-            // set chart labels settings
-            var labels = chart.labels();
-            labels.enabled(true);
-            labels.fontColor("#60727B");
-            labels.position("outside");
-            labels.fontWeight('bold');
-            labels.textFormatter(function () {
-                return this.value
-            });
-
-            // set chart label settings
-            var label_1 = chart.label(0);
-            label_1.text('<span style="font-size: 32px; color: #A0B1BA;">' +
-                count + '</span>');
-            label_1.position("center");
-            label_1.anchor("center");
-            if (title) {
-                label_1.offsetY("-10px");
-            } else {
-                label_1.offsetY("-25px");
-            }
-            label_1.useHtml(true);
-
-            // set chart label settings
-            var label_2 = chart.label(1);
-            label_2.text('<span style="20px; color: #bbb;">' + 'Visitors' + '</span>');
-            label_2.position("center");
-            label_2.anchor("center");
-            if (title) {
-                label_2.offsetY("15px");
-            } else {
-                label_2.offsetY("0");
-            }
-            label_2.useHtml(true);
-
-            // set container id for the chart
-            chart.container(container);
-            // init chart
-            chart.draw();
-
-            charts['pie'][index] = chart;
         }
 
         function createStockChart_2(index, data, container, title, datetime) {
-
-            if (charts['stock'][index]) {
-                charts['stock'][index].dispose();
-                charts['stock'][index] = null;
-            }
-
             var chart;
             var data_chart = [];
+
+            var max_users = 0;
+            var max_users_unique = 0;
 
             var count_users = data['users'].length ? data['users'].reduce(function (a, b) {
                 return a + b;
@@ -396,13 +430,16 @@
                 return a + b;
             }) : 0;
 
-            // chart type
-            chart = anychart.stock();
-            chart.title(title);
-            chart.padding('0px');
-
             for (var i = 0; i < data['date'].length; i++) {
                 data_chart.push([data['date'][i], data['users'][i], data['new_users'][i]]);
+
+                if (max_users <= data['users'][i]) {
+                    max_users = data['users'][i];
+                }
+
+                if (max_users_unique <= data['new_users'][i]) {
+                    max_users_unique = data['new_users'][i];
+                }
             }
 
             data_chart.sort(function (a, b) {
@@ -411,46 +448,87 @@
                 return time_a - time_b
             });
 
-            chart.tooltip().titleFormatter(function () {
-                return dateFormatTitleTooltip(this.hoveredDate, datetime);
-            });
+            if (charts['stock'][index]) {
+                charts['stock'][index]['table'].remove().addData(data_chart);
+                charts['stock'][index]['scale_users'].maximum(max_users);
+                charts['stock'][index]['scale_users_unique'].maximum(max_users_unique);
+                charts['stock'][index].tooltip().titleFormatter(function () {
+                    return dateFormatTitleTooltip(this.hoveredDate, datetime);
+                });
+                charts['stock'][index]['users'].legend().itemsTextFormatter(function () {
+                    return 'Visitors: ' + (this.value || 0) + ' of ' + count_users;
+                });
+                charts['stock'][index]['users'].legend(false);
+                charts['stock'][index]['users'].legend(true);
+                charts['stock'][index]['users_unique'].legend().itemsTextFormatter(function () {
+                    return 'New Visitors: ' + (this.value || 0) + ' of ' + count_new_users
+                });
+                charts['stock'][index]['users_unique'].legend(false);
+                charts['stock'][index]['users_unique'].legend(true);
+            } else {
+                // chart type
+                chart = anychart.stock();
+                chart.title(title);
+                chart.padding().top(0).left(20).right(0);
+                chart.tooltip().titleFormatter(function () {
+                    return dateFormatTitleTooltip(this.hoveredDate, datetime);
+                });
 
-            chart.tooltip().unionTextFormatter(function () {
-                return 'Visitors: ' + this.points[0].value + '\n' + 'New Visitors: ' + this.points[1].value;
-            });
+                chart.tooltip().unionTextFormatter(function () {
+                    return 'Visitors: ' + this.points[0].value + '\n' + 'New Visitors: ' + this.points[1].value;
+                });
 
-            // set the data
-            var table = anychart.data.table();
-            table.addData(data_chart);
+                // set the data
+                var table = anychart.data.table();
+                table.addData(data_chart);
 
-            // map the data
-            var mapping_users = table.mapAs();
-            mapping_users.addField('value', 1);
-            var mapping_users_unique = table.mapAs();
-            mapping_users_unique.addField('value', 2);
+                // map the data
+                var mapping_users = table.mapAs();
+                mapping_users.addField('value', 1);
+                var mapping_users_unique = table.mapAs();
+                mapping_users_unique.addField('value', 2);
 
-            // set the series
-            var users = chart.plot(0);
-            users.splineArea(mapping_users).fill('#1976d2 0.65').stroke('1.5 #1976d2');
-            users.legend().itemsTextFormatter(function () {
-                return 'Visitors: ' + (this.value || 0) + ' of ' + count_users
-            });
+                // set the series
+                var users = chart.plot(0);
+                users.splineArea(mapping_users).fill('#1976d2 0.65').stroke('1.5 #1976d2');
+                users.xAxis().labels(false).ticks(false).minorLabels(false);
+                users.legend().itemsTextFormatter(function () {
+                    return 'Visitors: ' + (this.value || 0) + ' of ' + count_users;
+                });
+                users.yAxis().ticks().position('inside');
 
-            var users_unique = chart.plot(1);
-            users_unique.splineArea(mapping_users_unique).fill('#ef6c00 0.65').stroke('1.5 #ef6c00');
-            users_unique.legend().itemsTextFormatter(function () {
-                return 'New Visitors: ' + (this.value || 0) + ' of ' + count_new_users
-            });
+                var scale_users = users.yScale();
+                scale_users.ticks().interval(2);
+                scale_users.minimum(0);
+                scale_users.maximum(max_users);
 
-            // enabled false to scroller
-            chart.scroller(false);
+                var users_unique = chart.plot(1);
+                users_unique.splineArea(mapping_users_unique).fill('#ef6c00 0.65').stroke('1.5 #ef6c00');
+                users_unique.legend().itemsTextFormatter(function () {
+                    return 'New Visitors: ' + (this.value || 0) + ' of ' + count_new_users
+                });
+                users_unique.yAxis().ticks().position('inside');
 
-            // set container id for the chart
-            chart.container(container);
-            // init chart
-            chart.draw();
+                var scale_users_unique = users_unique.yScale();
+                scale_users_unique.ticks().interval(2);
+                scale_users_unique.minimum(0);
+                scale_users_unique.maximum(max_users_unique);
 
-            charts['stock'][index] = chart;
+                // enabled false to scroller
+                chart.scroller(false);
+
+                // set container id for the chart
+                chart.container(container);
+                // init chart
+                chart.draw(true);
+
+                charts['stock'][index] = chart;
+                charts['stock'][index]['table'] = table;
+                charts['stock'][index]['users'] = users;
+                charts['stock'][index]['users_unique'] = users_unique;
+                charts['stock'][index]['scale_users'] = scale_users;
+                charts['stock'][index]['scale_users_unique'] = scale_users_unique;
+            }
         }
 
         function createDataTable(index, data, $el) {
@@ -483,16 +561,9 @@
                         .draw();
                 }
             }
-
         }
 
         function createColumnChart(index, data, container) {
-
-            if (charts['column'][index]) {
-                charts['column'][index].dispose();
-                charts['column'][index] = null;
-            }
-
             var chart;
             var data_chart = [];
 
@@ -500,70 +571,75 @@
                 data_chart.push([data['categories'][i], data['values'][i], data['unique_values'][i]]);
             }
 
-            // create data set on our data
-            var dataSet = anychart.data.set(data_chart);
+            if (charts['column'][index]) {
+                charts['column'][index].data(data_chart);
+            } else {
+                // create data set on our data
+                var dataSet = anychart.data.set(data_chart);
 
-            // map data for the first series, take x from the zero column and value from the first column of data set
-            var seriesData_1 = dataSet.mapAs({x: [0], value: [1]});
+                // map data for the first series, take x from the zero column and value from the first column of data set
+                var seriesData_1 = dataSet.mapAs({x: [0], value: [1]});
 
-            // map data for the second series, take x from the zero column and value from the second column of data set
-            var seriesData_2 = dataSet.mapAs({x: [0], value: [2]});
+                // map data for the second series, take x from the zero column and value from the second column of data set
+                var seriesData_2 = dataSet.mapAs({x: [0], value: [2]});
 
-            // create column chart
-            chart = anychart.column();
-            // set padding
-            chart.padding().top('15px');
+                // create column chart
+                chart = anychart.column();
+                // set padding
+                chart.padding().top('15px');
 
-            // temp variable to store series instance
-            var series;
+                // temp variable to store series instance
+                var series;
 
-            // helper function to setup label settings for all series
-            var setupSeries = function (series, name) {
-                series.name(name);
-                series.selectFill('#f48fb1 0.8').selectStroke('1.5 #c2185b');
-            };
+                // helper function to setup label settings for all series
+                var setupSeries = function (series, name) {
+                    series.name(name);
+                    series.selectFill('#f48fb1 0.8').selectStroke('1.5 #c2185b');
+                };
 
-            // create first series with mapped data
-            series = chart.column(seriesData_1);
-            series.xPointPosition(0.45);
-            setupSeries(series, 'Visitors');
+                // create first series with mapped data
+                series = chart.column(seriesData_1);
+                series.xPointPosition(0.6);
+                setupSeries(series, 'Visitors');
 
-            // create second series with mapped data
-            series = chart.column(seriesData_2);
-            series.xPointPosition(0.25);
-            setupSeries(series, 'New Visitors');
+                // create second series with mapped data
+                series = chart.column(seriesData_2);
+                series.xPointPosition(0.40);
+                setupSeries(series, 'New Visitors');
 
-            // set chart padding
-            chart.barGroupsPadding(0.3);
+                // set chart padding
+                chart.barGroupsPadding(0.3);
 
-            // format numbers in y axis label to match browser locale
-            chart.yAxis().labels().textFormatter(function () {
-                return this.value.toLocaleString();
-            });
+                var labels = chart.xAxis().labels();
+                labels.width(100);
+                labels.height(25);
+                labels.padding().bottom(0);
+                labels.textDirection("ltr");
+                labels.rotation('90');
+                labels.textOverflow(anychart.graphics.vector.Text.TextOverflow.ELLIPSIS);
 
-            chart.xAxis().labels().rotation('-90');
+                // turn on legend
+                chart.legend().enabled(true);
 
-            // turn on legend
-            chart.legend().enabled(true);
+                chart.interactivity().hoverMode('single');
 
-            chart.interactivity().hoverMode('single');
+                // gets scroller
+                var scroller = chart.xScroller();
+                scroller.enabled(true);
+                scroller.position('beforeAxes');
 
-            // gets scroller
-            var scroller = chart.xScroller();
-            scroller.enabled(true);
-            scroller.position('beforeAxes');
+                // turn it on
+                var xZoom = chart.xZoom();
+                xZoom.setTo(0, 0.77);
 
-            // turn it on
-            var xZoom = chart.xZoom();
-            xZoom.setTo(0, 0.3);
+                // set container id for the chart
+                chart.container(container);
 
-            // set container id for the chart
-            chart.container(container);
+                // initiate chart drawing
+                chart.draw(true);
 
-            // initiate chart drawing
-            chart.draw();
-
-            charts['column'][index] = chart;
+                charts['column'][index] = chart;
+            }
         }
     }
 
@@ -574,9 +650,9 @@
         // return data by filter if filter exist
         if (filter) {
             data = rawData.filter(function (item) {
-                var time = (new Date(item['date'])).getTime();
-                var start_date = (new Date(filter['start-date'])).getTime() - (new Date().getTimezoneOffset() * 60 * 1000);
-                var end_date = (new Date(filter['end-date'])).getTime() - (new Date().getTimezoneOffset() * 60 * 1000);
+                var time = (new Date(item['date'])).getTime() + (new Date().getTimezoneOffset() * 60 * 1000);
+                var start_date = (new Date(filter['start-date'])).getTime();
+                var end_date = (new Date(filter['end-date'])).getTime();
 
                 return time >= start_date && time <= end_date
             });
@@ -634,7 +710,7 @@
                     _date = data[i]['date'];
                     datetime = true;
                 } else {
-                    _date = new Date(data[i]['date']).getFullYear() + '-' + (new Date(data[i]['date']).getMonth() + 1) + '-' + new Date(data[i]['date']).getDate();
+                    _date = data[i]['date'].split('T')[0];
                 }
                 if (date_categories.indexOf(_date) === -1) {
                     date_categories.push(_date);
@@ -704,7 +780,7 @@
             if (filter['end-date'].getTime() - filter['start-date'].getTime() <= 86400000) {
                 _date = blog_visitors[i]['date'];
             } else {
-                _date = new Date(blog_visitors[i]['date']).getFullYear() + '-' + (new Date(blog_visitors[i]['date']).getMonth() + 1) + '-' + new Date(blog_visitors[i]['date']).getDate();
+                _date = blog_visitors[i]['date'].split('T')[0];
             }
             if (blog_visitors_categories.indexOf(_date) === -1) {
                 blog_visitors_values.push(0);
@@ -737,7 +813,7 @@
             if (filter['end-date'].getTime() - filter['start-date'].getTime() <= 86400000) {
                 _date = data[i]['date'];
             } else {
-                _date = new Date(data[i]['date']).getFullYear() + '-' + (new Date(data[i]['date']).getMonth() + 1) + '-' + new Date(data[i]['date']).getDate();
+                _date = data[i]['date'].split('T')[0];
             }
             index = date_categories.indexOf(_date);
             if (index !== -1) {
@@ -888,15 +964,15 @@
     }
 
     function hidePreloader() {
-        $loader.fadeOut('slow');
+        $loader.fadeOut('fast', function () {
+            $(this).css('background', 'rgba(0, 0, 0, 0.25)');
+        });
     }
 
     function init(filter) {
         // draw dashboard
         web_audience_dashboard(rawData, filter);
         heightInit();
-        // hide loader
-        $loader.fadeOut();
     }
 
     function initDateTime() {
@@ -942,26 +1018,26 @@
             }
             case 'week':
             {
-                from = new Date(today.getFullYear(), today.getMonth(), (today.getDate() - 7));
-                to = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+                from = new Date(today.getFullYear(), today.getMonth(), (today.getDate() - 6));
+                to = new Date(today.getFullYear(), today.getMonth(), today.getDate(), 23, 59);
                 break;
             }
             case 'month':
             {
                 from = new Date(today.getFullYear(), today.getMonth() - 1, (today.getDate()));
-                to = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+                to = new Date(today.getFullYear(), today.getMonth(), today.getDate(), 23, 59);
                 break;
             }
             case 'quarter':
             {
                 from = new Date(today.getFullYear(), today.getMonth() - 4, (today.getDate()));
-                to = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+                to = new Date(today.getFullYear(), today.getMonth(), today.getDate(), 23, 59);
                 break;
             }
             case 'year':
             {
                 from = new Date(today.getFullYear(), 0, 0);
-                to = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+                to = new Date(today.getFullYear(), today.getMonth(), today.getDate(), 23, 59);
                 break;
             }
             case 'full':
@@ -975,9 +1051,6 @@
         $datetimepicker_start.data('DateTimePicker').date(from);
         $datetimepicker_end.data('DateTimePicker').date(to);
 
-        // visible table, (table/chart)
-        setTableVisible();
-
         $loader.fadeIn('slow', function () {
             // init
             init({
@@ -988,11 +1061,6 @@
 
         $(this).parents($nav).find('li').removeClass('active');
         $(this).closest('li').addClass('active');
-
-        // visible chart, (table/chart)
-        tables_charts_arr.filter(function ($el) {
-            $el.attr('data-visible', 'chart')
-        });
 
         // init toggle, set visible chart/table
         initToggle();
@@ -1009,7 +1077,17 @@
         return new Date(new Date(rawData[0]['date']).getTime() + new Date().getTimezoneOffset() * 60 * 1000);
     }
 
+    function updateDataTableWidth() {
+        var table = $.fn.dataTable.fnTables(true);
+
+        $(table).each(function () {
+            $(this).dataTable().fnAdjustColumnSizing();
+        });
+    }
+
     function firstInit() {
+        // set format
+        anychart.format.locales.default.dateTimeLocale.formats.full_year_hour = "dd MMM yyyy, HH:mm:ss";
         // get rawData from http://cdn.anychart.com/solutions-data/web-audience/data.json
         $.ajax({
             url: 'http://cdn.anychart.com/solutions-data/web-audience/data.json',
@@ -1035,23 +1113,8 @@
         });
     }
 
-    function setTableVisible() {
-        tables_charts_arr = [];
-
-        $('[data-visible]').each(function () {
-            if ($(this).attr('data-visible') !== 'table') {
-                tables_charts_arr.push($(this));
-                $(this).attr('data-visible', 'table').removeClass('active');
-            }
-        });
-
-        // init toggle, set visible chart/table
-        initToggle();
-    }
-
     function initToggle() {
         $('.chart_container').each(function () {
-            // var $parent = $(this).closest('.chart_container');
             var $parent = $(this);
 
             if ($(this).attr('data-visible') === 'table') {
@@ -1082,15 +1145,11 @@
         $button_set_date.on('click', function () {
             if ($datetimepicker_start.data('DateTimePicker').date().toDate() !== null && $datetimepicker_end.data('DateTimePicker').date().toDate() !== null) {
                 $loader.fadeIn('slow', function () {
-
-                    $loader.fadeIn('slow', function () {
-                        // init
-                        init({
-                            'start-date': $datetimepicker_start.data('DateTimePicker').date().toDate(),
-                            'end-date': $datetimepicker_end.data('DateTimePicker').date().toDate()
-                        });
+                    // init
+                    init({
+                        'start-date': $datetimepicker_start.data('DateTimePicker').date().toDate(),
+                        'end-date': $datetimepicker_end.data('DateTimePicker').date().toDate()
                     });
-
                 });
             }
         });
@@ -1117,7 +1176,9 @@
                 });
             } else if ($parent.attr('data-visible') === 'chart') {
                 $parent.find('.chart').fadeOut('fast', function () {
-                    $parent.find('.table-container').fadeIn('slow');
+                    $parent.find('.table-container').fadeIn('slow', function () {
+                        updateDataTableWidth();
+                    });
                     $parent.attr('data-visible', 'table');
 
                     $parent.find('.icon-table').hide();
