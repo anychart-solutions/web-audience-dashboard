@@ -1,17 +1,14 @@
-var charts = {
-    'stock': {},
-    'pie': {},
-    'map': {},
-    'column': {}
-};
-
-var tables = {};
-
 (function () {
-    // replace this line with your data
     var rawData;
 
-    var tables_charts_arr = [];
+    var charts = {
+        'stock': {},
+        'pie': {},
+        'map': {},
+        'column': {}
+    };
+
+    var tables = {};
 
     var $loader = $('#loader-wrapper');
 
@@ -349,6 +346,9 @@ var tables = {};
                 charts['pie'][index]['dataSet'].data(data_chart);
                 charts['pie'][index]['label'].text('<span style="font-size: 32px; color: #A0B1BA;">' +
                     count + '</span>');
+                charts['pie'][index].tooltip().textFormatter(function () {
+                    return 'Visitors: ' + this.value + '\n' + 'Percent Value: ' + (100 * this.value / count).toFixed(2) + '%';
+                });
             } else {
                 // chart type
                 chart = anychart.pie();
@@ -385,6 +385,7 @@ var tables = {};
                     count + '</span>');
                 label_1.position("center");
                 label_1.anchor("center");
+                label_1.offsetX("-5px");
                 if (title) {
                     label_1.offsetY("-10px");
                 } else {
@@ -397,6 +398,7 @@ var tables = {};
                 label_2.text('<span style="20px; color: #bbb;">' + 'Visitors' + '</span>');
                 label_2.position("center");
                 label_2.anchor("center");
+                label_2.offsetX("-5px");
                 if (title) {
                     label_2.offsetY("15px");
                 } else {
