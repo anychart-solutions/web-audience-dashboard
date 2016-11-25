@@ -59,41 +59,54 @@
     ];
 
     function web_audience_dashboard(rawData, filter) {
+        var data = processData(rawData, filter);
+
         // hide loader
         hidePreloader();
 
-        var data = processData(rawData, filter);
-
         // create chart - Visitors
-        createStockChart_2('two', data['visitors'], 'visitors', 'Visitors', data['datetime']);
+        createStockChart_2('two', data['visitors'], 'visitors', 'Visitors and New Visitors', data['datetime']);
         // create chart - Audience Location
         createMap('one', data['location'], 'audience-location', 'Audience location');
         // create chart - Age Category
-        createPieChart('one', data['age_info'], 'age-category', 'Visit by age category');
+        createPieChart('one', data['age_info'], 'age-category', 'Visit by age category', {
+            'legend': {
+                'position': 'right',
+                'layout': 'vertical'
+            },
+            'labels': {'x': -48, 'y': 0, 'y1': 25}
+        });
         // create chart - Blog Visitors
         createStockChart_1('one', data['visitors']['blog_visitors'], 'blog-visitors', 'Blog Visitors', data['datetime']);
         // create chart - Device Category
         createPieChart('two', data['device_info'], 'device-category', 'Visit by device category');
         // create chart - Viewer's mobile devices
-        createPieChart('three', data['device_info']['mobile'], 'mobile-devices', 'Viewer\'s mobile devices');
+        createPieChart('three', data['device_info']['mobile'], 'mobile-devices', 'Viewer\'s mobile devices',
+            {
+                'legend': {
+                    'position': 'right',
+                    'layout': 'vertical'
+                },
+                'labels': {'x': -117, 'y': 0, 'y1': 25}
+            });
 
         // create table - How is your blog found
         createDataTable('one', data['visitors']['blog_visitors']['blog_url'], $blog_found);
-        // create table - How links to you
+        // create table - Referrers/Traffic Sources
         createDataTable('two', data['from_link'], $site_found);
         // create table - Most popular pages
         createDataTable('three', data['most_popular_page'], $most_popular);
-        // create table - Most used search terms
+        // create table - Search Queries
         createDataTable('four', data['most_search_keyword'], $most_search_keyword);
 
         // create table/chart - How is your blog found
-        createColumnChart('three', data['visitors']['blog_visitors']['blog_url'], 'blog-found');
-        // create table/chart - How links to you
-        createColumnChart('two', data['from_link'], 'links-to-you');
+        createBarChart('three', data['visitors']['blog_visitors']['blog_url'], 'blog-found');
+        // create table/chart - Referrers/Traffic Sources
+        createBarChart('two', data['from_link'], 'links-to-you');
         // create table/chart - Most popular pages
-        createColumnChart('one', data['most_popular_page'], 'most-popular');
-        // create table/chart - Most used search terms
-        createPieChart('four', data['most_search_keyword'], 'most-used-search-terms');
+        createBarChart('one', data['most_popular_page'], 'most-popular', {'x': 0, 'y': 0.85});
+        // create table/chart - Search Queries
+        createBarChart('four', data['most_search_keyword'], 'most-used-search-terms', {'x': 0, 'y': 0.67});
 
         function dateFormatTitleTooltip(hoveredDate, datetime) {
             var _date = new Date(hoveredDate);
@@ -221,6 +234,7 @@
             var map;
             var data_map = [];
             var world_map = anychart.maps.world.features;
+
             var count = data['values'].length ? data['values'].reduce(function (a, b) {
                 return a + b;
             }) : 0;
@@ -245,17 +259,18 @@
 
             if (charts['map'][index]) {
                 charts['map'][index].getSeriesAt(0).data(data_map);
+                charts['map'][index].title(title + ' (' + count + ' visitors)');
             } else {
                 map = anychart.map();
                 map.unboundRegions();
                 map.geoData(anychart.maps.world);
                 map.allowPointsSelect(false);
-                map.padding('0px');
+                map.padding(0);
 
                 var map_title = map.title();
                 map_title.enabled(true);
                 map_title.text(title + ' (' + count + ' visitors)');
-                map_title.padding().bottom('25px');
+                map_title.padding().top(0);
 
                 var series = map.choropleth(data_map);
                 series.hoverFill('#f48fb1');
@@ -319,7 +334,7 @@
             }
         }
 
-        function createPieChart(index, data, container, title) {
+        function createPieChart(index, data, container, title, settings) {
             var chart;
             var data_chart = [];
             var count;
@@ -361,13 +376,19 @@
                 chart.insideLabelsOffset("-55%");
                 chart.padding().top(0);
                 if (!title) {
-                    chart.padding('25px');
+                    chart.padding(0);
                 } else {
                     chart.title(title);
                 }
                 chart.tooltip().textFormatter(function () {
                     return 'Visitors: ' + this.value + '\n' + 'Percent Value: ' + (100 * this.value / count).toFixed(2) + '%';
                 });
+
+                if (typeof settings !== 'undefined' && typeof settings.legend !== 'undefined') {
+                    var legend = chart.legend();
+                    legend.position(settings.legend.position);
+                    legend.itemsLayout(settings.legend.layout);
+                }
 
                 // set chart labels settings
                 var labels = chart.labels();
@@ -385,12 +406,6 @@
                     count + '</span>');
                 label_1.position("center");
                 label_1.anchor("center");
-                label_1.offsetX("-5px");
-                if (title) {
-                    label_1.offsetY("-10px");
-                } else {
-                    label_1.offsetY("-25px");
-                }
                 label_1.useHtml(true);
 
                 // set chart label settings
@@ -398,13 +413,25 @@
                 label_2.text('<span style="20px; color: #bbb;">' + 'Visitors' + '</span>');
                 label_2.position("center");
                 label_2.anchor("center");
-                label_2.offsetX("-5px");
-                if (title) {
-                    label_2.offsetY("15px");
-                } else {
-                    label_2.offsetY("0");
-                }
                 label_2.useHtml(true);
+
+                if (title) {
+                    label_1.offsetY(-10);
+                    label_2.offsetY(15);
+                } else {
+                    label_1.offsetY(-25);
+                    label_2.offsetY(0);
+                }
+
+                if (typeof settings !== 'undefined' && typeof settings.labels !== 'undefined') {
+                    label_1.offsetX(settings.labels.x);
+                    label_1.offsetY(settings.labels.y);
+                    label_2.offsetX(settings.labels.x);
+                    label_2.offsetY(settings.labels.y1);
+                } else {
+                    label_1.offsetX(-5);
+                    label_2.offsetX(-5);
+                }
 
                 // set container id for the chart
                 chart.container(container);
@@ -452,25 +479,15 @@
 
             if (charts['stock'][index]) {
                 charts['stock'][index]['table'].remove().addData(data_chart);
-                charts['stock'][index]['scale_users'].maximum(max_users);
-                charts['stock'][index]['scale_users_unique'].maximum(max_users_unique);
+                charts['stock'][index]['scale_users'].maximum(++max_users);
+                charts['stock'][index].title(title + ' (' + count_users + '/' + count_new_users + ')');
                 charts['stock'][index].tooltip().titleFormatter(function () {
                     return dateFormatTitleTooltip(this.hoveredDate, datetime);
                 });
-                charts['stock'][index]['users'].legend().itemsTextFormatter(function () {
-                    return 'Visitors: ' + (this.value || 0) + ' of ' + count_users;
-                });
-                charts['stock'][index]['users'].legend(false);
-                charts['stock'][index]['users'].legend(true);
-                charts['stock'][index]['users_unique'].legend().itemsTextFormatter(function () {
-                    return 'New Visitors: ' + (this.value || 0) + ' of ' + count_new_users
-                });
-                charts['stock'][index]['users_unique'].legend(false);
-                charts['stock'][index]['users_unique'].legend(true);
             } else {
                 // chart type
                 chart = anychart.stock();
-                chart.title(title);
+                chart.title(title + ' (' + count_users + '/' + count_new_users + ')');
                 chart.padding().top(0).left(20).right(0);
                 chart.tooltip().titleFormatter(function () {
                     return dateFormatTitleTooltip(this.hoveredDate, datetime);
@@ -491,30 +508,21 @@
                 mapping_users_unique.addField('value', 2);
 
                 // set the series
-                var users = chart.plot(0);
-                users.splineArea(mapping_users).fill('#1976d2 0.65').stroke('1.5 #1976d2');
+                var users = chart.plot();
+                users.splineArea(mapping_users).name('Visitors');
                 users.xAxis().labels(false).ticks(false).minorLabels(false);
-                users.legend().itemsTextFormatter(function () {
-                    return 'Visitors: ' + (this.value || 0) + ' of ' + count_users;
-                });
+                users.legend(true);
                 users.yAxis().ticks().position('inside');
 
                 var scale_users = users.yScale();
                 scale_users.ticks().interval(2);
                 scale_users.minimum(0);
-                scale_users.maximum(max_users);
+                scale_users.maximum(++max_users);
 
-                var users_unique = chart.plot(1);
-                users_unique.splineArea(mapping_users_unique).fill('#ef6c00 0.65').stroke('1.5 #ef6c00');
-                users_unique.legend().itemsTextFormatter(function () {
-                    return 'New Visitors: ' + (this.value || 0) + ' of ' + count_new_users
-                });
+                var users_unique = chart.plot();
+                users_unique.splineArea(mapping_users_unique).name('New Visitors');
+                users_unique.legend(true);
                 users_unique.yAxis().ticks().position('inside');
-
-                var scale_users_unique = users_unique.yScale();
-                scale_users_unique.ticks().interval(2);
-                scale_users_unique.minimum(0);
-                scale_users_unique.maximum(max_users_unique);
 
                 // enabled false to scroller
                 chart.scroller(false);
@@ -526,10 +534,7 @@
 
                 charts['stock'][index] = chart;
                 charts['stock'][index]['table'] = table;
-                charts['stock'][index]['users'] = users;
-                charts['stock'][index]['users_unique'] = users_unique;
                 charts['stock'][index]['scale_users'] = scale_users;
-                charts['stock'][index]['scale_users_unique'] = scale_users_unique;
             }
         }
 
@@ -541,10 +546,11 @@
             }
 
             tables[index] = $tbody.parent('table').DataTable({
+                order: [[1, "desc"]],
                 scrollY: '225px',
                 scrollCollapse: true,
                 paging: false,
-                "dom": '<"top"f>rtip'
+                sDom: '<"top"f>rtip'
             });
 
             if ($tbody.children().length) {
@@ -565,13 +571,20 @@
             }
         }
 
-        function createColumnChart(index, data, container) {
+        function createBarChart(index, data, container, zoom) {
             var chart;
             var data_chart = [];
 
             for (var i = 0; i < data['categories'].length; i++) {
-                data_chart.push([data['categories'][i], data['values'][i], data['unique_values'][i]]);
+                data_chart.push([data['categories'][i], data['values'][i]]);
+                if (data['unique_values']) {
+                    data_chart[i].push(data['unique_values'][i]);
+                }
             }
+
+            data_chart.sort(function (a, b) {
+                return b[1] - a[1]
+            });
 
             if (charts['column'][index]) {
                 charts['column'][index].data(data_chart);
@@ -579,16 +592,16 @@
                 // create data set on our data
                 var dataSet = anychart.data.set(data_chart);
 
-                // map data for the first series, take x from the zero column and value from the first column of data set
+                // map data for the first series, take x from the zero column and value from the first bar of data set
                 var seriesData_1 = dataSet.mapAs({x: [0], value: [1]});
 
-                // map data for the second series, take x from the zero column and value from the second column of data set
+                // map data for the second series, take x from the zero column and value from the second bar of data set
                 var seriesData_2 = dataSet.mapAs({x: [0], value: [2]});
 
-                // create column chart
-                chart = anychart.column();
+                // create bar chart
+                chart = anychart.bar();
                 // set padding
-                chart.padding().top('15px');
+                chart.padding().top(15);
 
                 // temp variable to store series instance
                 var series;
@@ -600,12 +613,12 @@
                 };
 
                 // create first series with mapped data
-                series = chart.column(seriesData_1);
+                series = chart.bar(seriesData_1);
                 series.xPointPosition(0.6);
                 setupSeries(series, 'Visitors');
 
                 // create second series with mapped data
-                series = chart.column(seriesData_2);
+                series = chart.bar(seriesData_2);
                 series.xPointPosition(0.40);
                 setupSeries(series, 'New Visitors');
 
@@ -616,23 +629,24 @@
                 labels.width(100);
                 labels.height(25);
                 labels.padding().bottom(0);
-                labels.textDirection("ltr");
-                labels.rotation('90');
+                labels.position('right');
                 labels.textOverflow(anychart.graphics.vector.Text.TextOverflow.ELLIPSIS);
 
                 // turn on legend
-                chart.legend().enabled(true);
-
+                chart.legend().enabled(true).padding().bottom(20);
                 chart.interactivity().hoverMode('single');
 
-                // gets scroller
-                var scroller = chart.xScroller();
-                scroller.enabled(true);
-                scroller.position('beforeAxes');
+                if (typeof zoom !== 'undefined') {
+                    // gets scroller
+                    var scroller = chart.xScroller();
+                    scroller.enabled(true);
+                    scroller.position('beforeAxes');
+                    scroller.height(10);
 
-                // turn it on
-                var xZoom = chart.xZoom();
-                xZoom.setTo(0, 0.77);
+                    // turn it on
+                    var xZoom = chart.xZoom();
+                    xZoom.setTo(zoom.x, zoom.y);
+                }
 
                 // set container id for the chart
                 chart.container(container);
@@ -1079,7 +1093,18 @@
         return new Date(new Date(rawData[0]['date']).getTime() + new Date().getTimezoneOffset() * 60 * 1000);
     }
 
-    function updateDataTableWidth() {
+    function updateDataTableWidth(id) {
+        var table = $.fn.dataTable.fnTables(true);
+
+        $(table).each(function () {
+            if (~id.indexOf($(this).attr('id'))) {
+                $(this).dataTable().fnAdjustColumnSizing();
+                return false
+            }
+        });
+    }
+
+    function updateAllDataTableWidth() {
         var table = $.fn.dataTable.fnTables(true);
 
         $(table).each(function () {
@@ -1089,7 +1114,7 @@
 
     function firstInit() {
         // set format
-        anychart.format.locales.default.dateTimeLocale.formats.full_year_hour = "dd MMM yyyy, HH:mm:ss";
+        anychart.format.locales.default.dateTimeLocale.formats.full_year_hour = "dd MMM yyyy, HH:mm";
         // get rawData from http://cdn.anychart.com/solutions-data/web-audience/data.json
         $.ajax({
             url: 'http://cdn.anychart.com/solutions-data/web-audience/data.json',
@@ -1109,6 +1134,9 @@
                     'start-date': from_min_date,
                     'end-date': today
                 });
+
+                // update dataTable width
+                updateAllDataTableWidth();
 
                 $('[data-range="full"]').closest('li').addClass('active');
             }
@@ -1179,7 +1207,7 @@
             } else if ($parent.attr('data-visible') === 'chart') {
                 $parent.find('.chart').fadeOut('fast', function () {
                     $parent.find('.table-container').fadeIn('slow', function () {
-                        updateDataTableWidth();
+                        updateDataTableWidth($(this).closest('.chart_container').find('.table-container').children().attr('id'));
                     });
                     $parent.attr('data-visible', 'table');
 
