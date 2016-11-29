@@ -984,7 +984,7 @@
             if (self === top) {
                 $(this).css('background', 'rgba(0, 0, 0, 0.25)');
             } else {
-                $(this).css('background', 'transparent');
+                $(this).css('background', 'rgba(255, 255, 255, 0.4)');
             }
         });
     }
