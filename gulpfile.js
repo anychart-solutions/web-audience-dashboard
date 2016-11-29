@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
 var autoprefixer = require('gulp-autoprefixer');
-var addsrc = require('gulp-add-src');
+var rename = require("gulp-rename");
 var cleanCSS = require('gulp-clean-css');
 
 var config = {
@@ -15,8 +15,9 @@ gulp.task('scripts', function () {
     var jsDir = config.publicDir + '/js';
 
     gulp.src(config.sourceDir + '/js/*.js')
-        .pipe(concat('common.min.js'))
+        .pipe(concat('common.js'))
         .pipe(gulp.dest(jsDir))
+        .pipe(rename('common.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest(jsDir));
 });
