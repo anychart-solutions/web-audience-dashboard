@@ -40,6 +40,10 @@ body.iframe {
     height: 400px;
 }
 
+.iframe .chart {
+    height: 350px;
+}
+
 .chart {
     height: 450px;
     min-height: 250px !important;
