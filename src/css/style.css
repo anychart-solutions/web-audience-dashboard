@@ -1,16 +1,12 @@
-body.no-iframe {
+body {
     background-color: #f6f6f6;
 }
 
-body {
+body.iframe {
     background-color: #fff;
 }
 
 .wrapper {
-    padding: 15px 8px;
-}
-
-.no-iframe .wrapper {
     padding: 15px;
 }
 
@@ -34,10 +30,6 @@ body {
 
 .chart_container.pie-chart {
     padding: 20px 0;
-}
-
-.chart.no-iframe {
-    height: 500px;
 }
 
 .chart.no-height-init {
