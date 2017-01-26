@@ -10,8 +10,11 @@ body.iframe {
     padding: 15px;
 }
 
-.chart_container {
+.iframe .chart_container {
     margin-top: 5px;
+}
+
+.chart_container {
     margin-bottom: 15px;
     background: #fff;
     -webkit-box-shadow: 0 0 5px 0 #ddd;
