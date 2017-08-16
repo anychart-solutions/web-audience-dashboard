@@ -1119,9 +1119,9 @@
     function firstInit() {
         // set format
         anychart.format.locales.default.dateTimeLocale.formats.full_year_hour = "dd MMM yyyy, HH:mm";
-        // get rawData from http://cdn.anychart.com/solutions-data/web-audience/data.json
+        // get rawData from https://cdn.anychart.com/solutions-data/web-audience/data.json
         $.ajax({
-            url: 'http://cdn.anychart.com/solutions-data/web-audience/data.json',
+            url: 'https://cdn.anychart.com/solutions-data/web-audience/data.json',
             success: function (data) {
                 rawData = data;
 
