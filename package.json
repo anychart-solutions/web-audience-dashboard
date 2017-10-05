@@ -1,5 +1,8 @@
 {
   "private": true,
+  "dependencies": {
+    "anychart": "^8.0.0"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-add-src": "^0.2.0",
