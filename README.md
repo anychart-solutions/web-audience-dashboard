@@ -25,4 +25,4 @@ AnyChart Web audience dashboard solution includes two parts:
 
 If you have any questions regarding licensing - please contact us. <sales@anychart.com>
 
-[![Analytics](https://ga-beacon.appspot.com/UA-228820-4/Solutions/Web-Audience-Dashboard?pixel&useReferer)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://ga-beacon.appspot.com/UA-228820-4/Solutions/web-audience-dashboard?pixel&useReferer)](https://github.com/igrigorik/ga-beacon)

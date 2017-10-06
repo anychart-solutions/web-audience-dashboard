@@ -188,6 +188,7 @@
                 chart.tooltip().format(function () {
                     return 'Users: ' + this.value;
                 });
+                chart.padding(0, 0, 0, 50);
 
                 // set the data
                 var table = anychart.data.table();
@@ -496,6 +497,7 @@
                 chart.tooltip().unionFormat(function () {
                     return 'Visitors: ' + this.points[0].value + '\n' + 'New Visitors: ' + this.points[1].value;
                 });
+                chart.padding(0, 0, 0, 50);
 
                 // set the data
                 var table = anychart.data.table();
