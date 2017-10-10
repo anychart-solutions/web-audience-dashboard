@@ -624,7 +624,9 @@
                 // helper function to setup label settings for all series
                 var setupSeries = function (series, name) {
                     series.name(name);
-                    series.selected().fill('#f48fb1 0.8').selected().stroke('1.5 #c2185b');
+                    series.selected()
+                        .fill('#f48fb1 0.8')
+                        .stroke('1.5 #c2185b');
                 };
 
                 // create first series with mapped data
@@ -1134,9 +1136,9 @@
     function firstInit() {
         // set format
         anychart.format.locales.default.dateTimeLocale.formats.full_year_hour = "dd MMM yyyy, HH:mm";
-        // get rawData from http://cdn.anychart.com/solutions-data/web-audience/data.json
+        // get rawData from https://cdn.anychart.com/solutions-data/web-audience/data.json
         $.ajax({
-            url: 'http://cdn.anychart.com/solutions-data/web-audience/data.json',
+            url: 'https://cdn.anychart.com/solutions-data/web-audience/data.json',
             success: function (data) {
                 rawData = data;
 
