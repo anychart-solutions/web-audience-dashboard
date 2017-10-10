@@ -166,10 +166,10 @@
             if (charts['stock'][index]) {
                 charts['stock'][index]['table'].remove().addData(data_chart);
                 charts['stock'][index]['scale'].maximum(Math.max(max_users % 2 ? max_users : (max_users + 1), SCALE_INTERVAL));
-                charts['stock'][index].tooltip().titleFormatter(function () {
+                charts['stock'][index].tooltip().titleFormat(function () {
                     return dateFormatTitleTooltip(this.hoveredDate, datetime);
                 });
-                charts['stock'][index]['users'].legend().itemsTextFormatter(function () {
+                charts['stock'][index]['users'].legend().itemsFormat(function () {
                     return 'Visitors: ' + (this.value || 0) + ' of ' + count
                 });
                 charts['stock'][index]['users'].legend(false);
@@ -185,7 +185,7 @@
                 chart = anychart.stock();
                 chart.padding().top(0).left(20).right(0);
                 chart.title(title);
-                chart.tooltip().textFormatter(function () {
+                chart.tooltip().format(function () {
                     return 'Users: ' + this.value;
                 });
 
@@ -200,7 +200,7 @@
                 // set the series
                 var users = chart.plot();
                 users.line(mapping_blog_users).clip(false);
-                users.legend().itemsTextFormatter(function () {
+                users.legend().itemsFormat(function () {
                     return 'Visitors: ' + (this.value || 0) + ' of ' + count
                 });
 
@@ -211,7 +211,7 @@
 
                 users.yAxis().ticks().position('inside');
 
-                chart.tooltip().titleFormatter(function () {
+                chart.tooltip().titleFormat(function () {
                     return dateFormatTitleTooltip(this.hoveredDate, datetime);
                 });
 
@@ -264,7 +264,7 @@
                 map = anychart.map();
                 map.unboundRegions();
                 map.geoData(anychart.maps.world);
-                map.allowPointsSelect(false);
+                map.interactivity().selectionMode('none');
                 map.padding(0);
 
                 var map_title = map.title();
@@ -273,16 +273,19 @@
                 map_title.padding().top(0);
 
                 var series = map.choropleth(data_map);
-                series.hoverFill('#f48fb1');
                 series.stroke('#ddd');
-                series.hoverStroke(anychart.color.darken('#f48fb1'));
-                series.selectFill('#c2185b');
-                series.selectStroke(anychart.color.darken('#c2185b'));
+                series.hovered()
+                    .fill('#f48fb1')
+                    .stroke(anychart.color.darken('#f48fb1'));
+                series.selected()
+                    .fill('#c2185b')
+                    .stroke(anychart.color.darken('#c2185b'));
                 series.labels().enabled(false);
-                series.tooltip().textWrap('byLetter').useHtml(true);
-                series.tooltip().textFormatter(function () {
-                    return '<span style="color: #d9d9d9">Visitors</span>: ' + this.value;
-                });
+                series.tooltip()
+                    .useHtml(true)
+                    .format(function () {
+                        return '<span style="color: #d9d9d9">Visitors</span>: ' + this.value;
+                    });
 
                 var scale = anychart.scales.ordinalColor([
                     {less: 0},
@@ -308,7 +311,7 @@
                 colorRange.ticks().stroke('3 #ffffff').position('center').length(7).enabled(true);
                 colorRange.colorLineSize(5);
                 colorRange.marker().size(7);
-                colorRange.labels().fontSize(11).padding(3, 0, 0, 0).textFormatter(function () {
+                colorRange.labels().fontSize(11).padding(3, 0, 0, 0).format(function () {
                     var range = this.colorRange;
                     var name;
                     if (isFinite(range.start + range.end)) {
@@ -361,7 +364,7 @@
                 charts['pie'][index]['dataSet'].data(data_chart);
                 charts['pie'][index]['label'].text('<span style="font-size: 32px; color: #A0B1BA;">' +
                     count + '</span>');
-                charts['pie'][index].tooltip().textFormatter(function () {
+                charts['pie'][index].tooltip().format(function () {
                     return 'Visitors: ' + this.value + '\n' + 'Percent Value: ' + (100 * this.value / count).toFixed(2) + '%';
                 });
             } else {
@@ -380,7 +383,7 @@
                 } else {
                     chart.title(title);
                 }
-                chart.tooltip().textFormatter(function () {
+                chart.tooltip().format(function () {
                     return 'Visitors: ' + this.value + '\n' + 'Percent Value: ' + (100 * this.value / count).toFixed(2) + '%';
                 });
 
@@ -396,7 +399,7 @@
                 labels.fontColor("#60727B");
                 labels.position("outside");
                 labels.fontWeight('bold');
-                labels.textFormatter(function () {
+                labels.format(function () {
                     return this.value
                 });
 
@@ -481,7 +484,7 @@
                 charts['stock'][index]['table'].remove().addData(data_chart);
                 charts['stock'][index]['scale_users'].maximum(++max_users);
                 charts['stock'][index].title(title + ' (' + count_users + '/' + count_new_users + ')');
-                charts['stock'][index].tooltip().titleFormatter(function () {
+                charts['stock'][index].tooltip().titleFormat(function () {
                     return dateFormatTitleTooltip(this.hoveredDate, datetime);
                 });
             } else {
@@ -489,11 +492,11 @@
                 chart = anychart.stock();
                 chart.title(title + ' (' + count_users + '/' + count_new_users + ')');
                 chart.padding().top(0).left(20).right(0);
-                chart.tooltip().titleFormatter(function () {
+                chart.tooltip().titleFormat(function () {
                     return dateFormatTitleTooltip(this.hoveredDate, datetime);
                 });
 
-                chart.tooltip().unionTextFormatter(function () {
+                chart.tooltip().unionFormat(function () {
                     return 'Visitors: ' + this.points[0].value + '\n' + 'New Visitors: ' + this.points[1].value;
                 });
 
@@ -609,7 +612,9 @@
                 // helper function to setup label settings for all series
                 var setupSeries = function (series, name) {
                     series.name(name);
-                    series.selectFill('#f48fb1 0.8').selectStroke('1.5 #c2185b');
+                    series.selected()
+                        .fill('#f48fb1 0.8')
+                        .stroke('1.5 #c2185b');
                 };
 
                 // create first series with mapped data
@@ -630,7 +635,7 @@
                 labels.height(25);
                 labels.padding().bottom(0);
                 labels.position('right');
-                labels.textOverflow(anychart.graphics.vector.Text.TextOverflow.ELLIPSIS);
+                labels.textOverflow('...');
 
                 // turn on legend
                 chart.legend().enabled(true).padding().bottom(20);
