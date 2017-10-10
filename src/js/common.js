@@ -183,7 +183,10 @@
             } else {
                 // chart type
                 chart = anychart.stock();
-                chart.padding().top(0).left(20).right(0);
+                chart.padding()
+                    .top(0)
+                    .left(20)
+                    .right(0);
                 chart.title(title);
                 chart.tooltip().format(function () {
                     return 'Users: ' + this.value;
@@ -280,7 +283,7 @@
                 series.selected()
                     .fill('#c2185b')
                     .stroke(anychart.color.darken('#c2185b'));
-                series.labels().enabled(false);
+                series.labels(false);
                 series.tooltip()
                     .useHtml(true)
                     .format(function () {
@@ -308,25 +311,32 @@
 
                 var colorRange = map.colorRange();
                 colorRange.enabled(true).padding([0, 0, 20, 0]);
-                colorRange.ticks().stroke('3 #ffffff').position('center').length(7).enabled(true);
+                colorRange.ticks()
+                    .enabled(true)
+                    .stroke('3 #ffffff')
+                    .position('center')
+                    .length(7);
                 colorRange.colorLineSize(5);
                 colorRange.marker().size(7);
-                colorRange.labels().fontSize(11).padding(3, 0, 0, 0).format(function () {
-                    var range = this.colorRange;
-                    var name;
-                    if (isFinite(range.start + range.end)) {
-                        name = range.start + ' - ' + range.end;
-                    } else if (isFinite(range.start)) {
-                        name = '> ' + range.start;
-                    } else {
-                        if (range.end === 0) {
-                            name = range.end;
+                colorRange.labels()
+                    .fontSize(11)
+                    .padding(3, 0, 0, 0)
+                    .format(function () {
+                        var range = this.colorRange;
+                        var name;
+                        if (isFinite(range.start + range.end)) {
+                            name = range.start + ' - ' + range.end;
+                        } else if (isFinite(range.start)) {
+                            name = '> ' + range.start;
                         } else {
-                            name = '< ' + range.end;
+                            if (range.end === 0) {
+                                name = range.end;
+                            } else {
+                                name = '< ' + range.end;
+                            }
                         }
-                    }
-                    return name
-                });
+                        return name
+                    });
 
                 series.colorScale(scale);
 
