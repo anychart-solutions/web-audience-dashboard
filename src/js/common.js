@@ -219,13 +219,19 @@
                     return dateFormatTitleTooltip(this.hoveredDate, datetime);
                 });
 
+                // crosshair settings
+                chart.crosshair()
+                    .yLabel(false)
+                    .yStroke(false)
+                    .xLabel(false);
+
                 // enabled false to scroller
                 chart.scroller(false);
 
                 // set container id for the chart
                 chart.container(container);
                 // initiate chart drawing
-                chart.draw(true);
+                chart.draw();
 
                 charts['stock'][index] = chart;
                 charts['stock'][index]['table'] = table;
@@ -342,7 +348,7 @@
                 series.colorScale(scale);
 
                 map.container(container);
-                map.draw(true);
+                map.draw();
 
                 charts['map']['one'] = map;
             }
@@ -450,7 +456,7 @@
                 // set container id for the chart
                 chart.container(container);
                 // init chart
-                chart.draw(true);
+                chart.draw();
 
                 charts['pie'][index] = chart;
                 charts['pie'][index]['dataSet'] = dataSet;
@@ -539,13 +545,19 @@
                 users_unique.legend(true);
                 users_unique.yAxis().ticks().position('inside');
 
+                // crosshair settings
+                chart.crosshair()
+                    .yLabel(false)
+                    .yStroke(false)
+                    .xLabel(false);
+
                 // enabled false to scroller
                 chart.scroller(false);
 
                 // set container id for the chart
                 chart.container(container);
                 // init chart
-                chart.draw(true);
+                chart.draw();
 
                 charts['stock'][index] = chart;
                 charts['stock'][index]['table'] = table;
@@ -669,7 +681,7 @@
                 chart.container(container);
 
                 // initiate chart drawing
-                chart.draw(true);
+                chart.draw();
 
                 charts['column'][index] = chart;
             }
