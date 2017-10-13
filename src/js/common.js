@@ -390,7 +390,6 @@
                 chart.data(dataSet);
                 // create empty area in pie chart
                 chart.innerRadius('65%');
-                chart.overlapMode(true);
                 // set the insideLabelsOffset
                 chart.insideLabelsOffset("-55%");
                 chart.padding().top(0);
@@ -415,9 +414,7 @@
                 labels.fontColor("#60727B");
                 labels.position("outside");
                 labels.fontWeight('bold');
-                labels.format(function () {
-                    return this.value
-                });
+                labels.format('{%Value}');
 
                 // set chart label settings
                 var label_1 = chart.label(0);
