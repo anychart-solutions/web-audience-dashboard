@@ -208,7 +208,7 @@
                 });
 
                 var scale = users.yScale();
-                scale.ticks().interval(1);
+                scale.ticks().interval(SCALE_INTERVAL);
                 scale.minimum(1);
                 scale.maximum(Math.max(max_users % 2 ? max_users : (max_users + 1), SCALE_INTERVAL));
 
