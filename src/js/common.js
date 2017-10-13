@@ -183,15 +183,14 @@
             } else {
                 // chart type
                 chart = anychart.stock();
-                chart.padding()
-                    .top(0)
-                    .left(20)
-                    .right(0);
                 chart.title(title);
                 chart.tooltip().format(function () {
                     return 'Users: ' + this.value;
                 });
-                chart.padding(0, 0, 0, 50);
+                chart.padding()
+                    .top(0)
+                    .left(20)
+                    .right(0);
 
                 // set the data
                 var table = anychart.data.table();
@@ -203,13 +202,13 @@
 
                 // set the series
                 var users = chart.plot();
-                users.line(mapping_blog_users).clip(false);
+                users.line(mapping_blog_users);
                 users.legend().itemsFormat(function () {
                     return 'Visitors: ' + (this.value || 0) + ' of ' + count
                 });
 
                 var scale = users.yScale();
-                scale.ticks().interval(SCALE_INTERVAL);
+                scale.ticks().interval(1);
                 scale.minimum(1);
                 scale.maximum(Math.max(max_users % 2 ? max_users : (max_users + 1), SCALE_INTERVAL));
 
@@ -508,7 +507,10 @@
                 // chart type
                 chart = anychart.stock();
                 chart.title(title + ' (' + count_users + '/' + count_new_users + ')');
-                chart.padding().top(0).left(20).right(0);
+                chart.padding()
+                    .top(0)
+                    .left(20)
+                    .right(0);
                 chart.tooltip().titleFormat(function () {
                     return dateFormatTitleTooltip(this.hoveredDate, datetime);
                 });
@@ -516,7 +518,6 @@
                 chart.tooltip().unionFormat(function () {
                     return 'Visitors: ' + this.points[0].value + '\n' + 'New Visitors: ' + this.points[1].value;
                 });
-                chart.padding(0, 0, 0, 50);
 
                 // set the data
                 var table = anychart.data.table();
