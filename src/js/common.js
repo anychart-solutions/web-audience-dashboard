@@ -187,10 +187,7 @@
                 chart.tooltip().format(function () {
                     return 'Users: ' + this.value;
                 });
-                chart.padding()
-                    .top(0)
-                    .left(20)
-                    .right(0);
+                chart.padding([0, 0, 0, 20]);
 
                 // set the data
                 var table = anychart.data.table();
@@ -504,10 +501,7 @@
                 // chart type
                 chart = anychart.stock();
                 chart.title(title + ' (' + count_users + '/' + count_new_users + ')');
-                chart.padding()
-                    .top(0)
-                    .left(20)
-                    .right(0);
+                chart.padding([0, 0, 0, 20]);
                 chart.tooltip().titleFormat(function () {
                     return dateFormatTitleTooltip(this.hoveredDate, datetime);
                 });
@@ -529,8 +523,6 @@
                 // set the series
                 var users = chart.plot();
                 users.splineArea(mapping_users).name('Visitors');
-                users.xAxis().labels(false).ticks(false).minorLabels(false);
-                users.legend(true);
                 users.yAxis().ticks().position('inside');
 
                 var scale_users = users.yScale();
@@ -540,8 +532,6 @@
 
                 var users_unique = chart.plot();
                 users_unique.splineArea(mapping_users_unique).name('New Visitors');
-                users_unique.legend(true);
-                users_unique.yAxis().ticks().position('inside');
 
                 // crosshair settings
                 chart.crosshair()
