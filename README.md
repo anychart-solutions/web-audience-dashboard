@@ -24,5 +24,3 @@ AnyChart Web audience dashboard solution includes two parts:
 - AnyChart JavaScript library. It is released under Commercial license. You can test this plugin with the trial version of AnyChart. Our trial version is not limited by time and doesn't contain any feature limitations. Check details [here](https://www.anychart.com/buy/)
 
 If you have any questions regarding licensing - please contact us. <sales@anychart.com>
-
-[![Analytics](https://ga-beacon.appspot.com/UA-228820-4/Solutions/web-audience-dashboard?pixel&useReferer)](https://github.com/igrigorik/ga-beacon)
